@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#173c44">
+    <meta name="description" content="A quick, family-friendly Pokémon GO PvP catch reference for Great, Ultra, and Master League.">
+    <meta property="og:title" content="Pokémon GO Catch List">
+    <meta property="og:description" content="Search a Pokémon family and quickly see which PvP leagues matter.">
+    <title>Pokémon GO Catch List</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#results">Skip to results</a>
+    <header class="site-header">
+      <div class="header-copy">
+        <p class="eyebrow">Pocket field guide</p>
+        <h1>Pokémon GO<br><span>Catch List</span></h1>
+        <p id="updated" class="updated">Loading latest list…</p>
+      </div>
+      <div class="header-mark" aria-hidden="true"><span>GO</span></div>
+    </header>
+
+    <main>
+      <section class="search-dock" aria-label="Search and filters">
+        <label class="search-box" for="search">
+          <span aria-hidden="true">⌕</span>
+          <span class="sr-only">Search Pokémon</span>
+          <input id="search" type="search" autocomplete="off" autocapitalize="none" spellcheck="false"
+            placeholder="Search Mankey, Primeape, Walrein…">
+          <button id="clear-search" class="clear-search" type="button" aria-label="Clear search" hidden>×</button>
+        </label>
+        <div id="filters" class="filters" role="group" aria-label="Filter catch list">
+          <button type="button" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-filter="great" aria-pressed="false"><span class="dot dot-gl"></span>Great</button>
+          <button type="button" data-filter="ultra" aria-pressed="false"><span class="dot dot-ul"></span>Ultra</button>
+          <button type="button" data-filter="master" aria-pressed="false"><span class="dot dot-ml"></span>Master</button>
+          <button type="button" data-filter="available" aria-pressed="false">🔥 Available Now</button>
+          <button type="button" data-filter="raids" aria-pressed="false">⚔ Raids</button>
+        </div>
+      </section>
+
+      <section class="results-head" aria-live="polite">
+        <div>
+          <p id="view-kicker" class="eyebrow">Catch list</p>
+          <h2 id="view-title">What should we catch?</h2>
+        </div>
+        <button id="reset" class="reset-button" type="button" hidden>Reset</button>
+        <p id="result-count" class="result-count">Loading…</p>
+      </section>
+
+      <div id="notice" class="notice" hidden></div>
+      <section id="results" class="card-grid" aria-busy="true" aria-label="Pokémon catch targets"></section>
+
+      <section class="league-help" aria-labelledby="iv-help-title">
+        <div class="help-icon" aria-hidden="true">i</div>
+        <div>
+          <h2 id="iv-help-title">Quick IV reminder</h2>
+          <p><strong>Great &amp; Ultra:</strong> perfect PvP IVs are often lower Attack with high Defense and HP—not always 15/15/15.</p>
+          <p><strong>Master:</strong> there is no CP cap, so look for 15/15/15 or near-perfect IVs and save XL Candy.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Rankings use <a href="https://pvpoke.com/rankings/" rel="noreferrer">PvPoke Open League</a>. Availability can change—check in-game before making plans.</p>
+    </footer>
+
+    <template id="card-template">
+      <article class="catch-card">
+        <div class="card-stripe" aria-hidden="true"></div>
+        <div class="card-main">
+          <div class="card-copy">
+            <p class="card-label"></p>
+            <h3></h3>
+            <p class="targets"></p>
+          </div>
+          <div class="badges" aria-label="Relevant leagues"></div>
+        </div>
+        <div class="availability-row"></div>
+        <details>
+          <summary>Why catch this? <span aria-hidden="true">＋</span></summary>
+          <div class="details-body"></div>
+        </details>
+      </article>
+    </template>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

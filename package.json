@@ -1,0 +1,17 @@
+{
+  "name": "pokemon-catch-list",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "seed": "node scripts/seed-data.mjs",
+    "refresh": "node scripts/refresh-rankings.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "test": "node --test",
+    "check": "npm run validate && npm test",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
