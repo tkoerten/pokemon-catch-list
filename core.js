@@ -24,6 +24,16 @@ export function activeAvailability(record, now = new Date()) {
   return (record.availability || []).filter((item) => isAvailabilityActive(item, now));
 }
 
+export function upcomingAvailability(record, now = new Date(), withinDays = 7) {
+  const nowTime = now.getTime();
+  const cutoff = nowTime + withinDays * 24 * 60 * 60 * 1000;
+  return (record.availability || []).filter((item) => {
+    if (!item.start || item.ongoing) return false;
+    const starts = new Date(item.start).getTime();
+    return Number.isFinite(starts) && starts > nowTime && starts <= cutoff;
+  });
+}
+
 export function matchesQuery(record, query) {
   const needle = normalizeSearch(query);
   if (!needle) return true;
@@ -48,19 +58,23 @@ export function priorityFor(record) {
   return Math.min(...ranks) <= 20 ? "High priority" : "Useful";
 }
 
+export function bestRankFor(record) {
+  return [...(record.rankings || [])].sort((a, b) => a.rank - b.rank)[0] || null;
+}
+
 export function parseUrlState(search = "") {
   const params = new URLSearchParams(search);
-  const filter = params.get("filter") || params.get("league") || "all";
+  const filter = params.get("filter") || params.get("league") || "today";
   return {
     query: params.get("q") || "",
-    filter: ["all", "great", "ultra", "master", "available", "raids"].includes(filter) ? filter : "all"
+    filter: ["today", "all", "great", "ultra", "master", "available", "raids"].includes(filter) ? filter : "today"
   };
 }
 
-export function stateToSearch({ query = "", filter = "all" }) {
+export function stateToSearch({ query = "", filter = "today" }) {
   const params = new URLSearchParams();
   if (query) params.set("q", query);
-  if (filter !== "all") params.set(filter === "great" || filter === "ultra" || filter === "master" ? "league" : "filter", filter);
+  if (filter !== "today") params.set(filter === "great" || filter === "ultra" || filter === "master" ? "league" : "filter", filter);
   const value = params.toString();
   return value ? `?${value}` : "";
 }

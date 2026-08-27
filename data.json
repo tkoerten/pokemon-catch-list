@@ -242,7 +242,21 @@
           "speciesId": "metagross_shadow"
         }
       ],
-      "availability": [],
+      "availability": [
+        {
+          "start": "2026-08-28T10:00:00",
+          "end": "2026-08-30T20:00:00",
+          "source": "Pokémon GO: PokémonXP & 2026 World Championships",
+          "sourceUrl": "https://pokemongo.com/news/world-championships-event-2026",
+          "lastChecked": "2026-08-27",
+          "label": "If you're lucky — wild",
+          "kind": "wild",
+          "likelihood": "if-lucky",
+          "encounterName": "Beldum",
+          "note": "A less-common wild encounter during the World Championships event.",
+          "featuredMove": "Evolve to Metagross for Meteor Mash during the event."
+        }
+      ],
       "acquisitionNotes": [],
       "notes": [
         "For Master League, prioritize high IVs and XL Candy."
@@ -649,7 +663,33 @@
           "speciesId": "hydreigon"
         }
       ],
-      "availability": [],
+      "availability": [
+        {
+          "start": "2026-08-25T10:00:00",
+          "end": "2026-08-28T10:00:00",
+          "source": "Pokémon GO: PokémonXP & 2026 World Championships",
+          "sourceUrl": "https://pokemongo.com/news/world-championships-event-2026",
+          "lastChecked": "2026-08-27",
+          "label": "If you're lucky — wild",
+          "kind": "wild",
+          "likelihood": "if-lucky",
+          "note": "A less-common wild encounter during PokémonXP.",
+          "featuredMove": "Evolve to Hydreigon for Brutal Swing during the event."
+        },
+        {
+          "start": "2026-08-28T10:00:00",
+          "end": "2026-08-30T20:00:00",
+          "source": "Pokémon GO: PokémonXP & 2026 World Championships",
+          "sourceUrl": "https://pokemongo.com/news/world-championships-event-2026",
+          "lastChecked": "2026-08-27",
+          "label": "If you're lucky — wild",
+          "kind": "wild",
+          "likelihood": "if-lucky",
+          "encounterName": "Deino",
+          "note": "A less-common wild encounter during the World Championships event.",
+          "featuredMove": "Evolve to Hydreigon for Brutal Swing during the event."
+        }
+      ],
       "acquisitionNotes": [],
       "notes": [
         "For Master League, prioritize high IVs and XL Candy."
@@ -1561,7 +1601,20 @@
           "speciesId": "greninja_shadow"
         }
       ],
-      "availability": [],
+      "availability": [
+        {
+          "start": "2026-08-28T10:00:00",
+          "end": "2026-08-30T20:00:00",
+          "source": "Pokémon GO: PokémonXP & 2026 World Championships",
+          "sourceUrl": "https://pokemongo.com/news/world-championships-event-2026",
+          "lastChecked": "2026-08-27",
+          "label": "Boosted wild spawn",
+          "kind": "wild",
+          "likelihood": "boosted",
+          "note": "Appearing more frequently during the World Championships event.",
+          "featuredMove": "Evolve to Greninja for Hydro Cannon during the event."
+        }
+      ],
       "acquisitionNotes": [],
       "notes": []
     },
@@ -1913,8 +1966,21 @@
           "speciesId": "gholdengo"
         }
       ],
-      "availability": [],
-      "acquisitionNotes": [],
+      "availability": [
+        {
+          "label": "Coin Bag",
+          "kind": "tool",
+          "likelihood": "reliable",
+          "ongoing": true,
+          "source": "Pokémon GO: Connect to Pokémon Scarlet and Violet",
+          "sourceUrl": "https://pokemongo.com/post/gocoin",
+          "lastChecked": "2026-08-27",
+          "note": "Send a Postcard to Pokémon Scarlet or Violet to use the Coin Bag and encounter Roaming Form Gimmighoul."
+        }
+      ],
+      "acquisitionNotes": [
+        "Use a Coin Bag for Roaming Form Gimmighoul; collect 999 Gimmighoul Coins to evolve Gholdengo."
+      ],
       "notes": [
         "For Master League, prioritize high IVs and XL Candy."
       ]
@@ -2336,7 +2402,20 @@
           "speciesId": "aegislash_shield"
         }
       ],
-      "availability": [],
+      "availability": [
+        {
+          "start": "2026-08-28T10:00:00",
+          "end": "2026-08-30T20:00:00",
+          "source": "Pokémon GO: PokémonXP & 2026 World Championships",
+          "sourceUrl": "https://pokemongo.com/news/world-championships-event-2026",
+          "lastChecked": "2026-08-27",
+          "label": "One-star raid",
+          "kind": "raid",
+          "likelihood": "raid",
+          "encounterName": "Honedge",
+          "note": "Available in one-star raids during the World Championships event."
+        }
+      ],
       "acquisitionNotes": [],
       "notes": []
     },
@@ -3078,7 +3157,20 @@
           "speciesId": "lickilicky"
         }
       ],
-      "availability": [],
+      "availability": [
+        {
+          "start": "2026-08-28T10:00:00",
+          "end": "2026-08-30T20:00:00",
+          "source": "Pokémon GO: PokémonXP & 2026 World Championships",
+          "sourceUrl": "https://pokemongo.com/news/world-championships-event-2026",
+          "lastChecked": "2026-08-27",
+          "label": "Boosted wild spawn",
+          "kind": "wild",
+          "likelihood": "boosted",
+          "note": "Appearing more frequently during the World Championships event.",
+          "featuredMove": "Lickitung and Lickilicky can learn Body Slam during the event."
+        }
+      ],
       "acquisitionNotes": [],
       "notes": []
     },
@@ -3264,7 +3356,20 @@
           "speciesId": "gyarados_shadow"
         }
       ],
-      "availability": [],
+      "availability": [
+        {
+          "start": "2026-08-26T06:00:00",
+          "end": "2026-08-28T10:00:00",
+          "source": "Pokémon GO Hub: Current Raid Bosses",
+          "sourceUrl": "https://pokemongohub.net/post/guide/current-go-raids/",
+          "lastChecked": "2026-08-27",
+          "kind": "raid",
+          "likelihood": "raid",
+          "label": "Mega Raid",
+          "encounterName": "Gyarados",
+          "note": "Mega Gyarados is in the current Mega Raid rotation."
+        }
+      ],
       "acquisitionNotes": [],
       "notes": [
         "For Master League, prioritize high IVs and XL Candy."
@@ -3432,7 +3537,31 @@
           "speciesId": "annihilape"
         }
       ],
-      "availability": [],
+      "availability": [
+        {
+          "label": "Spotlight Hour",
+          "kind": "wild",
+          "likelihood": "boosted",
+          "start": "2026-08-27T18:00:00",
+          "end": "2026-08-27T19:00:00",
+          "source": "Leek Duck event calendar",
+          "sourceUrl": "https://leekduck.com/events/",
+          "lastChecked": "2026-08-27",
+          "note": "Featured from 6:00–7:00 p.m. local time with 2× Catch Candy."
+        },
+        {
+          "start": "2026-08-28T10:00:00",
+          "end": "2026-08-30T20:00:00",
+          "source": "Pokémon GO: PokémonXP & 2026 World Championships",
+          "sourceUrl": "https://pokemongo.com/news/world-championships-event-2026",
+          "lastChecked": "2026-08-27",
+          "label": "Boosted wild spawn",
+          "kind": "wild",
+          "likelihood": "boosted",
+          "note": "Appearing more frequently during the World Championships event.",
+          "featuredMove": "Primeape and Annihilape can learn Rage Fist during the event."
+        }
+      ],
       "acquisitionNotes": [],
       "notes": [
         "For Master League, prioritize high IVs and XL Candy."
@@ -3764,8 +3893,21 @@
           "speciesId": "melmetal"
         }
       ],
-      "availability": [],
-      "acquisitionNotes": [],
+      "availability": [
+        {
+          "label": "Mystery Box",
+          "kind": "tool",
+          "likelihood": "reliable",
+          "ongoing": true,
+          "source": "Pokémon GO: Steeled Resolve 2026",
+          "sourceUrl": "https://pokemongo.com/news/steeled-resolve-2026?hl=eng",
+          "lastChecked": "2026-08-27",
+          "note": "Send a Pokémon to Pokémon HOME or a compatible Pokémon: Let's Go game to obtain and recharge the Mystery Box."
+        }
+      ],
+      "acquisitionNotes": [
+        "Open a Mystery Box to create a repeatable Meltan encounter window."
+      ],
       "notes": [
         "For Master League, prioritize high IVs and XL Candy."
       ]
@@ -5379,7 +5521,20 @@
           "speciesId": "walrein_shadow"
         }
       ],
-      "availability": [],
+      "availability": [
+        {
+          "start": "2026-08-25T10:00:00",
+          "end": "2026-08-28T10:00:00",
+          "source": "Pokémon GO: PokémonXP & 2026 World Championships",
+          "sourceUrl": "https://pokemongo.com/news/world-championships-event-2026",
+          "lastChecked": "2026-08-27",
+          "label": "Boosted wild spawn",
+          "kind": "wild",
+          "likelihood": "boosted",
+          "note": "Appearing more frequently during PokémonXP.",
+          "featuredMove": "Evolve to Walrein for Powder Snow and Icicle Spear during the event."
+        }
+      ],
       "acquisitionNotes": [],
       "notes": []
     },
@@ -5951,7 +6106,21 @@
           "speciesId": "togekiss"
         }
       ],
-      "availability": [],
+      "availability": [
+        {
+          "start": "2026-08-28T10:00:00",
+          "end": "2026-08-30T20:00:00",
+          "source": "Pokémon GO: PokémonXP & 2026 World Championships",
+          "sourceUrl": "https://pokemongo.com/news/world-championships-event-2026",
+          "lastChecked": "2026-08-27",
+          "label": "If you're lucky — wild",
+          "kind": "wild",
+          "likelihood": "if-lucky",
+          "encounterName": "Togetic",
+          "note": "A less-common wild encounter during the World Championships event.",
+          "featuredMove": "Evolve to Togekiss for Aura Sphere during the event."
+        }
+      ],
       "acquisitionNotes": [],
       "notes": [
         "For Master League, prioritize high IVs and XL Candy."
@@ -6122,7 +6291,20 @@
           "speciesId": "feraligatr"
         }
       ],
-      "availability": [],
+      "availability": [
+        {
+          "start": "2026-08-28T10:00:00",
+          "end": "2026-08-30T20:00:00",
+          "source": "Pokémon GO: PokémonXP & 2026 World Championships",
+          "sourceUrl": "https://pokemongo.com/news/world-championships-event-2026",
+          "lastChecked": "2026-08-27",
+          "label": "Boosted wild spawn",
+          "kind": "wild",
+          "likelihood": "boosted",
+          "note": "Appearing more frequently during the World Championships event.",
+          "featuredMove": "Evolve to Feraligatr for Hydro Cannon during the event."
+        }
+      ],
       "acquisitionNotes": [],
       "notes": []
     },
@@ -6498,7 +6680,20 @@
           "speciesId": "quagsire"
         }
       ],
-      "availability": [],
+      "availability": [
+        {
+          "start": "2026-08-28T10:00:00",
+          "end": "2026-08-30T20:00:00",
+          "source": "Pokémon GO: PokémonXP & 2026 World Championships",
+          "sourceUrl": "https://pokemongo.com/news/world-championships-event-2026",
+          "lastChecked": "2026-08-27",
+          "label": "Boosted wild spawn",
+          "kind": "wild",
+          "likelihood": "boosted",
+          "note": "Appearing more frequently during the World Championships event.",
+          "featuredMove": "Evolve to Quagsire for Aqua Tail during the event."
+        }
+      ],
       "acquisitionNotes": [],
       "notes": []
     },
@@ -8179,7 +8374,19 @@
           "speciesId": "regice"
         }
       ],
-      "availability": [],
+      "availability": [
+        {
+          "start": "2026-08-26T06:00:00",
+          "end": "2026-08-28T10:00:00",
+          "source": "Pokémon GO Hub: Current Raid Bosses",
+          "sourceUrl": "https://pokemongohub.net/post/guide/current-go-raids/",
+          "lastChecked": "2026-08-27",
+          "kind": "raid",
+          "likelihood": "raid",
+          "label": "Five-star raid",
+          "note": "Regice is in the current five-star raid rotation."
+        }
+      ],
       "acquisitionNotes": [
         "Catch from a raid rotation when available."
       ],
@@ -8296,7 +8503,19 @@
           "speciesId": "regirock_shadow"
         }
       ],
-      "availability": [],
+      "availability": [
+        {
+          "start": "2026-08-26T06:00:00",
+          "end": "2026-08-28T10:00:00",
+          "source": "Pokémon GO Hub: Current Raid Bosses",
+          "sourceUrl": "https://pokemongohub.net/post/guide/current-go-raids/",
+          "lastChecked": "2026-08-27",
+          "kind": "raid",
+          "likelihood": "raid",
+          "label": "Five-star raid",
+          "note": "Regirock is in the current five-star raid rotation."
+        }
+      ],
       "acquisitionNotes": [
         "Catch from a raid rotation when available."
       ],
@@ -8369,7 +8588,19 @@
           "speciesId": "registeel_shadow"
         }
       ],
-      "availability": [],
+      "availability": [
+        {
+          "start": "2026-08-26T06:00:00",
+          "end": "2026-08-28T10:00:00",
+          "source": "Pokémon GO Hub: Current Raid Bosses",
+          "sourceUrl": "https://pokemongohub.net/post/guide/current-go-raids/",
+          "lastChecked": "2026-08-27",
+          "kind": "raid",
+          "likelihood": "raid",
+          "label": "Five-star raid",
+          "note": "Registeel is in the current five-star raid rotation."
+        }
+      ],
       "acquisitionNotes": [
         "Catch from a raid rotation when available."
       ],

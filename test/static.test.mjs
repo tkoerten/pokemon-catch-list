@@ -15,7 +15,7 @@ test("page uses a phone viewport and relative project-path assets", () => {
 });
 
 test("all required filter controls and reset affordance are present", () => {
-  for (const filter of ["all", "great", "ultra", "master", "available", "raids"]) assert.match(html, new RegExp(`data-filter="${filter}"`));
+  for (const filter of ["today", "all", "great", "ultra", "master", "available", "raids"]) assert.match(html, new RegExp(`data-filter="${filter}"`));
   assert.match(html, /id="reset"/);
   assert.match(html, /id="clear-search"/);
 });
@@ -25,6 +25,15 @@ test("responsive card layouts include mobile, tablet, and desktop treatments", (
   assert.match(css, /@media \(min-width: 46rem\)/);
   assert.match(css, /@media \(min-width: 68rem\)/);
   assert.match(css, /overflow-x:\s*auto/);
+  assert.match(css, /\.today-dashboard/);
+  assert.match(css, /\.opportunity-grid/);
+});
+
+test("the homepage includes proactive Today guidance", () => {
+  assert.match(app, /What to do today/);
+  assert.match(app, /Catch these first/);
+  assert.match(app, /Raids worth checking/);
+  assert.match(app, /Starting soon/);
 });
 
 test("load failures show a user-facing message", () => {

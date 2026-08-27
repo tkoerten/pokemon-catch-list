@@ -1,4 +1,4 @@
-import { LEAGUES, activeAvailability, filterRecords, parseUrlState, priorityFor, stateToSearch } from "./core.js";
+import { LEAGUES, activeAvailability, bestRankFor, filterRecords, parseUrlState, priorityFor, stateToSearch, upcomingAvailability } from "./core.js";
 
 const elements = {
   results: document.querySelector("#results"),
@@ -20,6 +20,7 @@ elements.search.value = state.query;
 const formatDate = (value) => new Intl.DateTimeFormat("en-US", { year: "numeric", month: "long", day: "numeric" })
   .format(new Date(`${value}T12:00:00`));
 const titleCase = (value) => value.charAt(0).toUpperCase() + value.slice(1);
+const shortLeague = (league) => league === "great" ? "GL" : league === "ultra" ? "UL" : "ML";
 
 function leagueBadge(league) {
   const span = document.createElement("span");
@@ -82,12 +83,28 @@ function buildDetail(record) {
   return body;
 }
 
+function guidanceFor(record) {
+  const guidance = [];
+  if (record.leagues?.great || record.leagues?.ultra) guidance.push("Check PvP IVs");
+  if (record.leagues?.master) guidance.push("Keep high IV");
+  if (record.leagues?.master) guidance.push("Save XL Candy");
+  if ((record.rankings || []).some((rank) => /shadow/i.test(rank.pokemon))) guidance.push("Shadow matters");
+  return guidance;
+}
+
+function bestReason(record) {
+  const best = bestRankFor(record);
+  if (!best) return "PvP-relevant family";
+  return `${best.pokemon} — ${shortLeague(best.league)} #${best.rank} ${titleCase(best.category)}`;
+}
+
 function createCard(record) {
   const card = elements.template.content.firstElementChild.cloneNode(true);
   card.dataset.id = record.id;
   card.querySelector(".card-label").textContent = record.type === "raid" ? "Raid target" : "Catch target";
   card.querySelector("h3").textContent = record.catchTarget;
   card.querySelector(".targets").textContent = (record.pvpTargets || []).join(" · ");
+  card.querySelector(".decision-line").textContent = bestReason(record);
 
   const badgeBox = card.querySelector(".badges");
   LEAGUES.filter((league) => record.leagues?.[league]).forEach((league) => badgeBox.append(leagueBadge(league)));
@@ -108,11 +125,92 @@ function createCard(record) {
   });
   if (!status.childElementCount) status.remove();
 
+  const actions = card.querySelector(".action-row");
+  guidanceFor(record).slice(0, 3).forEach((label) => {
+    const chip = document.createElement("span");
+    chip.className = "action-chip";
+    chip.textContent = label;
+    actions.append(chip);
+  });
+  if (!actions.childElementCount) actions.remove();
+
   card.querySelector(".details-body").append(buildDetail(record));
   card.querySelector("details").addEventListener("toggle", (event) => {
     event.currentTarget.querySelector("summary span").textContent = event.currentTarget.open ? "−" : "＋";
   });
   return card;
+}
+
+function opportunityScore(record, item) {
+  const best = bestRankFor(record)?.rank || 76;
+  const likelihood = { reliable: 0, boosted: 1, raid: 2, "if-lucky": 3 }[item.likelihood] ?? 4;
+  return likelihood * 100 + best;
+}
+
+function opportunityCard(record, item, upcoming = false) {
+  const article = document.createElement("article");
+  article.className = "opportunity-card";
+  const badges = LEAGUES.filter((league) => record.leagues?.[league])
+    .map((league) => `<span class="mini-league mini-${league}">${shortLeague(league)}</span>`).join("");
+  const starts = item.start
+    ? new Intl.DateTimeFormat("en-US", { weekday: "short", hour: "numeric", minute: "2-digit" }).format(new Date(item.start))
+    : "";
+  const move = item.featuredMove ? `<p class="move-callout">⚡ ${item.featuredMove}</p>` : "";
+  article.innerHTML = `
+    <div class="opportunity-topline"><span class="opportunity-label">${upcoming ? `Starts ${starts}` : item.label}</span><span class="mini-leagues">${badges}</span></div>
+    <h3>${item.encounterName || record.catchTarget}</h3>
+    ${item.encounterName && item.encounterName !== record.catchTarget ? `<p class="family-note">${record.catchTarget} family</p>` : ""}
+    <p class="opportunity-reason">${bestReason(record)}</p>
+    <p class="opportunity-note">${item.note || ""}</p>
+    ${move}
+    <a href="${item.sourceUrl}" rel="noreferrer">Official event details ↗</a>`;
+  return article;
+}
+
+function todaySection(title, description, entries, options = {}) {
+  const section = document.createElement("section");
+  section.className = "today-section";
+  const heading = document.createElement("div");
+  heading.className = "today-section-head";
+  heading.innerHTML = `<div><p class="eyebrow">${options.kicker || "Today"}</p><h3>${title}</h3><p>${description}</p></div><span class="section-count">${entries.length}</span>`;
+  section.append(heading);
+  const grid = document.createElement("div");
+  grid.className = "opportunity-grid";
+  entries.forEach(({ record, item }) => grid.append(opportunityCard(record, item, options.upcoming)));
+  if (!entries.length) {
+    const empty = document.createElement("div");
+    empty.className = "today-empty";
+    empty.textContent = options.empty || "No verified PvP targets in this category right now.";
+    grid.append(empty);
+  }
+  section.append(grid);
+  return section;
+}
+
+function renderToday() {
+  const now = new Date();
+  const all = [...state.data.families, ...state.data.raids];
+  const active = all.flatMap((record) => activeAvailability(record, now).map((item) => ({ record, item })))
+    .sort((a, b) => opportunityScore(a.record, a.item) - opportunityScore(b.record, b.item));
+  const upcoming = all.flatMap((record) => upcomingAvailability(record, now, 7).map((item) => ({ record, item })))
+    .sort((a, b) => new Date(a.item.start) - new Date(b.item.start) || opportunityScore(a.record, a.item) - opportunityScore(b.record, b.item));
+  const catches = active.filter(({ item }) => item.kind !== "raid" && !item.ongoing);
+  const raids = active.filter(({ item }) => item.kind === "raid");
+  const reliable = active.filter(({ item }) => item.ongoing);
+
+  const hero = document.createElement("section");
+  hero.className = "today-hero";
+  hero.innerHTML = `<div><p class="eyebrow">Your field plan</p><h3>Catch smart today.</h3><p>Only verified opportunities are shown. Boosted does not mean guaranteed.</p></div><div class="today-date"><strong>${new Intl.DateTimeFormat("en-US", { weekday: "long" }).format(now)}</strong><span>${new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric" }).format(now)}</span></div>`;
+  elements.results.append(hero);
+  elements.results.append(todaySection("Catch these first", "High-value families officially featured in current encounters.", catches, { empty: "No verified event-boosted catch targets right now. The Catch List is still ready for spot checks." }));
+  elements.results.append(todaySection("Raids worth checking", "Currently verified raids whose catches matter for PvP.", raids, { kicker: "Raid plan", empty: "No verified PvP raid target is active in the event data right now." }));
+  elements.results.append(todaySection("Starting soon", "Useful catches and raids announced for the next seven days.", upcoming, { kicker: "Plan ahead", upcoming: true, empty: "Nothing verified is starting in the next seven days." }));
+  elements.results.append(todaySection("Reliable any-day targets", "Repeatable tools you can choose when you want these families.", reliable, { kicker: "Any day", empty: "No repeatable acquisition tools are documented yet." }));
+  elements.results.className = "today-dashboard";
+  elements.results.setAttribute("aria-busy", "false");
+  elements.count.textContent = `Availability checked ${formatDate(state.data.meta.availabilityLastChecked)}`;
+  elements.viewKicker.textContent = "Today";
+  elements.viewTitle.textContent = "What to do today";
 }
 
 function emptyMessage() {
@@ -130,20 +228,34 @@ function updateUrl() {
 
 function render() {
   if (!state.data) return;
+  elements.results.replaceChildren();
+  if (state.filter === "today" && !state.query) {
+    renderToday();
+    elements.clearSearch.hidden = true;
+    elements.reset.hidden = true;
+    elements.filters.querySelectorAll("button").forEach((button) => {
+      button.setAttribute("aria-pressed", String(button.dataset.filter === "today"));
+    });
+    updateUrl();
+    return;
+  }
   const raidView = state.filter === "raids";
-  const source = raidView ? state.data.raids : state.data.families;
-  const filter = raidView ? "all" : state.filter;
+  const source = state.filter === "today" && state.query
+    ? [...state.data.families, ...state.data.raids]
+    : raidView ? state.data.raids : state.data.families;
+  const filter = raidView || state.filter === "today" ? "all" : state.filter;
   const records = filterRecords(source, { query: state.query, filter });
   const fragment = document.createDocumentFragment();
   records.forEach((record) => fragment.append(createCard(record)));
   if (!records.length) fragment.append(emptyMessage());
+  elements.results.className = "card-grid";
   elements.results.replaceChildren(fragment);
   elements.results.setAttribute("aria-busy", "false");
   elements.count.textContent = `${records.length} ${records.length === 1 ? "target" : "targets"}`;
-  elements.viewKicker.textContent = raidView ? "Raid targets" : state.filter === "all" ? "Catch list" : `${titleCase(state.filter)} filter`;
-  elements.viewTitle.textContent = raidView ? "Worth raiding for PvP" : state.filter === "available" ? "Targetable right now" : "What should we catch?";
+  elements.viewKicker.textContent = state.filter === "today" ? "Search results" : raidView ? "Raid targets" : state.filter === "all" ? "Catch list" : `${titleCase(state.filter)} filter`;
+  elements.viewTitle.textContent = state.filter === "today" ? "Is it worth catching?" : raidView ? "Worth raiding for PvP" : state.filter === "available" ? "Targetable right now" : "What should we catch?";
   elements.clearSearch.hidden = !state.query;
-  elements.reset.hidden = !state.query && state.filter === "all";
+  elements.reset.hidden = !state.query && state.filter === "today";
   elements.filters.querySelectorAll("button").forEach((button) => {
     button.setAttribute("aria-pressed", String(button.dataset.filter === state.filter));
   });
@@ -172,7 +284,7 @@ elements.filters.addEventListener("click", (event) => {
 });
 elements.reset.addEventListener("click", () => {
   state.query = "";
-  state.filter = "all";
+  state.filter = "today";
   elements.search.value = "";
   render();
 });
@@ -182,6 +294,19 @@ async function loadData() {
     const response = await fetch("data.json", { cache: "no-cache" });
     if (!response.ok) throw new Error(`Data request failed (${response.status})`);
     state.data = await response.json();
+    const all = [...state.data.families, ...state.data.raids];
+    const counts = {
+      all: state.data.families.length,
+      great: state.data.families.filter((record) => record.leagues.great).length,
+      ultra: state.data.families.filter((record) => record.leagues.ultra).length,
+      master: state.data.families.filter((record) => record.leagues.master).length,
+      available: all.filter((record) => activeAvailability(record).length).length,
+      raids: state.data.raids.length
+    };
+    Object.entries(counts).forEach(([key, value]) => {
+      const target = elements.filters.querySelector(`[data-count="${key}"]`);
+      if (target) target.textContent = value;
+    });
     elements.updated.textContent = `Last updated: ${formatDate(state.data.meta.updated)}`;
     render();
   } catch (error) {

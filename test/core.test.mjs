@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { filterRecords, isAvailabilityActive, matchesQuery, normalizeSearch, parseUrlState, stateToSearch } from "../core.js";
+import { activeAvailability, filterRecords, isAvailabilityActive, matchesQuery, normalizeSearch, parseUrlState, stateToSearch, upcomingAvailability } from "../core.js";
 
 const data = JSON.parse(await readFile(new URL("../data.json", import.meta.url), "utf8"));
 const expectedSearches = {
@@ -56,7 +56,29 @@ test("availability respects date windows", () => {
 test("URL state round trips and rejects unknown filters", () => {
   const query = stateToSearch({ query: "Mankey", filter: "great" });
   assert.deepEqual(parseUrlState(query), { query: "Mankey", filter: "great" });
-  assert.equal(parseUrlState("?filter=unknown").filter, "all");
+  assert.equal(parseUrlState("?filter=unknown").filter, "today");
+});
+
+test("the default URL opens the Today dashboard", () => {
+  assert.deepEqual(parseUrlState(""), { query: "", filter: "today" });
+  assert.equal(stateToSearch({ query: "", filter: "today" }), "");
+});
+
+test("current and upcoming event windows change automatically", () => {
+  const spheal = data.families.find((record) => record.catchTarget === "Spheal");
+  const mankey = data.families.find((record) => record.catchTarget === "Mankey");
+  const honedge = data.families.find((record) => record.catchTarget === "Honedge");
+  const magikarp = data.families.find((record) => record.catchTarget === "Magikarp");
+  const registeel = data.raids.find((record) => record.catchTarget === "Registeel");
+  const aug27 = new Date("2026-08-27T12:00:00");
+  const aug29 = new Date("2026-08-29T12:00:00");
+  assert.equal(activeAvailability(spheal, aug27).length, 1);
+  assert.equal(activeAvailability(magikarp, aug27)[0].encounterName, "Gyarados");
+  assert.equal(activeAvailability(registeel, aug27)[0].kind, "raid");
+  assert.equal(upcomingAvailability(mankey, aug27).length, 2);
+  assert.equal(activeAvailability(spheal, aug29).length, 0);
+  assert.equal(activeAvailability(mankey, aug29).length, 1);
+  assert.equal(activeAvailability(honedge, aug29)[0].kind, "raid");
 });
 
 test("substring matching is alias-aware", () => {

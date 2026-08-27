@@ -32,12 +32,13 @@
           <button id="clear-search" class="clear-search" type="button" aria-label="Clear search" hidden>×</button>
         </label>
         <div id="filters" class="filters" role="group" aria-label="Filter catch list">
-          <button type="button" data-filter="all" aria-pressed="true">All</button>
-          <button type="button" data-filter="great" aria-pressed="false"><span class="dot dot-gl"></span>Great</button>
-          <button type="button" data-filter="ultra" aria-pressed="false"><span class="dot dot-ul"></span>Ultra</button>
-          <button type="button" data-filter="master" aria-pressed="false"><span class="dot dot-ml"></span>Master</button>
-          <button type="button" data-filter="available" aria-pressed="false">🔥 Available Now</button>
-          <button type="button" data-filter="raids" aria-pressed="false">⚔ Raids</button>
+          <button type="button" data-filter="today" aria-pressed="true">☀ Today</button>
+          <button type="button" data-filter="all" aria-pressed="false">Catch List <span class="filter-count" data-count="all"></span></button>
+          <button type="button" data-filter="great" aria-pressed="false"><span class="dot dot-gl"></span>Great <span class="filter-count" data-count="great"></span></button>
+          <button type="button" data-filter="ultra" aria-pressed="false"><span class="dot dot-ul"></span>Ultra <span class="filter-count" data-count="ultra"></span></button>
+          <button type="button" data-filter="master" aria-pressed="false"><span class="dot dot-ml"></span>Master <span class="filter-count" data-count="master"></span></button>
+          <button type="button" data-filter="available" aria-pressed="false">🔥 Available <span class="filter-count" data-count="available"></span></button>
+          <button type="button" data-filter="raids" aria-pressed="false">⚔ Raids <span class="filter-count" data-count="raids"></span></button>
         </div>
       </section>
 
@@ -75,10 +76,12 @@
             <p class="card-label"></p>
             <h3></h3>
             <p class="targets"></p>
+            <p class="decision-line"></p>
           </div>
           <div class="badges" aria-label="Relevant leagues"></div>
         </div>
         <div class="availability-row"></div>
+        <div class="action-row"></div>
         <details>
           <summary>Why catch this? <span aria-hidden="true">＋</span></summary>
           <div class="details-body"></div>

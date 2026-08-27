@@ -1,6 +1,6 @@
 # Project instructions
 
-This repository is a static, mobile-first Pokémon GO PvP catch reference for a parent and children. Keep the core experience extremely quick: search any family member, see the practical catch target, and scan GL/UL/ML relevance. Keep the UI friendly, readable outdoors, and free of runtime APIs or infrastructure.
+This repository is a static, mobile-first Pokémon GO PvP field guide for a parent and children. The default homepage must proactively answer **What should we do today?** using only dated, sourced opportunities. Keep spot checking extremely quick: search any family member, see the practical catch target, and scan GL/UL/ML relevance. Keep the UI friendly, readable outdoors, and free of runtime APIs or infrastructure.
 
 ## Data rules
 
@@ -12,6 +12,8 @@ This repository is a static, mobile-first Pokémon GO PvP catch reference for a 
 - Keep genuinely distinct families such as Wooper/Paldean Wooper and Vulpix/Alolan Vulpix separate.
 - The default catch list and raid list must remain alphabetical by `catchTarget`.
 - Do not invent event spawn percentages. Availability entries require a label, source, source URL, last-checked date, and start/end dates when temporary.
+- The Today homepage should distinguish `boosted`, `if-lucky`, `raid`, and repeatable `reliable` opportunities. Never describe an `if-lucky` encounter as likely.
+- Use local event times when the official announcement says “local time,” so status changes correctly for each player.
 - For lure pools, say that the Pokémon is in the pool; never imply a guarantee.
 - Great and Ultra League PvP IVs are often low Attack/high bulk. Master League generally prioritizes 15/15/15 or near-perfect IVs and XL Candy.
 
@@ -20,9 +22,9 @@ This repository is a static, mobile-first Pokémon GO PvP catch reference for a 
 When asked to **“re-run our Pokémon Go catch list”**:
 
 1. Run `npm run refresh` to fetch the current PvPoke Open League top-75 snapshot for all three leagues and four categories.
-2. Review unmatched forms printed by the script. Add or correct family aliases/mapping in `scripts/seed-data.mjs`; preserve exact ranked form names.
+2. Review unmatched forms in `refresh-report.json`. Add or correct family aliases/mapping in `scripts/seed-data.mjs`; preserve exact ranked form names.
 3. Review whether baseline league flags should expand. Use `npm run refresh -- --apply-flags` only after that review.
-4. Update sourced availability items and dates in `data.json`; never guess current spawns or raids.
+4. Update sourced availability items and dates in `scripts/seed-data.mjs`, regenerate `data.json`, and verify the Today dashboard; never guess current spawns or raids.
 5. Run `npm run check`.
 6. Verify required evolution searches, league filters, Raid Targets, Available Now, reset behavior, phone and desktop layouts, the `/pokemon-catch-list/` project path, and the data-load error state.
 7. Update the service-worker cache name when published static assets change materially.

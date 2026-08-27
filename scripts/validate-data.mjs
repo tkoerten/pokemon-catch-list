@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import { normalizeSearch } from "../core.js";
 
 const data = JSON.parse(await readFile(new URL("../data.json", import.meta.url), "utf8"));
+const refreshReport = JSON.parse(await readFile(new URL("../refresh-report.json", import.meta.url), "utf8"));
 const errors = [];
 const validLeagues = new Set(["great", "ultra", "master"]);
 const validCategories = new Set(["overall", "leads", "switches", "closers"]);
@@ -42,6 +43,8 @@ function validateList(records, label) {
 validateList(data.families, "families");
 validateList(data.raids, "raids");
 if (!data.meta?.updated || Number.isNaN(new Date(data.meta.updated).getTime())) errors.push("meta.updated must be a valid date");
+if (!Array.isArray(refreshReport.unmatchedRankedForms)) errors.push("refresh-report.json must contain unmatchedRankedForms");
+if (!Array.isArray(refreshReport.condensedRecordsWithoutRanks)) errors.push("refresh-report.json must contain condensedRecordsWithoutRanks");
 if (errors.length) {
   console.error(errors.map((error) => `- ${error}`).join("\n"));
   process.exitCode = 1;

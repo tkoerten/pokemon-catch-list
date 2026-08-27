@@ -6,6 +6,7 @@
   "scripts": {
     "seed": "node scripts/seed-data.mjs",
     "refresh": "node scripts/refresh-rankings.mjs",
+    "check:availability": "node scripts/check-availability.mjs",
     "validate": "node scripts/validate-data.mjs",
     "test": "node --test",
     "check": "npm run validate && npm test",

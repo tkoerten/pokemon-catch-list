@@ -1,6 +1,6 @@
 # Pokémon GO Catch List
 
-A fast, mobile-first Pokémon GO PvP catch reference for families. Search any evolution or relevant form and the site returns the practical catch target, then shows whether the family matters for Great, Ultra, or Master League. Raid-first targets stay in their own view.
+A fast, mobile-first Pokémon GO PvP field guide. The default **What to do today** screen turns verified event windows into a short proactive plan: useful featured catches, worthwhile raids, upcoming opportunities, and repeatable acquisition tools. Search any evolution or relevant form to spot-check a catch target and its Great, Ultra, or Master League value. Raid-first targets stay in their own view.
 
 The production site is fully static: no login, database, runtime API, or paid service. Search and filters run locally in the browser, and a small service worker keeps the last loaded list available offline.
 
@@ -9,11 +9,13 @@ The production site is fully static: no login, database, runtime API, or paid se
 - `index.html`, `styles.css`, `app.js`: the interface and browser behavior
 - `core.js`: testable search, filter, availability, priority, and URL-state logic
 - `data.json`: published catch families, raid targets, rankings, and availability
+- `refresh-report.json`: unmatched PvPoke forms and condensed records without rank details
 - `scripts/seed-data.mjs`: recreates the supplied baseline family set
 - `scripts/refresh-rankings.mjs`: attaches a current static PvPoke snapshot
 - `scripts/validate-data.mjs`: enforces data invariants
 - `test/`: Node tests for required searches and filters
 - `.github/workflows/pages.yml`: validates and deploys the static files to GitHub Pages
+- `.github/workflows/availability-review.yml`: opens one reminder issue when dated availability is stale or empty
 
 ## Data and search aliases
 
@@ -36,11 +38,13 @@ By default, refresh replaces ranking details but preserves the reviewed baseline
 npm run refresh -- --apply-flags
 ```
 
-The script prints unmatched or ambiguous forms for human review. Update `scripts/seed-data.mjs` when a genuinely new catch family or mapping belongs in the list, rerun `npm run seed`, and then refresh rankings. Do not silently merge regional families.
+The script records unmatched or ambiguous forms in `refresh-report.json` for human review. Update `scripts/seed-data.mjs` when a genuinely new catch family or mapping belongs in the list, rerun `npm run seed`, and then refresh rankings. Do not silently merge regional families.
 
-## Availability updates
+## Today dashboard and availability updates
 
-Add time-sensitive items to a record's `availability` array in `data.json`:
+The homepage derives its sections from dated, sourced `availability` entries. Use `kind` (`wild`, `raid`, or `tool`), `likelihood` (`boosted`, `if-lucky`, `raid`, or `reliable`), optional `encounterName` and `featuredMove`, and `ongoing` only for repeatable mechanics such as Mystery Box and Coin Bag. Temporary entries automatically move from **Starting soon** to today's plan and disappear after their end time. Times without an explicit offset are interpreted in the player's local time because official Pokémon GO events use local time.
+
+Add time-sensitive items in `scripts/seed-data.mjs`, then regenerate `data.json`:
 
 ```json
 {
@@ -54,7 +58,9 @@ Add time-sensitive items to a record's `availability` array in `data.json`:
 }
 ```
 
-Use sourced labels such as `Boosted spawn`, `Glacial Lure pool`, `Field Research`, or `Raid rotation`; never invent spawn percentages. Expired entries remain historical but automatically disappear from active badges and the **Available Now** filter. Update `meta.updated` and `meta.availabilityLastChecked`, then run `npm run check`.
+Use sourced labels such as `Boosted spawn`, `Glacial Lure pool`, `Field Research`, or `Raid rotation`; never invent spawn percentages. Expired entries remain historical but automatically disappear from active badges and the **Available** filter. Update `meta.updated` and `meta.availabilityLastChecked`, then run `npm run check`.
+
+The daily availability workflow checks whether the source review is more than three days old or whether no dated opportunity is active/upcoming. It opens one repository issue for review and closes that reminder after fresh data is committed; it never publishes guessed event data automatically.
 
 ## Test locally
 

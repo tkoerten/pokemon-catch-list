@@ -230,6 +230,55 @@ const displayOverrides = {
   Zygarde: ["Zygarde Complete"]
 };
 
+const worldsSource = "https://pokemongo.com/news/world-championships-event-2026";
+const worldsSourceName = "Pokémon GO: PokémonXP & 2026 World Championships";
+const currentEvent = { start: "2026-08-25T10:00:00", end: "2026-08-28T10:00:00", source: worldsSourceName, sourceUrl: worldsSource, lastChecked: "2026-08-27" };
+const worldsEvent = { start: "2026-08-28T10:00:00", end: "2026-08-30T20:00:00", source: worldsSourceName, sourceUrl: worldsSource, lastChecked: "2026-08-27" };
+const currentRaidRotation = { start: "2026-08-26T06:00:00", end: "2026-08-28T10:00:00", source: "Pokémon GO Hub: Current Raid Bosses", sourceUrl: "https://pokemongohub.net/post/guide/current-go-raids/", lastChecked: "2026-08-27", kind: "raid", likelihood: "raid" };
+const boosted = (note, featuredMove) => ({ ...worldsEvent, label: "Boosted wild spawn", kind: "wild", likelihood: "boosted", note, ...(featuredMove ? { featuredMove } : {}) });
+const ifLucky = (encounterName, note, featuredMove) => ({ ...worldsEvent, label: "If you're lucky — wild", kind: "wild", likelihood: "if-lucky", encounterName, note, ...(featuredMove ? { featuredMove } : {}) });
+
+const availabilityByTarget = {
+  Spheal: [{ ...currentEvent, label: "Boosted wild spawn", kind: "wild", likelihood: "boosted", note: "Appearing more frequently during PokémonXP.", featuredMove: "Evolve to Walrein for Powder Snow and Icicle Spear during the event." }],
+  Deino: [
+    { ...currentEvent, label: "If you're lucky — wild", kind: "wild", likelihood: "if-lucky", note: "A less-common wild encounter during PokémonXP.", featuredMove: "Evolve to Hydreigon for Brutal Swing during the event." },
+    ifLucky("Deino", "A less-common wild encounter during the World Championships event.", "Evolve to Hydreigon for Brutal Swing during the event.")
+  ],
+  Mankey: [
+    { label: "Spotlight Hour", kind: "wild", likelihood: "boosted", start: "2026-08-27T18:00:00", end: "2026-08-27T19:00:00", source: "Leek Duck event calendar", sourceUrl: "https://leekduck.com/events/", lastChecked: "2026-08-27", note: "Featured from 6:00–7:00 p.m. local time with 2× Catch Candy." },
+    boosted("Appearing more frequently during the World Championships event.", "Primeape and Annihilape can learn Rage Fist during the event.")
+  ],
+  Lickitung: [boosted("Appearing more frequently during the World Championships event.", "Lickitung and Lickilicky can learn Body Slam during the event.")],
+  Totodile: [boosted("Appearing more frequently during the World Championships event.", "Evolve to Feraligatr for Hydro Cannon during the event.")],
+  Wooper: [boosted("Appearing more frequently during the World Championships event.", "Evolve to Quagsire for Aqua Tail during the event.")],
+  Froakie: [boosted("Appearing more frequently during the World Championships event.", "Evolve to Greninja for Hydro Cannon during the event.")],
+  Beldum: [ifLucky("Beldum", "A less-common wild encounter during the World Championships event.", "Evolve to Metagross for Meteor Mash during the event.")],
+  Togepi: [ifLucky("Togetic", "A less-common wild encounter during the World Championships event.", "Evolve to Togekiss for Aura Sphere during the event.")],
+  Honedge: [{ ...worldsEvent, label: "One-star raid", kind: "raid", likelihood: "raid", encounterName: "Honedge", note: "Available in one-star raids during the World Championships event." }],
+  Magikarp: [{ ...currentRaidRotation, label: "Mega Raid", encounterName: "Gyarados", note: "Mega Gyarados is in the current Mega Raid rotation." }],
+  Meltan: [{
+    label: "Mystery Box", kind: "tool", likelihood: "reliable", ongoing: true,
+    source: "Pokémon GO: Steeled Resolve 2026", sourceUrl: "https://pokemongo.com/news/steeled-resolve-2026?hl=eng",
+    lastChecked: "2026-08-27", note: "Send a Pokémon to Pokémon HOME or a compatible Pokémon: Let's Go game to obtain and recharge the Mystery Box."
+  }],
+  Gimmighoul: [{
+    label: "Coin Bag", kind: "tool", likelihood: "reliable", ongoing: true,
+    source: "Pokémon GO: Connect to Pokémon Scarlet and Violet", sourceUrl: "https://pokemongo.com/post/gocoin",
+    lastChecked: "2026-08-27", note: "Send a Postcard to Pokémon Scarlet or Violet to use the Coin Bag and encounter Roaming Form Gimmighoul."
+  }]
+};
+
+const raidAvailabilityByTarget = {
+  Regice: [{ ...currentRaidRotation, label: "Five-star raid", note: "Regice is in the current five-star raid rotation." }],
+  Regirock: [{ ...currentRaidRotation, label: "Five-star raid", note: "Regirock is in the current five-star raid rotation." }],
+  Registeel: [{ ...currentRaidRotation, label: "Five-star raid", note: "Registeel is in the current five-star raid rotation." }]
+};
+
+const acquisitionByTarget = {
+  Meltan: ["Open a Mystery Box to create a repeatable Meltan encounter window."],
+  Gimmighoul: ["Use a Coin Bag for Roaming Form Gimmighoul; collect 999 Gimmighoul Coins to evolve Gholdengo."]
+};
+
 const slug = (value) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const makeRecord = (line, type) => {
   const [catchTarget, great, ultra, master] = line.split("|");
@@ -245,8 +294,8 @@ const makeRecord = (line, type) => {
       : [catchTarget]),
     leagues: { great: great === "Y", ultra: ultra === "Y", master: master === "Y" },
     rankings: [],
-    availability: [],
-    acquisitionNotes: type === "raid" ? ["Catch from a raid rotation when available."] : [],
+    availability: type === "catch" ? (availabilityByTarget[catchTarget] || []) : (raidAvailabilityByTarget[catchTarget] || []),
+    acquisitionNotes: type === "raid" ? ["Catch from a raid rotation when available."] : (acquisitionByTarget[catchTarget] || []),
     notes: master === "Y" ? ["For Master League, prioritize high IVs and XL Candy."] : []
   };
 };

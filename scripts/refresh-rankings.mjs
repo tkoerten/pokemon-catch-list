@@ -2,6 +2,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { normalizeSearch } from "../core.js";
 
 const dataUrl = new URL("../data.json", import.meta.url);
+const reportUrl = new URL("../refresh-report.json", import.meta.url);
 const data = JSON.parse(await readFile(dataUrl, "utf8"));
 const applyFlags = process.argv.includes("--apply-flags");
 const leagues = { great: 1500, ultra: 2500, master: 10000 };
@@ -54,5 +55,16 @@ data.meta.updated = new Date().toISOString().slice(0, 10);
 data.meta.rankingSnapshotDate = data.meta.updated;
 data.meta.note = `PvPoke Open League top 75 snapshot attached for Overall, Leads, Switches, and Closers.${applyFlags ? " League flags were expanded from the snapshot." : " Baseline league flags were preserved."}`;
 await writeFile(dataUrl, `${JSON.stringify(data, null, 2)}\n`, "utf8");
+const report = {
+  generatedAt: new Date().toISOString(),
+  source: sourceRoot,
+  leagues: Object.keys(leagues),
+  categories,
+  topPerCategory: 75,
+  attachedRankEntries: attached,
+  unmatchedRankedForms: [...unmatched].sort((a, b) => a.localeCompare(b)),
+  condensedRecordsWithoutRanks: records.filter((record) => !record.rankings.length).map((record) => record.catchTarget).sort((a, b) => a.localeCompare(b))
+};
+await writeFile(reportUrl, `${JSON.stringify(report, null, 2)}\n`, "utf8");
 console.log(`Attached ${attached} ranking entries. ${unmatched.size} ranked forms were outside or ambiguous in the condensed family map.`);
 if (unmatched.size) console.log(`Examples not mapped: ${[...unmatched].slice(0, 15).join(", ")}`);

@@ -1,4 +1,4 @@
-const CACHE = "pokemon-catch-list-2026-08-27-v1";
+const CACHE = "pokemon-catch-list-2026-08-27-v2";
 const SHELL = ["./", "./index.html", "./styles.css", "./app.js", "./core.js", "./manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {
