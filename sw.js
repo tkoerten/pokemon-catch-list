@@ -1,4 +1,4 @@
-const CACHE = "pokemon-catch-list-2026-08-27-v2";
+const CACHE = "pokemon-catch-list-2026-08-27-v3";
 const SHELL = ["./", "./index.html", "./styles.css", "./app.js", "./core.js", "./manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {
@@ -16,7 +16,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (url.origin !== location.origin) return;
 
-  if (url.pathname.endsWith("/data.json")) {
+  if (url.pathname.endsWith("/data.json") || url.pathname.endsWith("/pvpoke.json")) {
     event.respondWith(
       fetch(event.request)
         .then((response) => {

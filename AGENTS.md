@@ -21,7 +21,7 @@ This repository is a static, mobile-first Pokémon GO PvP field guide for a pare
 
 When asked to **“re-run our Pokémon Go catch list”**:
 
-1. Run `npm run refresh` to fetch the current PvPoke Open League top-75 snapshot for all three leagues and four categories.
+1. Run `npm run refresh` to fetch the complete PvPoke Open League rankings for all three leagues and four categories. This regenerates `pvpoke.json`; only the top-75 subset is attached to reviewed recommendation families in `data.json`.
 2. Review unmatched forms in `refresh-report.json`. Add or correct family aliases/mapping in `scripts/seed-data.mjs`; preserve exact ranked form names.
 3. Review whether baseline league flags should expand. Use `npm run refresh -- --apply-flags` only after that review.
 4. Update sourced availability items and dates in `scripts/seed-data.mjs`, regenerate `data.json`, and verify the Today dashboard; never guess current spawns or raids.

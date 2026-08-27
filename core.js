@@ -41,6 +41,40 @@ export function matchesQuery(record, query) {
     .some((alias) => normalizeSearch(alias).includes(needle));
 }
 
+export function groupReferencePokemon(pokemon = []) {
+  const groups = new Map();
+  for (const entry of pokemon) {
+    if (!groups.has(entry.familyKey)) groups.set(entry.familyKey, { familyKey: entry.familyKey, aliases: new Set(), pokemon: [] });
+    const group = groups.get(entry.familyKey);
+    group.pokemon.push(entry);
+    for (const alias of [entry.speciesName, ...(entry.familyAliases || [])]) group.aliases.add(alias);
+  }
+  return [...groups.values()].map((group) => ({
+    ...group,
+    aliases: [...group.aliases],
+    pokemon: group.pokemon.sort((a, b) => a.dex - b.dex || a.speciesName.localeCompare(b.speciesName))
+  }));
+}
+
+export function filterReferenceGroups(groups = [], query = "") {
+  const needle = normalizeSearch(query);
+  if (!needle) return [];
+  return groups
+    .filter((group) => group.aliases.some((alias) => normalizeSearch(alias).includes(needle)))
+    .sort((a, b) => {
+      const aExact = a.aliases.some((alias) => normalizeSearch(alias) === needle);
+      const bExact = b.aliases.some((alias) => normalizeSearch(alias) === needle);
+      if (aExact !== bExact) return aExact ? -1 : 1;
+      return a.pokemon[0].dex - b.pokemon[0].dex;
+    });
+}
+
+export function recordForReferenceGroup(group, records = []) {
+  const aliases = new Set(group.aliases.map(normalizeSearch));
+  return records.find((record) => [record.catchTarget, ...(record.searchAliases || [])]
+    .some((alias) => aliases.has(normalizeSearch(alias)))) || null;
+}
+
 export function filterRecords(records, { query = "", filter = "all", now = new Date() } = {}) {
   return records
     .filter((record) => matchesQuery(record, query))
@@ -67,7 +101,7 @@ export function parseUrlState(search = "") {
   const filter = params.get("filter") || params.get("league") || "today";
   return {
     query: params.get("q") || "",
-    filter: ["today", "all", "great", "ultra", "master", "available", "raids"].includes(filter) ? filter : "today"
+    filter: ["today", "all", "great", "ultra", "master", "available", "raids", "types"].includes(filter) ? filter : "today"
   };
 }
 

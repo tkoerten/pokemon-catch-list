@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import { normalizeSearch } from "../core.js";
 
 const data = JSON.parse(await readFile(new URL("../data.json", import.meta.url), "utf8"));
+const reference = JSON.parse(await readFile(new URL("../pvpoke.json", import.meta.url), "utf8"));
 const refreshReport = JSON.parse(await readFile(new URL("../refresh-report.json", import.meta.url), "utf8"));
 const errors = [];
 const validLeagues = new Set(["great", "ultra", "master"]);
@@ -45,10 +46,27 @@ validateList(data.raids, "raids");
 if (!data.meta?.updated || Number.isNaN(new Date(data.meta.updated).getTime())) errors.push("meta.updated must be a valid date");
 if (!Array.isArray(refreshReport.unmatchedRankedForms)) errors.push("refresh-report.json must contain unmatchedRankedForms");
 if (!Array.isArray(refreshReport.condensedRecordsWithoutRanks)) errors.push("refresh-report.json must contain condensedRecordsWithoutRanks");
+if (!Array.isArray(reference.pokemon) || reference.pokemon.length < 1000) errors.push("pvpoke.json must contain the full released Pokémon reference");
+const speciesIds = new Set();
+for (const [index, pokemon] of (reference.pokemon || []).entries()) {
+  const path = `pvpoke.pokemon[${index}]`;
+  if (!pokemon.speciesId || !pokemon.speciesName || !pokemon.familyKey) errors.push(`${path}: speciesId, speciesName, and familyKey are required`);
+  if (speciesIds.has(pokemon.speciesId)) errors.push(`${path}: duplicate speciesId ${pokemon.speciesId}`);
+  speciesIds.add(pokemon.speciesId);
+  if (!Array.isArray(pokemon.familyAliases) || !pokemon.familyAliases.length) errors.push(`${path}: familyAliases must not be empty`);
+  for (const [league, categories] of Object.entries(pokemon.rankings || {})) {
+    if (!validLeagues.has(league)) errors.push(`${path}: invalid reference league ${league}`);
+    for (const [category, result] of Object.entries(categories || {})) {
+      if (!validCategories.has(category)) errors.push(`${path}: invalid reference category ${category}`);
+      if (!Number.isInteger(result.rank) || result.rank < 1) errors.push(`${path}: reference rank must be a positive integer`);
+      if (!Number.isFinite(result.score) || result.score < 0 || result.score > 100) errors.push(`${path}: reference score must be from 0 to 100`);
+    }
+  }
+}
 if (errors.length) {
   console.error(errors.map((error) => `- ${error}`).join("\n"));
   process.exitCode = 1;
 } else {
   const ranks = [...data.families, ...data.raids].reduce((total, record) => total + record.rankings.length, 0);
-  console.log(`Validated ${data.families.length} catch families, ${data.raids.length} raid targets, and ${ranks} rank entries.`);
+  console.log(`Validated ${data.families.length} catch families, ${data.raids.length} raid targets, ${ranks} recommended rank entries, and ${reference.pokemon.length} full-reference Pokémon.`);
 }

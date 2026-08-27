@@ -1,9 +1,11 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { activeAvailability, filterRecords, isAvailabilityActive, matchesQuery, normalizeSearch, parseUrlState, stateToSearch, upcomingAvailability } from "../core.js";
+import { activeAvailability, filterRecords, filterReferenceGroups, groupReferencePokemon, isAvailabilityActive, matchesQuery, normalizeSearch, parseUrlState, recordForReferenceGroup, stateToSearch, upcomingAvailability } from "../core.js";
 
 const data = JSON.parse(await readFile(new URL("../data.json", import.meta.url), "utf8"));
+const reference = JSON.parse(await readFile(new URL("../pvpoke.json", import.meta.url), "utf8"));
+const referenceGroups = groupReferencePokemon(reference.pokemon);
 const expectedSearches = {
   mankey: "Mankey", primeape: "Mankey", annihilape: "Mankey",
   spheal: "Spheal", sealeo: "Spheal", walrein: "Spheal",
@@ -84,4 +86,29 @@ test("current and upcoming event windows change automatically", () => {
 test("substring matching is alias-aware", () => {
   const record = data.families.find((item) => item.catchTarget === "Mankey");
   assert.equal(matchesQuery(record, "nihil"), true);
+});
+
+test("full reference search finds a non-recommended family", () => {
+  const [group] = filterReferenceGroups(referenceGroups, "caterpie");
+  assert.ok(group.pokemon.some((pokemon) => pokemon.speciesName === "Butterfree"));
+  assert.equal(recordForReferenceGroup(group, data.families), null);
+});
+
+test("full reference includes all four PvPoke roles", () => {
+  const lickilicky = reference.pokemon.find((pokemon) => pokemon.speciesId === "lickilicky");
+  assert.deepEqual(Object.keys(lickilicky.rankings.great).sort(), ["closers", "leads", "overall", "switches"]);
+  assert.ok(lickilicky.rankings.great.overall.rank > 0);
+  assert.ok(lickilicky.rankings.great.overall.score > 0);
+});
+
+test("regional reference families remain separate", () => {
+  const ninetalesGroups = filterReferenceGroups(referenceGroups, "ninetales");
+  assert.ok(ninetalesGroups.some((group) => group.familyKey.endsWith("_ALOLAN")));
+  assert.ok(ninetalesGroups.some((group) => group.familyKey === "FAMILY_VULPIX"));
+  assert.notEqual(ninetalesGroups[0].familyKey, ninetalesGroups[1].familyKey);
+});
+
+test("type chart URL state is supported", () => {
+  assert.equal(parseUrlState("?filter=types").filter, "types");
+  assert.equal(stateToSearch({ filter: "types" }), "?filter=types");
 });

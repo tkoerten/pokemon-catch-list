@@ -5,7 +5,7 @@
     "rankingSourceUrl": "https://pvpoke.com/rankings/",
     "rankingSnapshotDate": "2026-08-27",
     "availabilityLastChecked": "2026-08-27",
-    "note": "PvPoke Open League top 75 snapshot attached for Overall, Leads, Switches, and Closers. League flags were expanded from the snapshot."
+    "note": "PvPoke Open League full rankings power search; recommendations use only the reviewed top 75 in Overall, Leads, Switches, and Closers. Baseline league flags were preserved."
   },
   "families": [
     {
@@ -33,6 +33,7 @@
           "league": "great",
           "category": "overall",
           "rank": 64,
+          "score": 89,
           "pokemon": "Ninetales (Alolan)",
           "speciesId": "ninetales_alolan"
         },
@@ -40,6 +41,7 @@
           "league": "great",
           "category": "overall",
           "rank": 65,
+          "score": 88.8,
           "pokemon": "Ninetales (Alolan) (Shadow)",
           "speciesId": "ninetales_alolan_shadow"
         },
@@ -47,6 +49,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 19,
+          "score": 91.1,
           "pokemon": "Ninetales (Alolan)",
           "speciesId": "ninetales_alolan"
         },
@@ -54,6 +57,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 21,
+          "score": 90.8,
           "pokemon": "Ninetales (Alolan) (Shadow)",
           "speciesId": "ninetales_alolan_shadow"
         }
@@ -82,6 +86,7 @@
           "league": "great",
           "category": "closers",
           "rank": 71,
+          "score": 83.4,
           "pokemon": "Alomomola",
           "speciesId": "alomomola"
         },
@@ -89,6 +94,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 38,
+          "score": 88.2,
           "pokemon": "Alomomola",
           "speciesId": "alomomola"
         }
@@ -118,6 +124,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 45,
+          "score": 88.3,
           "pokemon": "Aurorus",
           "speciesId": "aurorus"
         }
@@ -150,6 +157,7 @@
           "league": "great",
           "category": "closers",
           "rank": 53,
+          "score": 84.4,
           "pokemon": "Shelgon",
           "speciesId": "shelgon"
         },
@@ -157,6 +165,7 @@
           "league": "great",
           "category": "closers",
           "rank": 60,
+          "score": 84.1,
           "pokemon": "Shelgon (Shadow)",
           "speciesId": "shelgon_shadow"
         }
@@ -189,6 +198,7 @@
           "league": "master",
           "category": "overall",
           "rank": 3,
+          "score": 97.9,
           "pokemon": "Metagross",
           "speciesId": "metagross"
         },
@@ -196,6 +206,7 @@
           "league": "master",
           "category": "overall",
           "rank": 18,
+          "score": 90.5,
           "pokemon": "Metagross (Shadow)",
           "speciesId": "metagross_shadow"
         },
@@ -203,6 +214,7 @@
           "league": "master",
           "category": "leads",
           "rank": 3,
+          "score": 97,
           "pokemon": "Metagross",
           "speciesId": "metagross"
         },
@@ -210,6 +222,7 @@
           "league": "master",
           "category": "leads",
           "rank": 21,
+          "score": 91.7,
           "pokemon": "Metagross (Shadow)",
           "speciesId": "metagross_shadow"
         },
@@ -217,6 +230,7 @@
           "league": "master",
           "category": "switches",
           "rank": 2,
+          "score": 98.5,
           "pokemon": "Metagross",
           "speciesId": "metagross"
         },
@@ -224,6 +238,7 @@
           "league": "master",
           "category": "switches",
           "rank": 24,
+          "score": 82.6,
           "pokemon": "Metagross (Shadow)",
           "speciesId": "metagross_shadow"
         },
@@ -231,6 +246,7 @@
           "league": "master",
           "category": "closers",
           "rank": 4,
+          "score": 96.7,
           "pokemon": "Metagross",
           "speciesId": "metagross"
         },
@@ -238,6 +254,7 @@
           "league": "master",
           "category": "closers",
           "rank": 21,
+          "score": 91.5,
           "pokemon": "Metagross (Shadow)",
           "speciesId": "metagross_shadow"
         }
@@ -283,6 +300,7 @@
           "league": "great",
           "category": "overall",
           "rank": 44,
+          "score": 89.6,
           "pokemon": "Diggersby",
           "speciesId": "diggersby"
         },
@@ -290,6 +308,7 @@
           "league": "great",
           "category": "closers",
           "rank": 75,
+          "score": 83.3,
           "pokemon": "Diggersby",
           "speciesId": "diggersby"
         }
@@ -318,6 +337,7 @@
           "league": "great",
           "category": "closers",
           "rank": 6,
+          "score": 90.9,
           "pokemon": "Carbink",
           "speciesId": "carbink"
         }
@@ -350,6 +370,7 @@
           "league": "great",
           "category": "leads",
           "rank": 74,
+          "score": 84.3,
           "pokemon": "Charizard (Shadow)",
           "speciesId": "charizard_shadow"
         },
@@ -357,6 +378,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 23,
+          "score": 90.8,
           "pokemon": "Charizard (Shadow)",
           "speciesId": "charizard_shadow"
         },
@@ -364,6 +386,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 56,
+          "score": 83.9,
           "pokemon": "Charizard",
           "speciesId": "charizard"
         }
@@ -393,6 +416,7 @@
           "league": "great",
           "category": "closers",
           "rank": 13,
+          "score": 87.7,
           "pokemon": "Lanturn",
           "speciesId": "lanturn"
         }
@@ -424,6 +448,7 @@
           "league": "great",
           "category": "overall",
           "rank": 54,
+          "score": 89.3,
           "pokemon": "Clefable",
           "speciesId": "clefable"
         },
@@ -431,6 +456,7 @@
           "league": "great",
           "category": "closers",
           "rank": 12,
+          "score": 88.1,
           "pokemon": "Clefable",
           "speciesId": "clefable"
         },
@@ -438,6 +464,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 54,
+          "score": 89.1,
           "pokemon": "Clefable",
           "speciesId": "clefable"
         },
@@ -445,6 +472,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 59,
+          "score": 87.5,
           "pokemon": "Clefable",
           "speciesId": "clefable"
         },
@@ -452,6 +480,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 19,
+          "score": 90.2,
           "pokemon": "Clefable",
           "speciesId": "clefable"
         }
@@ -484,6 +513,7 @@
           "league": "master",
           "category": "overall",
           "rank": 5,
+          "score": 94.8,
           "pokemon": "Lunala",
           "speciesId": "lunala"
         },
@@ -491,6 +521,7 @@
           "league": "master",
           "category": "overall",
           "rank": 37,
+          "score": 86.8,
           "pokemon": "Solgaleo",
           "speciesId": "solgaleo"
         },
@@ -498,6 +529,7 @@
           "league": "master",
           "category": "leads",
           "rank": 5,
+          "score": 96.2,
           "pokemon": "Lunala",
           "speciesId": "lunala"
         },
@@ -505,6 +537,7 @@
           "league": "master",
           "category": "leads",
           "rank": 30,
+          "score": 89.6,
           "pokemon": "Solgaleo",
           "speciesId": "solgaleo"
         },
@@ -512,6 +545,7 @@
           "league": "master",
           "category": "switches",
           "rank": 12,
+          "score": 89.5,
           "pokemon": "Lunala",
           "speciesId": "lunala"
         },
@@ -519,6 +553,7 @@
           "league": "master",
           "category": "switches",
           "rank": 53,
+          "score": 74.3,
           "pokemon": "Solgaleo",
           "speciesId": "solgaleo"
         },
@@ -526,6 +561,7 @@
           "league": "master",
           "category": "closers",
           "rank": 6,
+          "score": 96,
           "pokemon": "Lunala",
           "speciesId": "lunala"
         },
@@ -533,6 +569,7 @@
           "league": "master",
           "category": "closers",
           "rank": 53,
+          "score": 80.5,
           "pokemon": "Solgaleo",
           "speciesId": "solgaleo"
         }
@@ -568,6 +605,7 @@
           "league": "great",
           "category": "overall",
           "rank": 73,
+          "score": 88.3,
           "pokemon": "Hydreigon (Shadow)",
           "speciesId": "hydreigon_shadow"
         },
@@ -575,6 +613,7 @@
           "league": "great",
           "category": "leads",
           "rank": 12,
+          "score": 88.8,
           "pokemon": "Hydreigon (Shadow)",
           "speciesId": "hydreigon_shadow"
         },
@@ -582,6 +621,7 @@
           "league": "great",
           "category": "leads",
           "rank": 31,
+          "score": 86.6,
           "pokemon": "Zweilous",
           "speciesId": "zweilous"
         },
@@ -589,6 +629,7 @@
           "league": "great",
           "category": "leads",
           "rank": 33,
+          "score": 86.5,
           "pokemon": "Zweilous (Shadow)",
           "speciesId": "zweilous_shadow"
         },
@@ -596,6 +637,7 @@
           "league": "great",
           "category": "leads",
           "rank": 56,
+          "score": 85.4,
           "pokemon": "Hydreigon",
           "speciesId": "hydreigon"
         },
@@ -603,6 +645,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 67,
+          "score": 88.8,
           "pokemon": "Hydreigon (Shadow)",
           "speciesId": "hydreigon_shadow"
         },
@@ -610,6 +653,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 53,
+          "score": 87.8,
           "pokemon": "Hydreigon (Shadow)",
           "speciesId": "hydreigon_shadow"
         },
@@ -617,6 +661,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 58,
+          "score": 83.3,
           "pokemon": "Hydreigon (Shadow)",
           "speciesId": "hydreigon_shadow"
         },
@@ -624,6 +669,7 @@
           "league": "master",
           "category": "overall",
           "rank": 43,
+          "score": 85.3,
           "pokemon": "Hydreigon (Shadow)",
           "speciesId": "hydreigon_shadow"
         },
@@ -631,6 +677,7 @@
           "league": "master",
           "category": "overall",
           "rank": 65,
+          "score": 81,
           "pokemon": "Hydreigon",
           "speciesId": "hydreigon"
         },
@@ -638,6 +685,7 @@
           "league": "master",
           "category": "leads",
           "rank": 26,
+          "score": 90.3,
           "pokemon": "Hydreigon (Shadow)",
           "speciesId": "hydreigon_shadow"
         },
@@ -645,6 +693,7 @@
           "league": "master",
           "category": "leads",
           "rank": 53,
+          "score": 83.9,
           "pokemon": "Hydreigon",
           "speciesId": "hydreigon"
         },
@@ -652,6 +701,7 @@
           "league": "master",
           "category": "switches",
           "rank": 13,
+          "score": 88.5,
           "pokemon": "Hydreigon (Shadow)",
           "speciesId": "hydreigon_shadow"
         },
@@ -659,6 +709,7 @@
           "league": "master",
           "category": "switches",
           "rank": 51,
+          "score": 74.8,
           "pokemon": "Hydreigon",
           "speciesId": "hydreigon"
         }
@@ -717,6 +768,7 @@
           "league": "great",
           "category": "leads",
           "rank": 6,
+          "score": 89.7,
           "pokemon": "Araquanid (Shadow)",
           "speciesId": "araquanid_shadow"
         },
@@ -724,6 +776,7 @@
           "league": "great",
           "category": "leads",
           "rank": 10,
+          "score": 89.1,
           "pokemon": "Araquanid",
           "speciesId": "araquanid"
         },
@@ -731,6 +784,7 @@
           "league": "great",
           "category": "switches",
           "rank": 59,
+          "score": 83,
           "pokemon": "Araquanid (Shadow)",
           "speciesId": "araquanid_shadow"
         },
@@ -738,6 +792,7 @@
           "league": "great",
           "category": "closers",
           "rank": 43,
+          "score": 84.9,
           "pokemon": "Araquanid",
           "speciesId": "araquanid"
         }
@@ -766,6 +821,7 @@
           "league": "great",
           "category": "leads",
           "rank": 67,
+          "score": 84.8,
           "pokemon": "Dondozo",
           "speciesId": "dondozo"
         },
@@ -773,6 +829,7 @@
           "league": "great",
           "category": "closers",
           "rank": 37,
+          "score": 85.4,
           "pokemon": "Dondozo",
           "speciesId": "dondozo"
         },
@@ -780,6 +837,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 35,
+          "score": 90.4,
           "pokemon": "Dondozo",
           "speciesId": "dondozo"
         },
@@ -787,6 +845,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 24,
+          "score": 90.1,
           "pokemon": "Dondozo",
           "speciesId": "dondozo"
         },
@@ -794,6 +853,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 10,
+          "score": 91.4,
           "pokemon": "Dondozo",
           "speciesId": "dondozo"
         },
@@ -801,6 +861,7 @@
           "league": "master",
           "category": "closers",
           "rank": 66,
+          "score": 78.2,
           "pokemon": "Dondozo",
           "speciesId": "dondozo"
         }
@@ -834,6 +895,7 @@
           "league": "great",
           "category": "overall",
           "rank": 30,
+          "score": 90.2,
           "pokemon": "Dragonair (Shadow)",
           "speciesId": "dragonair_shadow"
         },
@@ -841,6 +903,7 @@
           "league": "great",
           "category": "overall",
           "rank": 36,
+          "score": 90,
           "pokemon": "Dragonair",
           "speciesId": "dragonair"
         },
@@ -848,6 +911,7 @@
           "league": "great",
           "category": "leads",
           "rank": 22,
+          "score": 87.1,
           "pokemon": "Dragonair (Shadow)",
           "speciesId": "dragonair_shadow"
         },
@@ -855,6 +919,7 @@
           "league": "great",
           "category": "leads",
           "rank": 61,
+          "score": 85.1,
           "pokemon": "Dragonair",
           "speciesId": "dragonair"
         },
@@ -862,6 +927,7 @@
           "league": "great",
           "category": "switches",
           "rank": 7,
+          "score": 92.9,
           "pokemon": "Dragonair (Shadow)",
           "speciesId": "dragonair_shadow"
         },
@@ -869,6 +935,7 @@
           "league": "master",
           "category": "overall",
           "rank": 52,
+          "score": 84,
           "pokemon": "Dragonite (Shadow)",
           "speciesId": "dragonite_shadow"
         },
@@ -876,6 +943,7 @@
           "league": "master",
           "category": "overall",
           "rank": 63,
+          "score": 81.5,
           "pokemon": "Dragonite",
           "speciesId": "dragonite"
         },
@@ -883,6 +951,7 @@
           "league": "master",
           "category": "leads",
           "rank": 28,
+          "score": 89.6,
           "pokemon": "Dragonite (Shadow)",
           "speciesId": "dragonite_shadow"
         },
@@ -890,6 +959,7 @@
           "league": "master",
           "category": "leads",
           "rank": 34,
+          "score": 87.8,
           "pokemon": "Dragonite",
           "speciesId": "dragonite"
         },
@@ -897,6 +967,7 @@
           "league": "master",
           "category": "switches",
           "rank": 17,
+          "score": 85.7,
           "pokemon": "Dragonite (Shadow)",
           "speciesId": "dragonite_shadow"
         },
@@ -904,6 +975,7 @@
           "league": "master",
           "category": "switches",
           "rank": 39,
+          "score": 78.7,
           "pokemon": "Dragonite",
           "speciesId": "dragonite"
         },
@@ -911,6 +983,7 @@
           "league": "master",
           "category": "closers",
           "rank": 60,
+          "score": 79.4,
           "pokemon": "Dragonite (Shadow)",
           "speciesId": "dragonite_shadow"
         }
@@ -946,6 +1019,7 @@
           "league": "great",
           "category": "overall",
           "rank": 45,
+          "score": 89.6,
           "pokemon": "Dusclops",
           "speciesId": "dusclops"
         },
@@ -953,6 +1027,7 @@
           "league": "great",
           "category": "overall",
           "rank": 50,
+          "score": 89.4,
           "pokemon": "Dusclops (Shadow)",
           "speciesId": "dusclops_shadow"
         },
@@ -960,6 +1035,7 @@
           "league": "great",
           "category": "overall",
           "rank": 75,
+          "score": 88.2,
           "pokemon": "Dusknoir (Shadow)",
           "speciesId": "dusknoir_shadow"
         },
@@ -967,6 +1043,7 @@
           "league": "great",
           "category": "leads",
           "rank": 36,
+          "score": 86.2,
           "pokemon": "Dusknoir",
           "speciesId": "dusknoir"
         },
@@ -974,6 +1051,7 @@
           "league": "great",
           "category": "leads",
           "rank": 63,
+          "score": 84.9,
           "pokemon": "Dusknoir (Shadow)",
           "speciesId": "dusknoir_shadow"
         },
@@ -981,6 +1059,7 @@
           "league": "great",
           "category": "closers",
           "rank": 72,
+          "score": 83.4,
           "pokemon": "Dusclops",
           "speciesId": "dusclops"
         },
@@ -988,6 +1067,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 24,
+          "score": 90.7,
           "pokemon": "Dusknoir",
           "speciesId": "dusknoir"
         },
@@ -995,6 +1075,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 28,
+          "score": 90.6,
           "pokemon": "Dusknoir (Shadow)",
           "speciesId": "dusknoir_shadow"
         },
@@ -1002,6 +1083,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 3,
+          "score": 94.3,
           "pokemon": "Dusknoir",
           "speciesId": "dusknoir"
         },
@@ -1009,6 +1091,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 13,
+          "score": 92.8,
           "pokemon": "Dusknoir (Shadow)",
           "speciesId": "dusknoir_shadow"
         },
@@ -1016,6 +1099,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 13,
+          "score": 92.7,
           "pokemon": "Dusknoir",
           "speciesId": "dusknoir"
         },
@@ -1023,6 +1107,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 40,
+          "score": 87,
           "pokemon": "Dusknoir (Shadow)",
           "speciesId": "dusknoir_shadow"
         },
@@ -1030,6 +1115,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 43,
+          "score": 87.7,
           "pokemon": "Dusknoir (Shadow)",
           "speciesId": "dusknoir_shadow"
         },
@@ -1037,6 +1123,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 45,
+          "score": 87.5,
           "pokemon": "Dusknoir",
           "speciesId": "dusknoir"
         }
@@ -1067,6 +1154,7 @@
           "league": "great",
           "category": "closers",
           "rank": 62,
+          "score": 83.9,
           "pokemon": "Crustle",
           "speciesId": "crustle"
         },
@@ -1074,6 +1162,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 40,
+          "score": 88,
           "pokemon": "Crustle",
           "speciesId": "crustle"
         },
@@ -1081,6 +1170,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 51,
+          "score": 87,
           "pokemon": "Crustle (Shadow)",
           "speciesId": "crustle_shadow"
         }
@@ -1119,6 +1209,7 @@
           "league": "great",
           "category": "overall",
           "rank": 33,
+          "score": 90.2,
           "pokemon": "Umbreon",
           "speciesId": "umbreon"
         },
@@ -1126,6 +1217,7 @@
           "league": "great",
           "category": "leads",
           "rank": 48,
+          "score": 85.9,
           "pokemon": "Umbreon",
           "speciesId": "umbreon"
         },
@@ -1133,6 +1225,7 @@
           "league": "great",
           "category": "closers",
           "rank": 55,
+          "score": 84.3,
           "pokemon": "Sylveon",
           "speciesId": "sylveon"
         },
@@ -1140,6 +1233,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 24,
+          "score": 89.9,
           "pokemon": "Sylveon",
           "speciesId": "sylveon"
         },
@@ -1147,6 +1241,7 @@
           "league": "master",
           "category": "overall",
           "rank": 56,
+          "score": 83.1,
           "pokemon": "Sylveon",
           "speciesId": "sylveon"
         },
@@ -1154,6 +1249,7 @@
           "league": "master",
           "category": "leads",
           "rank": 47,
+          "score": 85.7,
           "pokemon": "Sylveon",
           "speciesId": "sylveon"
         },
@@ -1161,6 +1257,7 @@
           "league": "master",
           "category": "closers",
           "rank": 58,
+          "score": 79.8,
           "pokemon": "Sylveon",
           "speciesId": "sylveon"
         }
@@ -1197,6 +1294,7 @@
           "league": "great",
           "category": "closers",
           "rank": 25,
+          "score": 86.7,
           "pokemon": "Electivire (Shadow)",
           "speciesId": "electivire_shadow"
         },
@@ -1204,6 +1302,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 42,
+          "score": 87.9,
           "pokemon": "Electivire (Shadow)",
           "speciesId": "electivire_shadow"
         }
@@ -1234,6 +1333,7 @@
           "league": "great",
           "category": "leads",
           "rank": 44,
+          "score": 85.9,
           "pokemon": "Milotic",
           "speciesId": "milotic"
         },
@@ -1241,6 +1341,7 @@
           "league": "great",
           "category": "leads",
           "rank": 69,
+          "score": 84.8,
           "pokemon": "Milotic (Shadow)",
           "speciesId": "milotic_shadow"
         },
@@ -1248,6 +1349,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 40,
+          "score": 89.9,
           "pokemon": "Milotic",
           "speciesId": "milotic"
         },
@@ -1255,6 +1357,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 58,
+          "score": 89,
           "pokemon": "Milotic (Shadow)",
           "speciesId": "milotic_shadow"
         },
@@ -1262,6 +1365,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 34,
+          "score": 89.3,
           "pokemon": "Milotic",
           "speciesId": "milotic"
         },
@@ -1269,6 +1373,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 39,
+          "score": 88.6,
           "pokemon": "Milotic (Shadow)",
           "speciesId": "milotic_shadow"
         },
@@ -1276,6 +1381,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 70,
+          "score": 81.5,
           "pokemon": "Milotic",
           "speciesId": "milotic"
         }
@@ -1308,6 +1414,7 @@
           "league": "great",
           "category": "overall",
           "rank": 51,
+          "score": 89.4,
           "pokemon": "Florges",
           "speciesId": "florges"
         },
@@ -1315,6 +1422,7 @@
           "league": "great",
           "category": "leads",
           "rank": 55,
+          "score": 85.4,
           "pokemon": "Florges",
           "speciesId": "florges"
         },
@@ -1322,6 +1430,7 @@
           "league": "great",
           "category": "switches",
           "rank": 68,
+          "score": 82.2,
           "pokemon": "Florges",
           "speciesId": "florges"
         },
@@ -1329,6 +1438,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 6,
+          "score": 93,
           "pokemon": "Florges",
           "speciesId": "florges"
         },
@@ -1336,6 +1446,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 14,
+          "score": 92,
           "pokemon": "Florges",
           "speciesId": "florges"
         },
@@ -1343,6 +1454,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 21,
+          "score": 91.6,
           "pokemon": "Florges",
           "speciesId": "florges"
         },
@@ -1350,6 +1462,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 73,
+          "score": 85.9,
           "pokemon": "Florges",
           "speciesId": "florges"
         },
@@ -1357,6 +1470,7 @@
           "league": "master",
           "category": "overall",
           "rank": 36,
+          "score": 86.8,
           "pokemon": "Florges",
           "speciesId": "florges"
         },
@@ -1364,6 +1478,7 @@
           "league": "master",
           "category": "leads",
           "rank": 27,
+          "score": 89.8,
           "pokemon": "Florges",
           "speciesId": "florges"
         },
@@ -1371,6 +1486,7 @@
           "league": "master",
           "category": "switches",
           "rank": 41,
+          "score": 77.9,
           "pokemon": "Florges",
           "speciesId": "florges"
         },
@@ -1378,6 +1494,7 @@
           "league": "master",
           "category": "closers",
           "rank": 35,
+          "score": 84.1,
           "pokemon": "Florges",
           "speciesId": "florges"
         }
@@ -1412,6 +1529,7 @@
           "league": "great",
           "category": "overall",
           "rank": 35,
+          "score": 90.1,
           "pokemon": "Talonflame",
           "speciesId": "talonflame"
         },
@@ -1419,6 +1537,7 @@
           "league": "great",
           "category": "overall",
           "rank": 56,
+          "score": 89.3,
           "pokemon": "Talonflame (Shadow)",
           "speciesId": "talonflame_shadow"
         },
@@ -1426,6 +1545,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 32,
+          "score": 90.5,
           "pokemon": "Talonflame",
           "speciesId": "talonflame"
         },
@@ -1433,6 +1553,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 37,
+          "score": 90.2,
           "pokemon": "Talonflame (Shadow)",
           "speciesId": "talonflame_shadow"
         }
@@ -1464,6 +1585,7 @@
           "league": "master",
           "category": "overall",
           "rank": 69,
+          "score": 80.4,
           "pokemon": "Baxcalibur",
           "speciesId": "baxcalibur"
         },
@@ -1471,6 +1593,7 @@
           "league": "master",
           "category": "leads",
           "rank": 60,
+          "score": 82.5,
           "pokemon": "Baxcalibur",
           "speciesId": "baxcalibur"
         },
@@ -1478,6 +1601,7 @@
           "league": "master",
           "category": "switches",
           "rank": 65,
+          "score": 69,
           "pokemon": "Baxcalibur",
           "speciesId": "baxcalibur"
         },
@@ -1485,6 +1609,7 @@
           "league": "master",
           "category": "closers",
           "rank": 49,
+          "score": 81,
           "pokemon": "Baxcalibur",
           "speciesId": "baxcalibur"
         }
@@ -1516,6 +1641,7 @@
           "league": "great",
           "category": "overall",
           "rank": 10,
+          "score": 91.6,
           "pokemon": "Jellicent",
           "speciesId": "jellicent"
         },
@@ -1523,6 +1649,7 @@
           "league": "great",
           "category": "leads",
           "rank": 39,
+          "score": 86,
           "pokemon": "Jellicent",
           "speciesId": "jellicent"
         },
@@ -1530,6 +1657,7 @@
           "league": "great",
           "category": "closers",
           "rank": 35,
+          "score": 85.5,
           "pokemon": "Jellicent",
           "speciesId": "jellicent"
         },
@@ -1537,6 +1665,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 13,
+          "score": 91.8,
           "pokemon": "Jellicent",
           "speciesId": "jellicent"
         },
@@ -1544,6 +1673,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 15,
+          "score": 91.4,
           "pokemon": "Jellicent",
           "speciesId": "jellicent"
         },
@@ -1551,6 +1681,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 73,
+          "score": 81.3,
           "pokemon": "Jellicent",
           "speciesId": "jellicent"
         },
@@ -1558,6 +1689,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 7,
+          "score": 92.6,
           "pokemon": "Jellicent",
           "speciesId": "jellicent"
         }
@@ -1590,6 +1722,7 @@
           "league": "great",
           "category": "leads",
           "rank": 25,
+          "score": 86.9,
           "pokemon": "Greninja (Shadow)",
           "speciesId": "greninja_shadow"
         },
@@ -1597,6 +1730,7 @@
           "league": "great",
           "category": "closers",
           "rank": 57,
+          "score": 84.1,
           "pokemon": "Greninja (Shadow)",
           "speciesId": "greninja_shadow"
         }
@@ -1641,6 +1775,7 @@
           "league": "great",
           "category": "overall",
           "rank": 17,
+          "score": 90.9,
           "pokemon": "Corsola (Galarian)",
           "speciesId": "corsola_galarian"
         },
@@ -1648,6 +1783,7 @@
           "league": "great",
           "category": "leads",
           "rank": 13,
+          "score": 88.2,
           "pokemon": "Corsola (Galarian)",
           "speciesId": "corsola_galarian"
         },
@@ -1655,6 +1791,7 @@
           "league": "great",
           "category": "closers",
           "rank": 15,
+          "score": 87.5,
           "pokemon": "Corsola (Galarian)",
           "speciesId": "corsola_galarian"
         }
@@ -1685,6 +1822,7 @@
           "league": "great",
           "category": "overall",
           "rank": 52,
+          "score": 89.4,
           "pokemon": "Moltres (Galarian)",
           "speciesId": "moltres_galarian"
         },
@@ -1692,6 +1830,7 @@
           "league": "great",
           "category": "closers",
           "rank": 23,
+          "score": 86.8,
           "pokemon": "Moltres (Galarian)",
           "speciesId": "moltres_galarian"
         },
@@ -1699,6 +1838,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 10,
+          "score": 92.2,
           "pokemon": "Moltres (Galarian)",
           "speciesId": "moltres_galarian"
         },
@@ -1706,6 +1846,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 17,
+          "score": 91.4,
           "pokemon": "Moltres (Galarian)",
           "speciesId": "moltres_galarian"
         },
@@ -1713,6 +1854,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 38,
+          "score": 87.3,
           "pokemon": "Moltres (Galarian)",
           "speciesId": "moltres_galarian"
         },
@@ -1720,6 +1862,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 5,
+          "score": 92.9,
           "pokemon": "Moltres (Galarian)",
           "speciesId": "moltres_galarian"
         }
@@ -1750,6 +1893,7 @@
           "league": "great",
           "category": "overall",
           "rank": 71,
+          "score": 88.5,
           "pokemon": "Stunfisk (Galarian)",
           "speciesId": "stunfisk_galarian"
         },
@@ -1757,6 +1901,7 @@
           "league": "great",
           "category": "leads",
           "rank": 21,
+          "score": 87.4,
           "pokemon": "Stunfisk (Galarian)",
           "speciesId": "stunfisk_galarian"
         },
@@ -1764,6 +1909,7 @@
           "league": "great",
           "category": "switches",
           "rank": 32,
+          "score": 86.6,
           "pokemon": "Stunfisk (Galarian)",
           "speciesId": "stunfisk_galarian"
         },
@@ -1771,6 +1917,7 @@
           "league": "great",
           "category": "closers",
           "rank": 11,
+          "score": 88.3,
           "pokemon": "Stunfisk (Galarian)",
           "speciesId": "stunfisk_galarian"
         },
@@ -1778,6 +1925,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 25,
+          "score": 89.7,
           "pokemon": "Stunfisk (Galarian)",
           "speciesId": "stunfisk_galarian"
         }
@@ -1808,6 +1956,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 50,
+          "score": 89.5,
           "pokemon": "Runerigus",
           "speciesId": "runerigus"
         },
@@ -1815,6 +1964,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 47,
+          "score": 88.2,
           "pokemon": "Runerigus",
           "speciesId": "runerigus"
         },
@@ -1822,6 +1972,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 39,
+          "score": 87.3,
           "pokemon": "Runerigus",
           "speciesId": "runerigus"
         },
@@ -1829,6 +1980,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 70,
+          "score": 86,
           "pokemon": "Runerigus",
           "speciesId": "runerigus"
         }
@@ -1861,6 +2013,7 @@
           "league": "master",
           "category": "overall",
           "rank": 20,
+          "score": 89.7,
           "pokemon": "Garchomp (Shadow)",
           "speciesId": "garchomp_shadow"
         },
@@ -1868,6 +2021,7 @@
           "league": "master",
           "category": "overall",
           "rank": 23,
+          "score": 88.7,
           "pokemon": "Garchomp",
           "speciesId": "garchomp"
         },
@@ -1875,6 +2029,7 @@
           "league": "master",
           "category": "leads",
           "rank": 13,
+          "score": 94.5,
           "pokemon": "Garchomp",
           "speciesId": "garchomp"
         },
@@ -1882,6 +2037,7 @@
           "league": "master",
           "category": "leads",
           "rank": 29,
+          "score": 89.6,
           "pokemon": "Garchomp (Shadow)",
           "speciesId": "garchomp_shadow"
         },
@@ -1889,6 +2045,7 @@
           "league": "master",
           "category": "switches",
           "rank": 28,
+          "score": 81.8,
           "pokemon": "Garchomp",
           "speciesId": "garchomp"
         },
@@ -1896,6 +2053,7 @@
           "league": "master",
           "category": "switches",
           "rank": 60,
+          "score": 70.4,
           "pokemon": "Garchomp (Shadow)",
           "speciesId": "garchomp_shadow"
         },
@@ -1903,6 +2061,7 @@
           "league": "master",
           "category": "closers",
           "rank": 10,
+          "score": 93.4,
           "pokemon": "Garchomp (Shadow)",
           "speciesId": "garchomp_shadow"
         },
@@ -1910,6 +2069,7 @@
           "league": "master",
           "category": "closers",
           "rank": 34,
+          "score": 85,
           "pokemon": "Garchomp",
           "speciesId": "garchomp"
         }
@@ -1941,6 +2101,7 @@
           "league": "master",
           "category": "overall",
           "rank": 34,
+          "score": 87,
           "pokemon": "Gholdengo",
           "speciesId": "gholdengo"
         },
@@ -1948,6 +2109,7 @@
           "league": "master",
           "category": "leads",
           "rank": 59,
+          "score": 83,
           "pokemon": "Gholdengo",
           "speciesId": "gholdengo"
         },
@@ -1955,6 +2117,7 @@
           "league": "master",
           "category": "switches",
           "rank": 64,
+          "score": 69.7,
           "pokemon": "Gholdengo",
           "speciesId": "gholdengo"
         },
@@ -1962,6 +2125,7 @@
           "league": "master",
           "category": "closers",
           "rank": 27,
+          "score": 90.1,
           "pokemon": "Gholdengo",
           "speciesId": "gholdengo"
         }
@@ -2007,6 +2171,7 @@
           "league": "great",
           "category": "leads",
           "rank": 70,
+          "score": 84.6,
           "pokemon": "Gligar (Shadow)",
           "speciesId": "gligar_shadow"
         },
@@ -2014,6 +2179,7 @@
           "league": "great",
           "category": "switches",
           "rank": 71,
+          "score": 82.1,
           "pokemon": "Gligar (Shadow)",
           "speciesId": "gligar_shadow"
         },
@@ -2021,6 +2187,7 @@
           "league": "great",
           "category": "closers",
           "rank": 63,
+          "score": 83.9,
           "pokemon": "Gliscor",
           "speciesId": "gliscor"
         },
@@ -2028,6 +2195,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 66,
+          "score": 86.2,
           "pokemon": "Gliscor",
           "speciesId": "gliscor"
         }
@@ -2057,6 +2225,7 @@
           "league": "great",
           "category": "switches",
           "rank": 30,
+          "score": 87.2,
           "pokemon": "Seaking",
           "speciesId": "seaking"
         },
@@ -2064,6 +2233,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 48,
+          "score": 89.7,
           "pokemon": "Seaking",
           "speciesId": "seaking"
         },
@@ -2071,6 +2241,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 67,
+          "score": 87.5,
           "pokemon": "Seaking",
           "speciesId": "seaking"
         },
@@ -2078,6 +2249,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 12,
+          "score": 93.4,
           "pokemon": "Seaking",
           "speciesId": "seaking"
         }
@@ -2109,6 +2281,7 @@
           "league": "great",
           "category": "overall",
           "rank": 38,
+          "score": 89.9,
           "pokemon": "Sliggoo",
           "speciesId": "sliggoo"
         },
@@ -2116,6 +2289,7 @@
           "league": "great",
           "category": "leads",
           "rank": 8,
+          "score": 89.4,
           "pokemon": "Sliggoo",
           "speciesId": "sliggoo"
         },
@@ -2123,6 +2297,7 @@
           "league": "great",
           "category": "leads",
           "rank": 32,
+          "score": 86.5,
           "pokemon": "Goodra",
           "speciesId": "goodra"
         },
@@ -2130,6 +2305,7 @@
           "league": "great",
           "category": "switches",
           "rank": 52,
+          "score": 83.9,
           "pokemon": "Goodra",
           "speciesId": "goodra"
         },
@@ -2137,6 +2313,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 61,
+          "score": 87.5,
           "pokemon": "Goodra",
           "speciesId": "goodra"
         },
@@ -2144,6 +2321,7 @@
           "league": "master",
           "category": "overall",
           "rank": 53,
+          "score": 83.9,
           "pokemon": "Goodra",
           "speciesId": "goodra"
         },
@@ -2151,6 +2329,7 @@
           "league": "master",
           "category": "leads",
           "rank": 49,
+          "score": 84.8,
           "pokemon": "Goodra",
           "speciesId": "goodra"
         },
@@ -2158,6 +2337,7 @@
           "league": "master",
           "category": "switches",
           "rank": 45,
+          "score": 76.8,
           "pokemon": "Goodra",
           "speciesId": "goodra"
         }
@@ -2191,6 +2371,7 @@
           "league": "great",
           "category": "overall",
           "rank": 61,
+          "score": 89,
           "pokemon": "Charjabug",
           "speciesId": "charjabug"
         },
@@ -2198,6 +2379,7 @@
           "league": "great",
           "category": "closers",
           "rank": 70,
+          "score": 83.6,
           "pokemon": "Charjabug",
           "speciesId": "charjabug"
         }
@@ -2228,6 +2410,7 @@
           "league": "great",
           "category": "switches",
           "rank": 8,
+          "score": 92.9,
           "pokemon": "Hippowdon (Shadow)",
           "speciesId": "hippowdon_shadow"
         },
@@ -2235,6 +2418,7 @@
           "league": "great",
           "category": "switches",
           "rank": 29,
+          "score": 87.5,
           "pokemon": "Hippowdon",
           "speciesId": "hippowdon"
         },
@@ -2242,6 +2426,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 63,
+          "score": 88.9,
           "pokemon": "Hippowdon",
           "speciesId": "hippowdon"
         },
@@ -2249,6 +2434,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 71,
+          "score": 88.6,
           "pokemon": "Hippowdon (Shadow)",
           "speciesId": "hippowdon_shadow"
         },
@@ -2256,6 +2442,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 62,
+          "score": 87.5,
           "pokemon": "Hippowdon",
           "speciesId": "hippowdon"
         },
@@ -2263,6 +2450,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 35,
+          "score": 87.8,
           "pokemon": "Hippowdon (Shadow)",
           "speciesId": "hippowdon_shadow"
         },
@@ -2270,6 +2458,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 42,
+          "score": 86.7,
           "pokemon": "Hippowdon",
           "speciesId": "hippowdon"
         },
@@ -2277,6 +2466,7 @@
           "league": "master",
           "category": "leads",
           "rank": 70,
+          "score": 80.6,
           "pokemon": "Hippowdon",
           "speciesId": "hippowdon"
         },
@@ -2284,6 +2474,7 @@
           "league": "master",
           "category": "switches",
           "rank": 52,
+          "score": 74.4,
           "pokemon": "Hippowdon (Shadow)",
           "speciesId": "hippowdon_shadow"
         },
@@ -2291,6 +2482,7 @@
           "league": "master",
           "category": "switches",
           "rank": 62,
+          "score": 70.1,
           "pokemon": "Hippowdon",
           "speciesId": "hippowdon"
         }
@@ -2322,6 +2514,7 @@
           "league": "great",
           "category": "switches",
           "rank": 66,
+          "score": 82.4,
           "pokemon": "Qwilfish (Hisuian)",
           "speciesId": "qwilfish_hisuian"
         },
@@ -2329,6 +2522,7 @@
           "league": "great",
           "category": "switches",
           "rank": 69,
+          "score": 82.2,
           "pokemon": "Overqwil",
           "speciesId": "overqwil"
         }
@@ -2363,6 +2557,7 @@
           "league": "great",
           "category": "overall",
           "rank": 67,
+          "score": 88.7,
           "pokemon": "Aegislash (Blade)",
           "speciesId": "aegislash_shield"
         },
@@ -2370,6 +2565,7 @@
           "league": "great",
           "category": "switches",
           "rank": 56,
+          "score": 83.3,
           "pokemon": "Doublade",
           "speciesId": "doublade"
         },
@@ -2377,6 +2573,7 @@
           "league": "great",
           "category": "closers",
           "rank": 2,
+          "score": 98.3,
           "pokemon": "Aegislash (Blade)",
           "speciesId": "aegislash_shield"
         },
@@ -2384,6 +2581,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 29,
+          "score": 89.6,
           "pokemon": "Doublade",
           "speciesId": "doublade"
         },
@@ -2391,6 +2589,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 37,
+          "score": 87.3,
           "pokemon": "Doublade",
           "speciesId": "doublade"
         },
@@ -2398,6 +2597,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 36,
+          "score": 88.4,
           "pokemon": "Aegislash (Blade)",
           "speciesId": "aegislash_shield"
         }
@@ -2440,6 +2640,7 @@
           "league": "great",
           "category": "closers",
           "rank": 10,
+          "score": 88.3,
           "pokemon": "Noctowl",
           "speciesId": "noctowl"
         }
@@ -2472,6 +2673,7 @@
           "league": "great",
           "category": "overall",
           "rank": 18,
+          "score": 90.9,
           "pokemon": "Jumpluff",
           "speciesId": "jumpluff"
         },
@@ -2479,6 +2681,7 @@
           "league": "great",
           "category": "leads",
           "rank": 34,
+          "score": 86.3,
           "pokemon": "Jumpluff",
           "speciesId": "jumpluff"
         },
@@ -2486,6 +2689,7 @@
           "league": "great",
           "category": "leads",
           "rank": 59,
+          "score": 85.2,
           "pokemon": "Jumpluff (Shadow)",
           "speciesId": "jumpluff_shadow"
         },
@@ -2493,6 +2697,7 @@
           "league": "great",
           "category": "switches",
           "rank": 37,
+          "score": 85.7,
           "pokemon": "Jumpluff (Shadow)",
           "speciesId": "jumpluff_shadow"
         },
@@ -2500,6 +2705,7 @@
           "league": "great",
           "category": "switches",
           "rank": 60,
+          "score": 83,
           "pokemon": "Jumpluff",
           "speciesId": "jumpluff"
         },
@@ -2507,6 +2713,7 @@
           "league": "great",
           "category": "closers",
           "rank": 19,
+          "score": 87.3,
           "pokemon": "Jumpluff",
           "speciesId": "jumpluff"
         },
@@ -2514,6 +2721,7 @@
           "league": "great",
           "category": "closers",
           "rank": 20,
+          "score": 87.3,
           "pokemon": "Jumpluff (Shadow)",
           "speciesId": "jumpluff_shadow"
         }
@@ -2546,6 +2754,7 @@
           "league": "great",
           "category": "overall",
           "rank": 23,
+          "score": 90.6,
           "pokemon": "Kingdra",
           "speciesId": "kingdra"
         },
@@ -2553,6 +2762,7 @@
           "league": "great",
           "category": "overall",
           "rank": 27,
+          "score": 90.3,
           "pokemon": "Kingdra (Shadow)",
           "speciesId": "kingdra_shadow"
         },
@@ -2560,6 +2770,7 @@
           "league": "great",
           "category": "leads",
           "rank": 9,
+          "score": 89.3,
           "pokemon": "Kingdra (Shadow)",
           "speciesId": "kingdra_shadow"
         },
@@ -2567,6 +2778,7 @@
           "league": "great",
           "category": "leads",
           "rank": 17,
+          "score": 87.7,
           "pokemon": "Kingdra",
           "speciesId": "kingdra"
         },
@@ -2574,6 +2786,7 @@
           "league": "great",
           "category": "switches",
           "rank": 74,
+          "score": 81.9,
           "pokemon": "Kingdra (Shadow)",
           "speciesId": "kingdra_shadow"
         },
@@ -2581,6 +2794,7 @@
           "league": "great",
           "category": "closers",
           "rank": 73,
+          "score": 83.4,
           "pokemon": "Kingdra",
           "speciesId": "kingdra"
         },
@@ -2588,6 +2802,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 20,
+          "score": 91,
           "pokemon": "Kingdra",
           "speciesId": "kingdra"
         },
@@ -2595,6 +2810,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 39,
+          "score": 90,
           "pokemon": "Kingdra (Shadow)",
           "speciesId": "kingdra_shadow"
         },
@@ -2602,6 +2818,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 16,
+          "score": 91.4,
           "pokemon": "Kingdra",
           "speciesId": "kingdra"
         },
@@ -2609,6 +2826,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 50,
+          "score": 88,
           "pokemon": "Kingdra (Shadow)",
           "speciesId": "kingdra_shadow"
         },
@@ -2616,6 +2834,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 25,
+          "score": 90.5,
           "pokemon": "Kingdra (Shadow)",
           "speciesId": "kingdra_shadow"
         },
@@ -2623,6 +2842,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 26,
+          "score": 89.8,
           "pokemon": "Kingdra",
           "speciesId": "kingdra"
         }
@@ -2653,6 +2873,7 @@
           "league": "great",
           "category": "overall",
           "rank": 59,
+          "score": 89.1,
           "pokemon": "Malamar",
           "speciesId": "malamar"
         },
@@ -2660,6 +2881,7 @@
           "league": "great",
           "category": "leads",
           "rank": 19,
+          "score": 87.6,
           "pokemon": "Malamar",
           "speciesId": "malamar"
         },
@@ -2667,6 +2889,7 @@
           "league": "great",
           "category": "closers",
           "rank": 30,
+          "score": 85.9,
           "pokemon": "Malamar",
           "speciesId": "malamar"
         },
@@ -2674,6 +2897,7 @@
           "league": "great",
           "category": "closers",
           "rank": 59,
+          "score": 84.1,
           "pokemon": "Malamar (Shadow)",
           "speciesId": "malamar_shadow"
         },
@@ -2681,6 +2905,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 26,
+          "score": 90.7,
           "pokemon": "Malamar",
           "speciesId": "malamar"
         },
@@ -2688,6 +2913,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 29,
+          "score": 90.6,
           "pokemon": "Malamar (Shadow)",
           "speciesId": "malamar_shadow"
         },
@@ -2695,6 +2921,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 21,
+          "score": 91.1,
           "pokemon": "Malamar (Shadow)",
           "speciesId": "malamar_shadow"
         },
@@ -2702,6 +2929,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 32,
+          "score": 89.4,
           "pokemon": "Malamar",
           "speciesId": "malamar"
         },
@@ -2709,6 +2937,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 22,
+          "score": 91.3,
           "pokemon": "Malamar",
           "speciesId": "malamar"
         },
@@ -2716,6 +2945,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 22,
+          "score": 89.9,
           "pokemon": "Malamar (Shadow)",
           "speciesId": "malamar_shadow"
         },
@@ -2723,6 +2953,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 52,
+          "score": 87,
           "pokemon": "Malamar",
           "speciesId": "malamar"
         }
@@ -2754,6 +2985,7 @@
           "league": "great",
           "category": "closers",
           "rank": 38,
+          "score": 85.2,
           "pokemon": "Kommo-o",
           "speciesId": "kommo_o"
         },
@@ -2761,6 +2993,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 35,
+          "score": 88.5,
           "pokemon": "Kommo-o",
           "speciesId": "kommo_o"
         },
@@ -2768,6 +3001,7 @@
           "league": "master",
           "category": "closers",
           "rank": 71,
+          "score": 77.7,
           "pokemon": "Kommo-o",
           "speciesId": "kommo_o"
         }
@@ -2796,6 +3030,7 @@
           "league": "master",
           "category": "overall",
           "rank": 44,
+          "score": 85.2,
           "pokemon": "Jirachi",
           "speciesId": "jirachi"
         },
@@ -2803,6 +3038,7 @@
           "league": "master",
           "category": "leads",
           "rank": 48,
+          "score": 85.3,
           "pokemon": "Jirachi",
           "speciesId": "jirachi"
         },
@@ -2810,6 +3046,7 @@
           "league": "master",
           "category": "switches",
           "rank": 46,
+          "score": 76.6,
           "pokemon": "Jirachi",
           "speciesId": "jirachi"
         },
@@ -2817,6 +3054,7 @@
           "league": "master",
           "category": "closers",
           "rank": 44,
+          "score": 82.2,
           "pokemon": "Jirachi",
           "speciesId": "jirachi"
         }
@@ -2849,6 +3087,7 @@
           "league": "master",
           "category": "overall",
           "rank": 39,
+          "score": 86.3,
           "pokemon": "Keldeo (Resolute)",
           "speciesId": "keldeo_resolute"
         },
@@ -2856,6 +3095,7 @@
           "league": "master",
           "category": "leads",
           "rank": 41,
+          "score": 86.3,
           "pokemon": "Keldeo (Resolute)",
           "speciesId": "keldeo_resolute"
         },
@@ -2863,6 +3103,7 @@
           "league": "master",
           "category": "switches",
           "rank": 54,
+          "score": 73.7,
           "pokemon": "Keldeo (Resolute)",
           "speciesId": "keldeo_resolute"
         },
@@ -2870,6 +3111,7 @@
           "league": "master",
           "category": "closers",
           "rank": 43,
+          "score": 82.5,
           "pokemon": "Keldeo (Resolute)",
           "speciesId": "keldeo_resolute"
         }
@@ -2901,6 +3143,7 @@
           "league": "great",
           "category": "overall",
           "rank": 28,
+          "score": 90.3,
           "pokemon": "Lapras",
           "speciesId": "lapras"
         },
@@ -2908,6 +3151,7 @@
           "league": "great",
           "category": "overall",
           "rank": 46,
+          "score": 89.5,
           "pokemon": "Lapras (Shadow)",
           "speciesId": "lapras_shadow"
         },
@@ -2915,6 +3159,7 @@
           "league": "great",
           "category": "leads",
           "rank": 18,
+          "score": 87.7,
           "pokemon": "Lapras",
           "speciesId": "lapras"
         },
@@ -2922,6 +3167,7 @@
           "league": "great",
           "category": "switches",
           "rank": 26,
+          "score": 87.9,
           "pokemon": "Lapras",
           "speciesId": "lapras"
         },
@@ -2929,6 +3175,7 @@
           "league": "great",
           "category": "switches",
           "rank": 57,
+          "score": 83.3,
           "pokemon": "Lapras (Shadow)",
           "speciesId": "lapras_shadow"
         },
@@ -2936,6 +3183,7 @@
           "league": "great",
           "category": "closers",
           "rank": 7,
+          "score": 89.6,
           "pokemon": "Lapras",
           "speciesId": "lapras"
         },
@@ -2943,6 +3191,7 @@
           "league": "great",
           "category": "closers",
           "rank": 58,
+          "score": 84.1,
           "pokemon": "Lapras (Shadow)",
           "speciesId": "lapras_shadow"
         },
@@ -2950,6 +3199,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 25,
+          "score": 90.7,
           "pokemon": "Lapras",
           "speciesId": "lapras"
         },
@@ -2957,6 +3207,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 30,
+          "score": 90.5,
           "pokemon": "Lapras (Shadow)",
           "speciesId": "lapras_shadow"
         },
@@ -2964,6 +3215,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 8,
+          "score": 93.5,
           "pokemon": "Lapras",
           "speciesId": "lapras"
         },
@@ -2971,6 +3223,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 19,
+          "score": 91.1,
           "pokemon": "Lapras (Shadow)",
           "speciesId": "lapras_shadow"
         },
@@ -2978,6 +3231,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 5,
+          "score": 95.7,
           "pokemon": "Lapras",
           "speciesId": "lapras"
         },
@@ -2985,6 +3239,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 7,
+          "score": 94.7,
           "pokemon": "Lapras (Shadow)",
           "speciesId": "lapras_shadow"
         },
@@ -2992,6 +3247,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 9,
+          "score": 92.1,
           "pokemon": "Lapras (Shadow)",
           "speciesId": "lapras_shadow"
         },
@@ -2999,6 +3255,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 11,
+          "score": 91.4,
           "pokemon": "Lapras",
           "speciesId": "lapras"
         }
@@ -3031,6 +3288,7 @@
           "league": "master",
           "category": "overall",
           "rank": 55,
+          "score": 83.2,
           "pokemon": "Tyranitar (Shadow)",
           "speciesId": "tyranitar_shadow"
         },
@@ -3038,6 +3296,7 @@
           "league": "master",
           "category": "leads",
           "rank": 57,
+          "score": 83.4,
           "pokemon": "Tyranitar (Shadow)",
           "speciesId": "tyranitar_shadow"
         },
@@ -3045,6 +3304,7 @@
           "league": "master",
           "category": "leads",
           "rank": 69,
+          "score": 80.7,
           "pokemon": "Tyranitar",
           "speciesId": "tyranitar"
         },
@@ -3052,6 +3312,7 @@
           "league": "master",
           "category": "switches",
           "rank": 37,
+          "score": 79.3,
           "pokemon": "Tyranitar (Shadow)",
           "speciesId": "tyranitar_shadow"
         },
@@ -3059,6 +3320,7 @@
           "league": "master",
           "category": "switches",
           "rank": 56,
+          "score": 72.4,
           "pokemon": "Tyranitar",
           "speciesId": "tyranitar"
         }
@@ -3090,6 +3352,7 @@
           "league": "great",
           "category": "overall",
           "rank": 1,
+          "score": 93.7,
           "pokemon": "Lickilicky",
           "speciesId": "lickilicky"
         },
@@ -3097,6 +3360,7 @@
           "league": "great",
           "category": "leads",
           "rank": 28,
+          "score": 86.8,
           "pokemon": "Lickilicky",
           "speciesId": "lickilicky"
         },
@@ -3104,6 +3368,7 @@
           "league": "great",
           "category": "leads",
           "rank": 71,
+          "score": 84.6,
           "pokemon": "Lickitung",
           "speciesId": "lickitung"
         },
@@ -3111,6 +3376,7 @@
           "league": "great",
           "category": "switches",
           "rank": 15,
+          "score": 91.2,
           "pokemon": "Lickilicky",
           "speciesId": "lickilicky"
         },
@@ -3118,6 +3384,7 @@
           "league": "great",
           "category": "switches",
           "rank": 41,
+          "score": 85,
           "pokemon": "Lickitung",
           "speciesId": "lickitung"
         },
@@ -3125,6 +3392,7 @@
           "league": "great",
           "category": "closers",
           "rank": 27,
+          "score": 86.4,
           "pokemon": "Lickilicky",
           "speciesId": "lickilicky"
         },
@@ -3132,6 +3400,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 2,
+          "score": 93.8,
           "pokemon": "Lickilicky",
           "speciesId": "lickilicky"
         },
@@ -3139,6 +3408,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 20,
+          "score": 91.1,
           "pokemon": "Lickilicky",
           "speciesId": "lickilicky"
         },
@@ -3146,6 +3416,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 55,
+          "score": 84.1,
           "pokemon": "Lickilicky",
           "speciesId": "lickilicky"
         },
@@ -3153,6 +3424,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 37,
+          "score": 88.4,
           "pokemon": "Lickilicky",
           "speciesId": "lickilicky"
         }
@@ -3196,6 +3468,7 @@
           "league": "great",
           "category": "overall",
           "rank": 49,
+          "score": 89.4,
           "pokemon": "Cradily",
           "speciesId": "cradily"
         },
@@ -3203,6 +3476,7 @@
           "league": "great",
           "category": "leads",
           "rank": 41,
+          "score": 85.9,
           "pokemon": "Cradily",
           "speciesId": "cradily"
         },
@@ -3210,6 +3484,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 43,
+          "score": 89.8,
           "pokemon": "Cradily",
           "speciesId": "cradily"
         },
@@ -3217,6 +3492,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 52,
+          "score": 89.3,
           "pokemon": "Cradily (Shadow)",
           "speciesId": "cradily_shadow"
         },
@@ -3224,6 +3500,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 26,
+          "score": 89.9,
           "pokemon": "Cradily",
           "speciesId": "cradily"
         }
@@ -3252,6 +3529,7 @@
           "league": "great",
           "category": "switches",
           "rank": 55,
+          "score": 83.5,
           "pokemon": "Lunatone",
           "speciesId": "lunatone"
         }
@@ -3282,6 +3560,7 @@
           "league": "great",
           "category": "switches",
           "rank": 72,
+          "score": 82.1,
           "pokemon": "Gyarados",
           "speciesId": "gyarados"
         },
@@ -3289,6 +3568,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 66,
+          "score": 88.8,
           "pokemon": "Gyarados",
           "speciesId": "gyarados"
         },
@@ -3296,6 +3576,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 47,
+          "score": 85.4,
           "pokemon": "Gyarados (Shadow)",
           "speciesId": "gyarados_shadow"
         },
@@ -3303,6 +3584,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 65,
+          "score": 82.6,
           "pokemon": "Gyarados",
           "speciesId": "gyarados"
         },
@@ -3310,6 +3592,7 @@
           "league": "master",
           "category": "overall",
           "rank": 32,
+          "score": 87.6,
           "pokemon": "Gyarados (Shadow)",
           "speciesId": "gyarados_shadow"
         },
@@ -3317,6 +3600,7 @@
           "league": "master",
           "category": "overall",
           "rank": 58,
+          "score": 82.4,
           "pokemon": "Gyarados",
           "speciesId": "gyarados"
         },
@@ -3324,6 +3608,7 @@
           "league": "master",
           "category": "leads",
           "rank": 20,
+          "score": 92.1,
           "pokemon": "Gyarados (Shadow)",
           "speciesId": "gyarados_shadow"
         },
@@ -3331,6 +3616,7 @@
           "league": "master",
           "category": "leads",
           "rank": 52,
+          "score": 84,
           "pokemon": "Gyarados",
           "speciesId": "gyarados"
         },
@@ -3338,6 +3624,7 @@
           "league": "master",
           "category": "switches",
           "rank": 11,
+          "score": 89.8,
           "pokemon": "Gyarados (Shadow)",
           "speciesId": "gyarados_shadow"
         },
@@ -3345,6 +3632,7 @@
           "league": "master",
           "category": "switches",
           "rank": 32,
+          "score": 80.5,
           "pokemon": "Gyarados",
           "speciesId": "gyarados"
         },
@@ -3352,6 +3640,7 @@
           "league": "master",
           "category": "closers",
           "rank": 67,
+          "score": 78.1,
           "pokemon": "Gyarados (Shadow)",
           "speciesId": "gyarados_shadow"
         }
@@ -3400,6 +3689,7 @@
           "league": "great",
           "category": "leads",
           "rank": 23,
+          "score": 87.1,
           "pokemon": "Primeape (Shadow)",
           "speciesId": "primeape_shadow"
         },
@@ -3407,6 +3697,7 @@
           "league": "great",
           "category": "switches",
           "rank": 14,
+          "score": 91.3,
           "pokemon": "Primeape (Shadow)",
           "speciesId": "primeape_shadow"
         },
@@ -3414,6 +3705,7 @@
           "league": "great",
           "category": "switches",
           "rank": 27,
+          "score": 87.9,
           "pokemon": "Primeape",
           "speciesId": "primeape"
         },
@@ -3421,6 +3713,7 @@
           "league": "great",
           "category": "switches",
           "rank": 75,
+          "score": 81.7,
           "pokemon": "Annihilape",
           "speciesId": "annihilape"
         },
@@ -3428,6 +3721,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 11,
+          "score": 91.8,
           "pokemon": "Annihilape",
           "speciesId": "annihilape"
         },
@@ -3435,6 +3729,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 12,
+          "score": 91.8,
           "pokemon": "Annihilape (Shadow)",
           "speciesId": "annihilape_shadow"
         },
@@ -3442,6 +3737,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 14,
+          "score": 91.8,
           "pokemon": "Primeape",
           "speciesId": "primeape"
         },
@@ -3449,6 +3745,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 7,
+          "score": 93.6,
           "pokemon": "Primeape",
           "speciesId": "primeape"
         },
@@ -3456,6 +3753,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 30,
+          "score": 89.4,
           "pokemon": "Annihilape",
           "speciesId": "annihilape"
         },
@@ -3463,6 +3761,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 35,
+          "score": 89.1,
           "pokemon": "Annihilape (Shadow)",
           "speciesId": "annihilape_shadow"
         },
@@ -3470,6 +3769,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 8,
+          "score": 94.5,
           "pokemon": "Primeape",
           "speciesId": "primeape"
         },
@@ -3477,6 +3777,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 10,
+          "score": 93.6,
           "pokemon": "Primeape (Shadow)",
           "speciesId": "primeape_shadow"
         },
@@ -3484,6 +3785,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 33,
+          "score": 88.2,
           "pokemon": "Annihilape",
           "speciesId": "annihilape"
         },
@@ -3491,6 +3793,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 36,
+          "score": 87.5,
           "pokemon": "Annihilape (Shadow)",
           "speciesId": "annihilape_shadow"
         },
@@ -3498,6 +3801,7 @@
           "league": "master",
           "category": "overall",
           "rank": 47,
+          "score": 84.6,
           "pokemon": "Annihilape (Shadow)",
           "speciesId": "annihilape_shadow"
         },
@@ -3505,6 +3809,7 @@
           "league": "master",
           "category": "overall",
           "rank": 59,
+          "score": 82.3,
           "pokemon": "Annihilape",
           "speciesId": "annihilape"
         },
@@ -3512,6 +3817,7 @@
           "league": "master",
           "category": "leads",
           "rank": 37,
+          "score": 86.8,
           "pokemon": "Annihilape (Shadow)",
           "speciesId": "annihilape_shadow"
         },
@@ -3519,6 +3825,7 @@
           "league": "master",
           "category": "leads",
           "rank": 54,
+          "score": 83.5,
           "pokemon": "Annihilape",
           "speciesId": "annihilape"
         },
@@ -3526,6 +3833,7 @@
           "league": "master",
           "category": "switches",
           "rank": 33,
+          "score": 79.8,
           "pokemon": "Annihilape (Shadow)",
           "speciesId": "annihilape_shadow"
         },
@@ -3533,6 +3841,7 @@
           "league": "master",
           "category": "switches",
           "rank": 49,
+          "score": 75.7,
           "pokemon": "Annihilape",
           "speciesId": "annihilape"
         }
@@ -3588,6 +3897,7 @@
           "league": "great",
           "category": "closers",
           "rank": 28,
+          "score": 86.4,
           "pokemon": "Toxapex",
           "speciesId": "toxapex"
         }
@@ -3620,6 +3930,7 @@
           "league": "great",
           "category": "switches",
           "rank": 53,
+          "score": 83.8,
           "pokemon": "Ampharos (Shadow)",
           "speciesId": "ampharos_shadow"
         },
@@ -3627,6 +3938,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 57,
+          "score": 89,
           "pokemon": "Ampharos (Shadow)",
           "speciesId": "ampharos_shadow"
         },
@@ -3634,6 +3946,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 61,
+          "score": 88.9,
           "pokemon": "Ampharos",
           "speciesId": "ampharos"
         },
@@ -3641,6 +3954,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 41,
+          "score": 86.9,
           "pokemon": "Ampharos (Shadow)",
           "speciesId": "ampharos_shadow"
         },
@@ -3648,6 +3962,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 75,
+          "score": 81,
           "pokemon": "Ampharos",
           "speciesId": "ampharos"
         }
@@ -3676,6 +3991,7 @@
           "league": "master",
           "category": "overall",
           "rank": 13,
+          "score": 92.6,
           "pokemon": "Marshadow",
           "speciesId": "marshadow"
         },
@@ -3683,6 +3999,7 @@
           "league": "master",
           "category": "leads",
           "rank": 1,
+          "score": 100,
           "pokemon": "Marshadow",
           "speciesId": "marshadow"
         },
@@ -3690,6 +4007,7 @@
           "league": "master",
           "category": "switches",
           "rank": 6,
+          "score": 94.9,
           "pokemon": "Marshadow",
           "speciesId": "marshadow"
         },
@@ -3697,6 +4015,7 @@
           "league": "master",
           "category": "closers",
           "rank": 32,
+          "score": 86.7,
           "pokemon": "Marshadow",
           "speciesId": "marshadow"
         }
@@ -3728,6 +4047,7 @@
           "league": "great",
           "category": "overall",
           "rank": 34,
+          "score": 90.1,
           "pokemon": "Medicham",
           "speciesId": "medicham"
         },
@@ -3735,6 +4055,7 @@
           "league": "great",
           "category": "leads",
           "rank": 43,
+          "score": 85.9,
           "pokemon": "Medicham",
           "speciesId": "medicham"
         },
@@ -3742,6 +4063,7 @@
           "league": "great",
           "category": "closers",
           "rank": 31,
+          "score": 85.9,
           "pokemon": "Medicham",
           "speciesId": "medicham"
         }
@@ -3774,6 +4096,7 @@
           "league": "master",
           "category": "overall",
           "rank": 26,
+          "score": 88.5,
           "pokemon": "Meloetta (Aria)",
           "speciesId": "meloetta_aria"
         },
@@ -3781,6 +4104,7 @@
           "league": "master",
           "category": "leads",
           "rank": 39,
+          "score": 86.6,
           "pokemon": "Meloetta (Aria)",
           "speciesId": "meloetta_aria"
         },
@@ -3788,6 +4112,7 @@
           "league": "master",
           "category": "switches",
           "rank": 43,
+          "score": 77.4,
           "pokemon": "Meloetta (Aria)",
           "speciesId": "meloetta_aria"
         },
@@ -3795,6 +4120,7 @@
           "league": "master",
           "category": "closers",
           "rank": 26,
+          "score": 90.3,
           "pokemon": "Meloetta (Aria)",
           "speciesId": "meloetta_aria"
         }
@@ -3826,6 +4152,7 @@
           "league": "great",
           "category": "switches",
           "rank": 58,
+          "score": 83.2,
           "pokemon": "Melmetal",
           "speciesId": "melmetal"
         },
@@ -3833,6 +4160,7 @@
           "league": "great",
           "category": "closers",
           "rank": 49,
+          "score": 84.7,
           "pokemon": "Melmetal",
           "speciesId": "melmetal"
         },
@@ -3840,6 +4168,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 72,
+          "score": 88.6,
           "pokemon": "Melmetal",
           "speciesId": "melmetal"
         },
@@ -3847,6 +4176,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 65,
+          "score": 87.5,
           "pokemon": "Melmetal",
           "speciesId": "melmetal"
         },
@@ -3854,6 +4184,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 59,
+          "score": 83.1,
           "pokemon": "Melmetal",
           "speciesId": "melmetal"
         },
@@ -3861,6 +4192,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 67,
+          "score": 86.2,
           "pokemon": "Melmetal",
           "speciesId": "melmetal"
         },
@@ -3868,6 +4200,7 @@
           "league": "master",
           "category": "overall",
           "rank": 38,
+          "score": 86.6,
           "pokemon": "Melmetal",
           "speciesId": "melmetal"
         },
@@ -3875,6 +4208,7 @@
           "league": "master",
           "category": "leads",
           "rank": 38,
+          "score": 86.8,
           "pokemon": "Melmetal",
           "speciesId": "melmetal"
         },
@@ -3882,6 +4216,7 @@
           "league": "master",
           "category": "switches",
           "rank": 34,
+          "score": 79.8,
           "pokemon": "Melmetal",
           "speciesId": "melmetal"
         },
@@ -3889,6 +4224,7 @@
           "league": "master",
           "category": "closers",
           "rank": 33,
+          "score": 85.5,
           "pokemon": "Melmetal",
           "speciesId": "melmetal"
         }
@@ -3932,6 +4268,7 @@
           "league": "great",
           "category": "leads",
           "rank": 60,
+          "score": 85.2,
           "pokemon": "Miltank",
           "speciesId": "miltank"
         },
@@ -3939,6 +4276,7 @@
           "league": "great",
           "category": "switches",
           "rank": 63,
+          "score": 82.7,
           "pokemon": "Miltank",
           "speciesId": "miltank"
         },
@@ -3946,6 +4284,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 66,
+          "score": 87.5,
           "pokemon": "Miltank",
           "speciesId": "miltank"
         }
@@ -3998,6 +4337,7 @@
           "league": "great",
           "category": "overall",
           "rank": 66,
+          "score": 88.8,
           "pokemon": "Swampert",
           "speciesId": "swampert"
         },
@@ -4005,6 +4345,7 @@
           "league": "great",
           "category": "overall",
           "rank": 70,
+          "score": 88.7,
           "pokemon": "Swampert (Shadow)",
           "speciesId": "swampert_shadow"
         },
@@ -4012,6 +4353,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 49,
+          "score": 89.6,
           "pokemon": "Swampert",
           "speciesId": "swampert"
         },
@@ -4019,6 +4361,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 31,
+          "score": 88.9,
           "pokemon": "Swampert",
           "speciesId": "swampert"
         },
@@ -4026,6 +4369,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 72,
+          "score": 86,
           "pokemon": "Swampert (Shadow)",
           "speciesId": "swampert_shadow"
         }
@@ -4056,6 +4400,7 @@
           "league": "great",
           "category": "overall",
           "rank": 60,
+          "score": 89.1,
           "pokemon": "Steelix (Shadow)",
           "speciesId": "steelix_shadow"
         },
@@ -4063,6 +4408,7 @@
           "league": "great",
           "category": "leads",
           "rank": 38,
+          "score": 86.2,
           "pokemon": "Steelix",
           "speciesId": "steelix"
         },
@@ -4070,6 +4416,7 @@
           "league": "great",
           "category": "leads",
           "rank": 57,
+          "score": 85.4,
           "pokemon": "Steelix (Shadow)",
           "speciesId": "steelix_shadow"
         },
@@ -4077,6 +4424,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 42,
+          "score": 89.9,
           "pokemon": "Steelix",
           "speciesId": "steelix"
         },
@@ -4084,6 +4432,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 51,
+          "score": 89.4,
           "pokemon": "Steelix (Shadow)",
           "speciesId": "steelix_shadow"
         },
@@ -4091,6 +4440,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 40,
+          "score": 88.6,
           "pokemon": "Steelix (Shadow)",
           "speciesId": "steelix_shadow"
         },
@@ -4098,6 +4448,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 52,
+          "score": 88,
           "pokemon": "Steelix",
           "speciesId": "steelix"
         },
@@ -4105,6 +4456,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 71,
+          "score": 81.5,
           "pokemon": "Steelix (Shadow)",
           "speciesId": "steelix_shadow"
         },
@@ -4112,6 +4464,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 41,
+          "score": 88,
           "pokemon": "Steelix",
           "speciesId": "steelix"
         }
@@ -4140,6 +4493,7 @@
           "league": "great",
           "category": "leads",
           "rank": 29,
+          "score": 86.8,
           "pokemon": "Oranguru",
           "speciesId": "oranguru"
         },
@@ -4147,6 +4501,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 47,
+          "score": 89.7,
           "pokemon": "Oranguru",
           "speciesId": "oranguru"
         },
@@ -4154,6 +4509,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 33,
+          "score": 89.4,
           "pokemon": "Oranguru",
           "speciesId": "oranguru"
         },
@@ -4161,6 +4517,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 67,
+          "score": 82.4,
           "pokemon": "Oranguru",
           "speciesId": "oranguru"
         }
@@ -4195,6 +4552,7 @@
           "league": "great",
           "category": "switches",
           "rank": 25,
+          "score": 88.3,
           "pokemon": "Dewott (Shadow)",
           "speciesId": "dewott_shadow"
         },
@@ -4202,6 +4560,7 @@
           "league": "great",
           "category": "switches",
           "rank": 51,
+          "score": 84.1,
           "pokemon": "Dewott",
           "speciesId": "dewott"
         },
@@ -4209,6 +4568,7 @@
           "league": "great",
           "category": "closers",
           "rank": 64,
+          "score": 83.9,
           "pokemon": "Samurott",
           "speciesId": "samurott"
         },
@@ -4216,6 +4576,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 17,
+          "score": 92.3,
           "pokemon": "Samurott",
           "speciesId": "samurott"
         },
@@ -4223,6 +4584,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 30,
+          "score": 88.8,
           "pokemon": "Samurott (Shadow)",
           "speciesId": "samurott_shadow"
         },
@@ -4230,6 +4592,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 57,
+          "score": 86.5,
           "pokemon": "Samurott (Shadow)",
           "speciesId": "samurott_shadow"
         },
@@ -4237,6 +4600,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 71,
+          "score": 86,
           "pokemon": "Samurott",
           "speciesId": "samurott"
         }
@@ -4267,6 +4631,7 @@
           "league": "great",
           "category": "overall",
           "rank": 19,
+          "score": 90.8,
           "pokemon": "Clodsire",
           "speciesId": "clodsire"
         },
@@ -4274,6 +4639,7 @@
           "league": "great",
           "category": "leads",
           "rank": 27,
+          "score": 86.8,
           "pokemon": "Clodsire",
           "speciesId": "clodsire"
         },
@@ -4281,6 +4647,7 @@
           "league": "great",
           "category": "switches",
           "rank": 44,
+          "score": 84.9,
           "pokemon": "Clodsire",
           "speciesId": "clodsire"
         },
@@ -4288,6 +4655,7 @@
           "league": "great",
           "category": "closers",
           "rank": 3,
+          "score": 94.3,
           "pokemon": "Clodsire",
           "speciesId": "clodsire"
         }
@@ -4319,6 +4687,7 @@
           "league": "great",
           "category": "closers",
           "rank": 50,
+          "score": 84.6,
           "pokemon": "Pidgeot",
           "speciesId": "pidgeot"
         }
@@ -4351,6 +4720,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 69,
+          "score": 88.8,
           "pokemon": "Toucannon",
           "speciesId": "toucannon"
         },
@@ -4358,6 +4728,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 70,
+          "score": 88.8,
           "pokemon": "Toucannon (Shadow)",
           "speciesId": "toucannon_shadow"
         },
@@ -4365,6 +4736,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 23,
+          "score": 90.6,
           "pokemon": "Toucannon (Shadow)",
           "speciesId": "toucannon_shadow"
         },
@@ -4372,6 +4744,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 56,
+          "score": 87.8,
           "pokemon": "Toucannon",
           "speciesId": "toucannon"
         },
@@ -4379,6 +4752,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 63,
+          "score": 82.8,
           "pokemon": "Toucannon (Shadow)",
           "speciesId": "toucannon_shadow"
         },
@@ -4386,6 +4760,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 66,
+          "score": 82.6,
           "pokemon": "Toucannon",
           "speciesId": "toucannon"
         },
@@ -4393,6 +4768,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 56,
+          "score": 86.7,
           "pokemon": "Toucannon (Shadow)",
           "speciesId": "toucannon_shadow"
         },
@@ -4400,6 +4776,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 58,
+          "score": 86.5,
           "pokemon": "Toucannon",
           "speciesId": "toucannon"
         }
@@ -4430,6 +4807,7 @@
           "league": "great",
           "category": "overall",
           "rank": 11,
+          "score": 91.5,
           "pokemon": "Forretress",
           "speciesId": "forretress"
         },
@@ -4437,6 +4815,7 @@
           "league": "great",
           "category": "overall",
           "rank": 16,
+          "score": 91,
           "pokemon": "Forretress (Shadow)",
           "speciesId": "forretress_shadow"
         },
@@ -4444,6 +4823,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 15,
+          "score": 91.7,
           "pokemon": "Forretress",
           "speciesId": "forretress"
         },
@@ -4451,6 +4831,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 18,
+          "score": 91.1,
           "pokemon": "Forretress (Shadow)",
           "speciesId": "forretress_shadow"
         },
@@ -4458,6 +4839,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 25,
+          "score": 90.1,
           "pokemon": "Forretress",
           "speciesId": "forretress"
         },
@@ -4465,6 +4847,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 43,
+          "score": 88.5,
           "pokemon": "Forretress (Shadow)",
           "speciesId": "forretress_shadow"
         },
@@ -4472,6 +4855,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 52,
+          "score": 84.7,
           "pokemon": "Forretress",
           "speciesId": "forretress"
         }
@@ -4504,6 +4888,7 @@
           "league": "great",
           "category": "overall",
           "rank": 4,
+          "score": 92.2,
           "pokemon": "Empoleon",
           "speciesId": "empoleon"
         },
@@ -4511,6 +4896,7 @@
           "league": "great",
           "category": "overall",
           "rank": 7,
+          "score": 91.9,
           "pokemon": "Empoleon (Shadow)",
           "speciesId": "empoleon_shadow"
         },
@@ -4518,6 +4904,7 @@
           "league": "great",
           "category": "switches",
           "rank": 33,
+          "score": 86.3,
           "pokemon": "Empoleon",
           "speciesId": "empoleon"
         },
@@ -4525,6 +4912,7 @@
           "league": "great",
           "category": "switches",
           "rank": 36,
+          "score": 86,
           "pokemon": "Empoleon (Shadow)",
           "speciesId": "empoleon_shadow"
         },
@@ -4532,6 +4920,7 @@
           "league": "great",
           "category": "closers",
           "rank": 9,
+          "score": 88.5,
           "pokemon": "Empoleon",
           "speciesId": "empoleon"
         },
@@ -4539,6 +4928,7 @@
           "league": "great",
           "category": "closers",
           "rank": 22,
+          "score": 86.8,
           "pokemon": "Empoleon (Shadow)",
           "speciesId": "empoleon_shadow"
         },
@@ -4546,6 +4936,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 8,
+          "score": 92.7,
           "pokemon": "Empoleon (Shadow)",
           "speciesId": "empoleon_shadow"
         },
@@ -4553,6 +4944,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 9,
+          "score": 92.5,
           "pokemon": "Empoleon",
           "speciesId": "empoleon"
         },
@@ -4560,6 +4952,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 48,
+          "score": 88,
           "pokemon": "Empoleon",
           "speciesId": "empoleon"
         },
@@ -4567,6 +4960,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 11,
+          "score": 93.4,
           "pokemon": "Empoleon (Shadow)",
           "speciesId": "empoleon_shadow"
         },
@@ -4574,6 +4968,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 16,
+          "score": 92.3,
           "pokemon": "Empoleon",
           "speciesId": "empoleon"
         },
@@ -4581,6 +4976,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 15,
+          "score": 90.7,
           "pokemon": "Empoleon (Shadow)",
           "speciesId": "empoleon_shadow"
         },
@@ -4588,6 +4984,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 30,
+          "score": 88.9,
           "pokemon": "Empoleon",
           "speciesId": "empoleon"
         },
@@ -4595,6 +4992,7 @@
           "league": "master",
           "category": "switches",
           "rank": 71,
+          "score": 67.2,
           "pokemon": "Empoleon (Shadow)",
           "speciesId": "empoleon_shadow"
         }
@@ -4629,6 +5027,7 @@
           "league": "great",
           "category": "switches",
           "rank": 23,
+          "score": 88.6,
           "pokemon": "Politoed (Shadow)",
           "speciesId": "politoed_shadow"
         },
@@ -4636,6 +5035,7 @@
           "league": "great",
           "category": "switches",
           "rank": 50,
+          "score": 84.3,
           "pokemon": "Politoed",
           "speciesId": "politoed"
         },
@@ -4643,6 +5043,7 @@
           "league": "great",
           "category": "switches",
           "rank": 54,
+          "score": 83.6,
           "pokemon": "Poliwrath",
           "speciesId": "poliwrath"
         }
@@ -4673,6 +5074,7 @@
           "league": "great",
           "category": "switches",
           "rank": 22,
+          "score": 89,
           "pokemon": "Rapidash (Shadow)",
           "speciesId": "rapidash_shadow"
         },
@@ -4680,6 +5082,7 @@
           "league": "great",
           "category": "switches",
           "rank": 45,
+          "score": 84.7,
           "pokemon": "Rapidash",
           "speciesId": "rapidash"
         },
@@ -4687,6 +5090,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 24,
+          "score": 90.8,
           "pokemon": "Rapidash (Shadow)",
           "speciesId": "rapidash_shadow"
         }
@@ -4718,6 +5122,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 74,
+          "score": 88.5,
           "pokemon": "Primarina",
           "speciesId": "primarina"
         },
@@ -4725,6 +5130,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 65,
+          "score": 86.4,
           "pokemon": "Primarina",
           "speciesId": "primarina"
         },
@@ -4732,6 +5138,7 @@
           "league": "master",
           "category": "overall",
           "rank": 49,
+          "score": 84.6,
           "pokemon": "Primarina",
           "speciesId": "primarina"
         },
@@ -4739,6 +5146,7 @@
           "league": "master",
           "category": "leads",
           "rank": 63,
+          "score": 82.4,
           "pokemon": "Primarina",
           "speciesId": "primarina"
         },
@@ -4746,6 +5154,7 @@
           "league": "master",
           "category": "closers",
           "rank": 40,
+          "score": 83.1,
           "pokemon": "Primarina",
           "speciesId": "primarina"
         }
@@ -4781,6 +5190,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 46,
+          "score": 85.5,
           "pokemon": "Gourgeist (Average)",
           "speciesId": "gourgeist_average"
         }
@@ -4810,6 +5220,7 @@
           "league": "great",
           "category": "leads",
           "rank": 53,
+          "score": 85.6,
           "pokemon": "Qwilfish (Shadow)",
           "speciesId": "qwilfish_shadow"
         },
@@ -4817,6 +5228,7 @@
           "league": "great",
           "category": "switches",
           "rank": 19,
+          "score": 89.6,
           "pokemon": "Qwilfish (Shadow)",
           "speciesId": "qwilfish_shadow"
         },
@@ -4824,6 +5236,7 @@
           "league": "great",
           "category": "switches",
           "rank": 48,
+          "score": 84.4,
           "pokemon": "Qwilfish",
           "speciesId": "qwilfish"
         }
@@ -4856,6 +5269,7 @@
           "league": "master",
           "category": "overall",
           "rank": 68,
+          "score": 80.6,
           "pokemon": "Rhyperior",
           "speciesId": "rhyperior"
         },
@@ -4863,6 +5277,7 @@
           "league": "master",
           "category": "overall",
           "rank": 73,
+          "score": 80.3,
           "pokemon": "Rhyperior (Shadow)",
           "speciesId": "rhyperior_shadow"
         },
@@ -4870,6 +5285,7 @@
           "league": "master",
           "category": "leads",
           "rank": 64,
+          "score": 82.1,
           "pokemon": "Rhyperior",
           "speciesId": "rhyperior"
         },
@@ -4877,6 +5293,7 @@
           "league": "master",
           "category": "closers",
           "rank": 38,
+          "score": 83.9,
           "pokemon": "Rhyperior (Shadow)",
           "speciesId": "rhyperior_shadow"
         },
@@ -4884,6 +5301,7 @@
           "league": "master",
           "category": "closers",
           "rank": 47,
+          "score": 81.7,
           "pokemon": "Rhyperior",
           "speciesId": "rhyperior"
         }
@@ -4918,6 +5336,7 @@
           "league": "great",
           "category": "overall",
           "rank": 20,
+          "score": 90.7,
           "pokemon": "Corviknight",
           "speciesId": "corviknight"
         },
@@ -4925,6 +5344,7 @@
           "league": "great",
           "category": "overall",
           "rank": 29,
+          "score": 90.2,
           "pokemon": "Corviknight (Shadow)",
           "speciesId": "corviknight_shadow"
         },
@@ -4932,6 +5352,7 @@
           "league": "great",
           "category": "leads",
           "rank": 2,
+          "score": 91.6,
           "pokemon": "Corviknight",
           "speciesId": "corviknight"
         },
@@ -4939,6 +5360,7 @@
           "league": "great",
           "category": "leads",
           "rank": 7,
+          "score": 89.4,
           "pokemon": "Corviknight (Shadow)",
           "speciesId": "corviknight_shadow"
         },
@@ -4946,6 +5368,7 @@
           "league": "great",
           "category": "switches",
           "rank": 6,
+          "score": 92.9,
           "pokemon": "Corviknight",
           "speciesId": "corviknight"
         },
@@ -4953,6 +5376,7 @@
           "league": "great",
           "category": "switches",
           "rank": 13,
+          "score": 91.5,
           "pokemon": "Corviknight (Shadow)",
           "speciesId": "corviknight_shadow"
         },
@@ -4960,6 +5384,7 @@
           "league": "great",
           "category": "closers",
           "rank": 17,
+          "score": 87.3,
           "pokemon": "Corviknight",
           "speciesId": "corviknight"
         },
@@ -4967,6 +5392,7 @@
           "league": "great",
           "category": "closers",
           "rank": 18,
+          "score": 87.3,
           "pokemon": "Corviknight (Shadow)",
           "speciesId": "corviknight_shadow"
         },
@@ -4974,6 +5400,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 3,
+          "score": 93.4,
           "pokemon": "Corviknight",
           "speciesId": "corviknight"
         },
@@ -4981,6 +5408,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 5,
+          "score": 93.1,
           "pokemon": "Corviknight (Shadow)",
           "speciesId": "corviknight_shadow"
         },
@@ -4988,6 +5416,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 2,
+          "score": 95.7,
           "pokemon": "Corviknight",
           "speciesId": "corviknight"
         },
@@ -4995,6 +5424,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 4,
+          "score": 94,
           "pokemon": "Corviknight (Shadow)",
           "speciesId": "corviknight_shadow"
         },
@@ -5002,6 +5432,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 3,
+          "score": 96,
           "pokemon": "Corviknight (Shadow)",
           "speciesId": "corviknight_shadow"
         },
@@ -5009,6 +5440,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 4,
+          "score": 95.7,
           "pokemon": "Corviknight",
           "speciesId": "corviknight"
         },
@@ -5016,6 +5448,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 6,
+          "score": 92.7,
           "pokemon": "Corviknight",
           "speciesId": "corviknight"
         },
@@ -5023,6 +5456,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 14,
+          "score": 90.9,
           "pokemon": "Corviknight (Shadow)",
           "speciesId": "corviknight_shadow"
         }
@@ -5055,6 +5489,7 @@
           "league": "great",
           "category": "closers",
           "rank": 29,
+          "score": 85.9,
           "pokemon": "Dartrix",
           "speciesId": "dartrix"
         }
@@ -5084,6 +5519,7 @@
           "league": "great",
           "category": "overall",
           "rank": 31,
+          "score": 90.2,
           "pokemon": "Sableye (Shadow)",
           "speciesId": "sableye_shadow"
         },
@@ -5091,6 +5527,7 @@
           "league": "great",
           "category": "overall",
           "rank": 47,
+          "score": 89.5,
           "pokemon": "Sableye",
           "speciesId": "sableye"
         },
@@ -5098,6 +5535,7 @@
           "league": "great",
           "category": "leads",
           "rank": 3,
+          "score": 90.2,
           "pokemon": "Sableye (Shadow)",
           "speciesId": "sableye_shadow"
         },
@@ -5105,6 +5543,7 @@
           "league": "great",
           "category": "leads",
           "rank": 46,
+          "score": 85.9,
           "pokemon": "Sableye",
           "speciesId": "sableye"
         },
@@ -5112,6 +5551,7 @@
           "league": "great",
           "category": "switches",
           "rank": 4,
+          "score": 93.8,
           "pokemon": "Sableye (Shadow)",
           "speciesId": "sableye_shadow"
         },
@@ -5119,6 +5559,7 @@
           "league": "great",
           "category": "switches",
           "rank": 39,
+          "score": 85.4,
           "pokemon": "Sableye",
           "speciesId": "sableye"
         }
@@ -5148,6 +5589,7 @@
           "league": "great",
           "category": "overall",
           "rank": 58,
+          "score": 89.1,
           "pokemon": "Dewgong",
           "speciesId": "dewgong"
         }
@@ -5179,6 +5621,7 @@
           "league": "great",
           "category": "overall",
           "rank": 63,
+          "score": 89,
           "pokemon": "Gastrodon",
           "speciesId": "gastrodon"
         },
@@ -5186,6 +5629,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 57,
+          "score": 87.7,
           "pokemon": "Gastrodon",
           "speciesId": "gastrodon"
         }
@@ -5216,6 +5660,7 @@
           "league": "great",
           "category": "overall",
           "rank": 62,
+          "score": 89,
           "pokemon": "Drapion (Shadow)",
           "speciesId": "drapion_shadow"
         },
@@ -5223,6 +5668,7 @@
           "league": "great",
           "category": "leads",
           "rank": 51,
+          "score": 85.6,
           "pokemon": "Drapion",
           "speciesId": "drapion"
         },
@@ -5230,6 +5676,7 @@
           "league": "great",
           "category": "switches",
           "rank": 16,
+          "score": 90.1,
           "pokemon": "Drapion",
           "speciesId": "drapion"
         },
@@ -5237,6 +5684,7 @@
           "league": "great",
           "category": "switches",
           "rank": 34,
+          "score": 86.1,
           "pokemon": "Drapion (Shadow)",
           "speciesId": "drapion_shadow"
         },
@@ -5244,6 +5692,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 14,
+          "score": 92.6,
           "pokemon": "Drapion",
           "speciesId": "drapion"
         },
@@ -5251,6 +5700,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 18,
+          "score": 92.1,
           "pokemon": "Drapion (Shadow)",
           "speciesId": "drapion_shadow"
         }
@@ -5280,6 +5730,7 @@
           "league": "great",
           "category": "overall",
           "rank": 40,
+          "score": 89.7,
           "pokemon": "Greedent",
           "speciesId": "greedent"
         },
@@ -5287,6 +5738,7 @@
           "league": "great",
           "category": "leads",
           "rank": 49,
+          "score": 85.7,
           "pokemon": "Greedent",
           "speciesId": "greedent"
         },
@@ -5294,6 +5746,7 @@
           "league": "great",
           "category": "switches",
           "rank": 18,
+          "score": 89.7,
           "pokemon": "Greedent",
           "speciesId": "greedent"
         },
@@ -5301,6 +5754,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 57,
+          "score": 83.3,
           "pokemon": "Greedent",
           "speciesId": "greedent"
         }
@@ -5329,6 +5783,7 @@
           "league": "great",
           "category": "switches",
           "rank": 28,
+          "score": 87.7,
           "pokemon": "Solrock",
           "speciesId": "solrock"
         }
@@ -5358,6 +5813,7 @@
           "league": "great",
           "category": "overall",
           "rank": 21,
+          "score": 90.7,
           "pokemon": "Fearow",
           "speciesId": "fearow"
         },
@@ -5365,6 +5821,7 @@
           "league": "great",
           "category": "switches",
           "rank": 11,
+          "score": 92.3,
           "pokemon": "Fearow",
           "speciesId": "fearow"
         }
@@ -5398,6 +5855,7 @@
           "league": "great",
           "category": "overall",
           "rank": 39,
+          "score": 89.8,
           "pokemon": "Sealeo",
           "speciesId": "sealeo"
         },
@@ -5405,6 +5863,7 @@
           "league": "great",
           "category": "overall",
           "rank": 42,
+          "score": 89.7,
           "pokemon": "Sealeo (Shadow)",
           "speciesId": "sealeo_shadow"
         },
@@ -5412,6 +5871,7 @@
           "league": "great",
           "category": "leads",
           "rank": 16,
+          "score": 87.9,
           "pokemon": "Sealeo",
           "speciesId": "sealeo"
         },
@@ -5419,6 +5879,7 @@
           "league": "great",
           "category": "leads",
           "rank": 24,
+          "score": 87.1,
           "pokemon": "Walrein",
           "speciesId": "walrein"
         },
@@ -5426,6 +5887,7 @@
           "league": "great",
           "category": "leads",
           "rank": 30,
+          "score": 86.8,
           "pokemon": "Sealeo (Shadow)",
           "speciesId": "sealeo_shadow"
         },
@@ -5433,6 +5895,7 @@
           "league": "great",
           "category": "switches",
           "rank": 5,
+          "score": 93,
           "pokemon": "Sealeo",
           "speciesId": "sealeo"
         },
@@ -5440,6 +5903,7 @@
           "league": "great",
           "category": "switches",
           "rank": 9,
+          "score": 92.7,
           "pokemon": "Sealeo (Shadow)",
           "speciesId": "sealeo_shadow"
         },
@@ -5447,6 +5911,7 @@
           "league": "great",
           "category": "switches",
           "rank": 10,
+          "score": 92.7,
           "pokemon": "Walrein",
           "speciesId": "walrein"
         },
@@ -5454,6 +5919,7 @@
           "league": "great",
           "category": "closers",
           "rank": 16,
+          "score": 87.5,
           "pokemon": "Walrein",
           "speciesId": "walrein"
         },
@@ -5461,6 +5927,7 @@
           "league": "great",
           "category": "closers",
           "rank": 45,
+          "score": 84.9,
           "pokemon": "Walrein (Shadow)",
           "speciesId": "walrein_shadow"
         },
@@ -5468,6 +5935,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 33,
+          "score": 90.5,
           "pokemon": "Walrein",
           "speciesId": "walrein"
         },
@@ -5475,6 +5943,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 34,
+          "score": 90.5,
           "pokemon": "Walrein (Shadow)",
           "speciesId": "walrein_shadow"
         },
@@ -5482,6 +5951,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 22,
+          "score": 90.7,
           "pokemon": "Walrein",
           "speciesId": "walrein"
         },
@@ -5489,6 +5959,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 36,
+          "score": 89.1,
           "pokemon": "Walrein (Shadow)",
           "speciesId": "walrein_shadow"
         },
@@ -5496,6 +5967,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 20,
+          "score": 91.9,
           "pokemon": "Walrein (Shadow)",
           "speciesId": "walrein_shadow"
         },
@@ -5503,6 +5975,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 68,
+          "score": 82.4,
           "pokemon": "Walrein",
           "speciesId": "walrein"
         },
@@ -5510,6 +5983,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 17,
+          "score": 90.6,
           "pokemon": "Walrein",
           "speciesId": "walrein"
         },
@@ -5517,6 +5991,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 20,
+          "score": 90.2,
           "pokemon": "Walrein (Shadow)",
           "speciesId": "walrein_shadow"
         }
@@ -5560,6 +6035,7 @@
           "league": "great",
           "category": "overall",
           "rank": 41,
+          "score": 89.7,
           "pokemon": "Grumpig",
           "speciesId": "grumpig"
         },
@@ -5567,6 +6043,7 @@
           "league": "great",
           "category": "leads",
           "rank": 42,
+          "score": 85.9,
           "pokemon": "Grumpig",
           "speciesId": "grumpig"
         },
@@ -5574,6 +6051,7 @@
           "league": "great",
           "category": "closers",
           "rank": 39,
+          "score": 85.1,
           "pokemon": "Grumpig",
           "speciesId": "grumpig"
         },
@@ -5581,6 +6059,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 5,
+          "score": 94,
           "pokemon": "Grumpig",
           "speciesId": "grumpig"
         },
@@ -5588,6 +6067,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 27,
+          "score": 89.9,
           "pokemon": "Grumpig (Shadow)",
           "speciesId": "grumpig_shadow"
         },
@@ -5595,6 +6075,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 9,
+          "score": 94.1,
           "pokemon": "Grumpig",
           "speciesId": "grumpig"
         },
@@ -5602,6 +6083,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 19,
+          "score": 91.9,
           "pokemon": "Grumpig (Shadow)",
           "speciesId": "grumpig_shadow"
         },
@@ -5609,6 +6091,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 8,
+          "score": 92.2,
           "pokemon": "Grumpig",
           "speciesId": "grumpig"
         },
@@ -5616,6 +6099,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 28,
+          "score": 89.4,
           "pokemon": "Grumpig (Shadow)",
           "speciesId": "grumpig_shadow"
         }
@@ -5645,6 +6129,7 @@
           "league": "great",
           "category": "closers",
           "rank": 34,
+          "score": 85.5,
           "pokemon": "Aromatisse",
           "speciesId": "aromatisse"
         },
@@ -5652,6 +6137,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 64,
+          "score": 88.8,
           "pokemon": "Aromatisse",
           "speciesId": "aromatisse"
         },
@@ -5659,6 +6145,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 46,
+          "score": 88.2,
           "pokemon": "Aromatisse",
           "speciesId": "aromatisse"
         },
@@ -5666,6 +6153,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 49,
+          "score": 87.2,
           "pokemon": "Aromatisse",
           "speciesId": "aromatisse"
         }
@@ -5698,6 +6186,7 @@
           "league": "great",
           "category": "overall",
           "rank": 53,
+          "score": 89.3,
           "pokemon": "Blastoise",
           "speciesId": "blastoise"
         },
@@ -5705,6 +6194,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 23,
+          "score": 90.7,
           "pokemon": "Blastoise",
           "speciesId": "blastoise"
         },
@@ -5712,6 +6202,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 31,
+          "score": 89.4,
           "pokemon": "Blastoise",
           "speciesId": "blastoise"
         },
@@ -5719,6 +6210,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 31,
+          "score": 88.3,
           "pokemon": "Blastoise",
           "speciesId": "blastoise"
         },
@@ -5726,6 +6218,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 49,
+          "score": 85.2,
           "pokemon": "Blastoise (Shadow)",
           "speciesId": "blastoise_shadow"
         },
@@ -5733,6 +6226,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 39,
+          "score": 88.2,
           "pokemon": "Blastoise",
           "speciesId": "blastoise"
         }
@@ -5763,6 +6257,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 51,
+          "score": 84.9,
           "pokemon": "Starmie (Shadow)",
           "speciesId": "starmie_shadow"
         }
@@ -5793,6 +6288,7 @@
           "league": "great",
           "category": "overall",
           "rank": 3,
+          "score": 92.2,
           "pokemon": "Altaria",
           "speciesId": "altaria"
         },
@@ -5800,6 +6296,7 @@
           "league": "great",
           "category": "overall",
           "rank": 6,
+          "score": 91.9,
           "pokemon": "Altaria (Shadow)",
           "speciesId": "altaria_shadow"
         },
@@ -5807,6 +6304,7 @@
           "league": "great",
           "category": "closers",
           "rank": 52,
+          "score": 84.4,
           "pokemon": "Altaria (Shadow)",
           "speciesId": "altaria_shadow"
         },
@@ -5814,6 +6312,7 @@
           "league": "great",
           "category": "closers",
           "rank": 56,
+          "score": 84.1,
           "pokemon": "Altaria",
           "speciesId": "altaria"
         }
@@ -5843,6 +6342,7 @@
           "league": "great",
           "category": "leads",
           "rank": 35,
+          "score": 86.2,
           "pokemon": "Bellibolt",
           "speciesId": "bellibolt"
         },
@@ -5850,6 +6350,7 @@
           "league": "great",
           "category": "closers",
           "rank": 69,
+          "score": 83.6,
           "pokemon": "Bellibolt",
           "speciesId": "bellibolt"
         },
@@ -5857,6 +6358,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 38,
+          "score": 90.1,
           "pokemon": "Bellibolt",
           "speciesId": "bellibolt"
         },
@@ -5864,6 +6366,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 6,
+          "score": 93.6,
           "pokemon": "Bellibolt",
           "speciesId": "bellibolt"
         },
@@ -5871,6 +6374,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 28,
+          "score": 89.1,
           "pokemon": "Bellibolt",
           "speciesId": "bellibolt"
         },
@@ -5878,6 +6382,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 44,
+          "score": 87.5,
           "pokemon": "Bellibolt",
           "speciesId": "bellibolt"
         }
@@ -5908,6 +6413,7 @@
           "league": "great",
           "category": "closers",
           "rank": 74,
+          "score": 83.4,
           "pokemon": "Tentacruel",
           "speciesId": "tentacruel"
         },
@@ -5915,6 +6421,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 27,
+          "score": 89.5,
           "pokemon": "Tentacruel (Shadow)",
           "speciesId": "tentacruel_shadow"
         },
@@ -5922,6 +6429,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 34,
+          "score": 88.7,
           "pokemon": "Tentacruel",
           "speciesId": "tentacruel"
         }
@@ -5954,6 +6462,7 @@
           "league": "master",
           "category": "leads",
           "rank": 44,
+          "score": 85.8,
           "pokemon": "Conkeldurr (Shadow)",
           "speciesId": "conkeldurr_shadow"
         },
@@ -5961,6 +6470,7 @@
           "league": "master",
           "category": "switches",
           "rank": 57,
+          "score": 72.3,
           "pokemon": "Conkeldurr (Shadow)",
           "speciesId": "conkeldurr_shadow"
         }
@@ -5994,6 +6504,7 @@
           "league": "great",
           "category": "overall",
           "rank": 2,
+          "score": 92.6,
           "pokemon": "Tinkaton",
           "speciesId": "tinkaton"
         },
@@ -6001,6 +6512,7 @@
           "league": "great",
           "category": "leads",
           "rank": 5,
+          "score": 89.9,
           "pokemon": "Tinkaton",
           "speciesId": "tinkaton"
         },
@@ -6008,6 +6520,7 @@
           "league": "great",
           "category": "switches",
           "rank": 42,
+          "score": 85,
           "pokemon": "Tinkaton",
           "speciesId": "tinkaton"
         },
@@ -6015,6 +6528,7 @@
           "league": "great",
           "category": "closers",
           "rank": 5,
+          "score": 91.2,
           "pokemon": "Tinkaton",
           "speciesId": "tinkaton"
         },
@@ -6022,6 +6536,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 4,
+          "score": 93.2,
           "pokemon": "Tinkaton",
           "speciesId": "tinkaton"
         },
@@ -6029,6 +6544,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 9,
+          "score": 93.2,
           "pokemon": "Tinkaton",
           "speciesId": "tinkaton"
         },
@@ -6036,6 +6552,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 2,
+          "score": 96.3,
           "pokemon": "Tinkaton",
           "speciesId": "tinkaton"
         }
@@ -6067,6 +6584,7 @@
           "league": "great",
           "category": "switches",
           "rank": 43,
+          "score": 85,
           "pokemon": "Togekiss",
           "speciesId": "togekiss"
         },
@@ -6074,6 +6592,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 59,
+          "score": 89,
           "pokemon": "Togekiss",
           "speciesId": "togekiss"
         },
@@ -6081,6 +6600,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 70,
+          "score": 87.3,
           "pokemon": "Togekiss",
           "speciesId": "togekiss"
         },
@@ -6088,6 +6608,7 @@
           "league": "master",
           "category": "overall",
           "rank": 46,
+          "score": 84.8,
           "pokemon": "Togekiss",
           "speciesId": "togekiss"
         },
@@ -6095,6 +6616,7 @@
           "league": "master",
           "category": "leads",
           "rank": 40,
+          "score": 86.6,
           "pokemon": "Togekiss",
           "speciesId": "togekiss"
         },
@@ -6102,6 +6624,7 @@
           "league": "master",
           "category": "switches",
           "rank": 42,
+          "score": 77.6,
           "pokemon": "Togekiss",
           "speciesId": "togekiss"
         }
@@ -6150,6 +6673,7 @@
           "league": "great",
           "category": "closers",
           "rank": 47,
+          "score": 84.7,
           "pokemon": "Blaziken (Shadow)",
           "speciesId": "blaziken_shadow"
         },
@@ -6157,6 +6681,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 41,
+          "score": 88.5,
           "pokemon": "Blaziken (Shadow)",
           "speciesId": "blaziken_shadow"
         },
@@ -6164,6 +6689,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 43,
+          "score": 86,
           "pokemon": "Blaziken (Shadow)",
           "speciesId": "blaziken_shadow"
         }
@@ -6196,6 +6722,7 @@
           "league": "great",
           "category": "overall",
           "rank": 15,
+          "score": 91,
           "pokemon": "Feraligatr",
           "speciesId": "feraligatr"
         },
@@ -6203,6 +6730,7 @@
           "league": "great",
           "category": "overall",
           "rank": 22,
+          "score": 90.6,
           "pokemon": "Feraligatr (Shadow)",
           "speciesId": "feraligatr_shadow"
         },
@@ -6210,6 +6738,7 @@
           "league": "great",
           "category": "switches",
           "rank": 2,
+          "score": 95.6,
           "pokemon": "Feraligatr (Shadow)",
           "speciesId": "feraligatr_shadow"
         },
@@ -6217,6 +6746,7 @@
           "league": "great",
           "category": "switches",
           "rank": 12,
+          "score": 91.9,
           "pokemon": "Feraligatr",
           "speciesId": "feraligatr"
         },
@@ -6224,6 +6754,7 @@
           "league": "great",
           "category": "closers",
           "rank": 26,
+          "score": 86.4,
           "pokemon": "Feraligatr",
           "speciesId": "feraligatr"
         },
@@ -6231,6 +6762,7 @@
           "league": "great",
           "category": "closers",
           "rank": 66,
+          "score": 83.8,
           "pokemon": "Feraligatr (Shadow)",
           "speciesId": "feraligatr_shadow"
         },
@@ -6238,6 +6770,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 17,
+          "score": 91.1,
           "pokemon": "Feraligatr (Shadow)",
           "speciesId": "feraligatr_shadow"
         },
@@ -6245,6 +6778,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 45,
+          "score": 89.7,
           "pokemon": "Feraligatr",
           "speciesId": "feraligatr"
         },
@@ -6252,6 +6786,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 37,
+          "score": 89,
           "pokemon": "Feraligatr",
           "speciesId": "feraligatr"
         },
@@ -6259,6 +6794,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 60,
+          "score": 87.5,
           "pokemon": "Feraligatr (Shadow)",
           "speciesId": "feraligatr_shadow"
         },
@@ -6266,6 +6802,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 2,
+          "score": 98.3,
           "pokemon": "Feraligatr (Shadow)",
           "speciesId": "feraligatr_shadow"
         },
@@ -6273,6 +6810,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 15,
+          "score": 92.6,
           "pokemon": "Feraligatr",
           "speciesId": "feraligatr"
         },
@@ -6280,6 +6818,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 26,
+          "score": 89.5,
           "pokemon": "Feraligatr (Shadow)",
           "speciesId": "feraligatr_shadow"
         },
@@ -6287,6 +6826,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 53,
+          "score": 86.9,
           "pokemon": "Feraligatr",
           "speciesId": "feraligatr"
         }
@@ -6331,6 +6871,7 @@
           "league": "great",
           "category": "leads",
           "rank": 47,
+          "score": 85.9,
           "pokemon": "Toxtricity",
           "speciesId": "toxtricity"
         },
@@ -6338,6 +6879,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 28,
+          "score": 89.9,
           "pokemon": "Toxtricity",
           "speciesId": "toxtricity"
         }
@@ -6366,6 +6908,7 @@
           "league": "great",
           "category": "leads",
           "rank": 54,
+          "score": 85.6,
           "pokemon": "Turtonator",
           "speciesId": "turtonator"
         },
@@ -6373,6 +6916,7 @@
           "league": "great",
           "category": "switches",
           "rank": 3,
+          "score": 94.8,
           "pokemon": "Turtonator",
           "speciesId": "turtonator"
         },
@@ -6380,6 +6924,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 60,
+          "score": 89,
           "pokemon": "Turtonator",
           "speciesId": "turtonator"
         },
@@ -6387,6 +6932,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 6,
+          "score": 94.9,
           "pokemon": "Turtonator",
           "speciesId": "turtonator"
         }
@@ -6418,6 +6964,7 @@
           "league": "great",
           "category": "overall",
           "rank": 32,
+          "score": 90.2,
           "pokemon": "Seismitoad",
           "speciesId": "seismitoad"
         },
@@ -6425,6 +6972,7 @@
           "league": "great",
           "category": "switches",
           "rank": 40,
+          "score": 85.2,
           "pokemon": "Seismitoad",
           "speciesId": "seismitoad"
         },
@@ -6432,6 +6980,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 73,
+          "score": 88.6,
           "pokemon": "Seismitoad",
           "speciesId": "seismitoad"
         },
@@ -6439,6 +6988,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 55,
+          "score": 87.8,
           "pokemon": "Seismitoad",
           "speciesId": "seismitoad"
         },
@@ -6446,6 +6996,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 48,
+          "score": 85.4,
           "pokemon": "Seismitoad",
           "speciesId": "seismitoad"
         }
@@ -6476,6 +7027,7 @@
           "league": "great",
           "category": "overall",
           "rank": 12,
+          "score": 91.4,
           "pokemon": "Ninetales",
           "speciesId": "ninetales"
         },
@@ -6483,6 +7035,7 @@
           "league": "great",
           "category": "overall",
           "rank": 14,
+          "score": 91.1,
           "pokemon": "Ninetales (Shadow)",
           "speciesId": "ninetales_shadow"
         },
@@ -6490,6 +7043,7 @@
           "league": "great",
           "category": "leads",
           "rank": 66,
+          "score": 84.9,
           "pokemon": "Ninetales (Shadow)",
           "speciesId": "ninetales_shadow"
         },
@@ -6497,6 +7051,7 @@
           "league": "great",
           "category": "switches",
           "rank": 20,
+          "score": 89.3,
           "pokemon": "Ninetales",
           "speciesId": "ninetales"
         },
@@ -6504,6 +7059,7 @@
           "league": "great",
           "category": "switches",
           "rank": 21,
+          "score": 89,
           "pokemon": "Ninetales (Shadow)",
           "speciesId": "ninetales_shadow"
         },
@@ -6511,6 +7067,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 41,
+          "score": 89.9,
           "pokemon": "Ninetales",
           "speciesId": "ninetales"
         },
@@ -6518,6 +7075,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 55,
+          "score": 89.1,
           "pokemon": "Ninetales (Shadow)",
           "speciesId": "ninetales_shadow"
         },
@@ -6525,6 +7083,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 51,
+          "score": 88,
           "pokemon": "Ninetales",
           "speciesId": "ninetales"
         },
@@ -6532,6 +7091,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 44,
+          "score": 86,
           "pokemon": "Ninetales",
           "speciesId": "ninetales"
         },
@@ -6539,6 +7099,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 53,
+          "score": 84.7,
           "pokemon": "Ninetales (Shadow)",
           "speciesId": "ninetales_shadow"
         },
@@ -6546,6 +7107,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 68,
+          "score": 86,
           "pokemon": "Ninetales (Shadow)",
           "speciesId": "ninetales_shadow"
         }
@@ -6575,6 +7137,7 @@
           "league": "great",
           "category": "switches",
           "rank": 61,
+          "score": 82.8,
           "pokemon": "Golisopod",
           "speciesId": "golisopodsh"
         },
@@ -6582,6 +7145,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 65,
+          "score": 88.8,
           "pokemon": "Golisopod",
           "speciesId": "golisopod"
         },
@@ -6589,6 +7153,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 32,
+          "score": 88.3,
           "pokemon": "Golisopod",
           "speciesId": "golisopod"
         },
@@ -6596,6 +7161,7 @@
           "league": "master",
           "category": "switches",
           "rank": 59,
+          "score": 71.5,
           "pokemon": "Golisopod",
           "speciesId": "golisopod"
         }
@@ -6625,6 +7191,7 @@
           "league": "great",
           "category": "leads",
           "rank": 45,
+          "score": 85.9,
           "pokemon": "Pelipper",
           "speciesId": "pelipper"
         },
@@ -6632,6 +7199,7 @@
           "league": "great",
           "category": "switches",
           "rank": 38,
+          "score": 85.7,
           "pokemon": "Pelipper",
           "speciesId": "pelipper"
         },
@@ -6639,6 +7207,7 @@
           "league": "great",
           "category": "closers",
           "rank": 67,
+          "score": 83.8,
           "pokemon": "Pelipper",
           "speciesId": "pelipper"
         }
@@ -6669,6 +7238,7 @@
           "league": "great",
           "category": "overall",
           "rank": 8,
+          "score": 91.8,
           "pokemon": "Quagsire (Shadow)",
           "speciesId": "quagsire_shadow"
         },
@@ -6676,6 +7246,7 @@
           "league": "great",
           "category": "overall",
           "rank": 9,
+          "score": 91.7,
           "pokemon": "Quagsire",
           "speciesId": "quagsire"
         }
@@ -6718,6 +7289,7 @@
           "league": "great",
           "category": "closers",
           "rank": 54,
+          "score": 84.3,
           "pokemon": "Cofagrigus",
           "speciesId": "cofagrigus"
         },
@@ -6725,6 +7297,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 69,
+          "score": 81.8,
           "pokemon": "Cofagrigus",
           "speciesId": "cofagrigus"
         },
@@ -6732,6 +7305,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 50,
+          "score": 87.2,
           "pokemon": "Cofagrigus",
           "speciesId": "cofagrigus"
         }
@@ -6764,6 +7338,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 16,
+          "score": 91.7,
           "pokemon": "Zygarde (Complete Forme)",
           "speciesId": "zygarde_complete"
         },
@@ -6771,6 +7346,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 11,
+          "score": 93,
           "pokemon": "Zygarde (Complete Forme)",
           "speciesId": "zygarde_complete"
         },
@@ -6778,6 +7354,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 12,
+          "score": 91.4,
           "pokemon": "Zygarde (Complete Forme)",
           "speciesId": "zygarde_complete"
         },
@@ -6785,6 +7362,7 @@
           "league": "master",
           "category": "overall",
           "rank": 25,
+          "score": 88.6,
           "pokemon": "Zygarde (Complete Forme)",
           "speciesId": "zygarde_complete"
         },
@@ -6792,6 +7370,7 @@
           "league": "master",
           "category": "leads",
           "rank": 43,
+          "score": 86.3,
           "pokemon": "Zygarde (Complete Forme)",
           "speciesId": "zygarde_complete"
         },
@@ -6799,6 +7378,7 @@
           "league": "master",
           "category": "switches",
           "rank": 27,
+          "score": 82.1,
           "pokemon": "Zygarde (Complete Forme)",
           "speciesId": "zygarde_complete"
         },
@@ -6806,6 +7386,7 @@
           "league": "master",
           "category": "closers",
           "rank": 31,
+          "score": 87,
           "pokemon": "Zygarde (Complete Forme)",
           "speciesId": "zygarde_complete"
         }
@@ -6839,6 +7420,7 @@
           "league": "great",
           "category": "closers",
           "rank": 44,
+          "score": 84.9,
           "pokemon": "Cresselia",
           "speciesId": "cresselia"
         },
@@ -6846,6 +7428,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 44,
+          "score": 89.8,
           "pokemon": "Cresselia",
           "speciesId": "cresselia"
         },
@@ -6853,6 +7436,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 53,
+          "score": 89.2,
           "pokemon": "Cresselia (Shadow)",
           "speciesId": "cresselia_shadow"
         },
@@ -6860,6 +7444,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 42,
+          "score": 88.5,
           "pokemon": "Cresselia",
           "speciesId": "cresselia"
         },
@@ -6867,6 +7452,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 27,
+          "score": 89.5,
           "pokemon": "Cresselia",
           "speciesId": "cresselia"
         },
@@ -6874,6 +7460,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 33,
+          "score": 88.7,
           "pokemon": "Cresselia",
           "speciesId": "cresselia"
         },
@@ -6881,6 +7468,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 61,
+          "score": 86.4,
           "pokemon": "Cresselia (Shadow)",
           "speciesId": "cresselia_shadow"
         }
@@ -6916,6 +7504,7 @@
           "league": "master",
           "category": "overall",
           "rank": 7,
+          "score": 94,
           "pokemon": "Dialga (Origin)",
           "speciesId": "dialga_origin"
         },
@@ -6923,6 +7512,7 @@
           "league": "master",
           "category": "overall",
           "rank": 41,
+          "score": 86,
           "pokemon": "Dialga",
           "speciesId": "dialga"
         },
@@ -6930,6 +7520,7 @@
           "league": "master",
           "category": "overall",
           "rank": 42,
+          "score": 86,
           "pokemon": "Dialga (Shadow)",
           "speciesId": "dialga_shadow"
         },
@@ -6937,6 +7528,7 @@
           "league": "master",
           "category": "leads",
           "rank": 8,
+          "score": 95.4,
           "pokemon": "Dialga (Origin)",
           "speciesId": "dialga_origin"
         },
@@ -6944,6 +7536,7 @@
           "league": "master",
           "category": "leads",
           "rank": 45,
+          "score": 85.7,
           "pokemon": "Dialga",
           "speciesId": "dialga"
         },
@@ -6951,6 +7544,7 @@
           "league": "master",
           "category": "leads",
           "rank": 51,
+          "score": 84.7,
           "pokemon": "Dialga (Shadow)",
           "speciesId": "dialga_shadow"
         },
@@ -6958,6 +7552,7 @@
           "league": "master",
           "category": "switches",
           "rank": 29,
+          "score": 81.6,
           "pokemon": "Dialga (Origin)",
           "speciesId": "dialga_origin"
         },
@@ -6965,6 +7560,7 @@
           "league": "master",
           "category": "switches",
           "rank": 35,
+          "score": 79.6,
           "pokemon": "Dialga (Shadow)",
           "speciesId": "dialga_shadow"
         },
@@ -6972,6 +7568,7 @@
           "league": "master",
           "category": "switches",
           "rank": 48,
+          "score": 76.2,
           "pokemon": "Dialga",
           "speciesId": "dialga"
         },
@@ -6979,6 +7576,7 @@
           "league": "master",
           "category": "closers",
           "rank": 19,
+          "score": 91.7,
           "pokemon": "Dialga (Origin)",
           "speciesId": "dialga_origin"
         },
@@ -6986,6 +7584,7 @@
           "league": "master",
           "category": "closers",
           "rank": 25,
+          "score": 90.8,
           "pokemon": "Dialga",
           "speciesId": "dialga"
         },
@@ -6993,6 +7592,7 @@
           "league": "master",
           "category": "closers",
           "rank": 30,
+          "score": 87.4,
           "pokemon": "Dialga (Shadow)",
           "speciesId": "dialga_shadow"
         }
@@ -7049,6 +7649,7 @@
           "league": "master",
           "category": "overall",
           "rank": 15,
+          "score": 91.4,
           "pokemon": "Eternatus",
           "speciesId": "eternatus"
         },
@@ -7056,6 +7657,7 @@
           "league": "master",
           "category": "leads",
           "rank": 33,
+          "score": 88.6,
           "pokemon": "Eternatus",
           "speciesId": "eternatus"
         },
@@ -7063,6 +7665,7 @@
           "league": "master",
           "category": "switches",
           "rank": 18,
+          "score": 85.2,
           "pokemon": "Eternatus",
           "speciesId": "eternatus"
         },
@@ -7070,6 +7673,7 @@
           "league": "master",
           "category": "closers",
           "rank": 3,
+          "score": 96.8,
           "pokemon": "Eternatus",
           "speciesId": "eternatus"
         }
@@ -7112,6 +7716,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 36,
+          "score": 90.4,
           "pokemon": "Giratina (Altered)",
           "speciesId": "giratina_altered"
         },
@@ -7119,6 +7724,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 46,
+          "score": 89.7,
           "pokemon": "Giratina (Altered) (Shadow)",
           "speciesId": "giratina_altered_shadow"
         },
@@ -7126,6 +7732,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 18,
+          "score": 91.1,
           "pokemon": "Giratina (Altered)",
           "speciesId": "giratina_altered"
         },
@@ -7133,6 +7740,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 34,
+          "score": 88,
           "pokemon": "Giratina (Altered)",
           "speciesId": "giratina_altered"
         },
@@ -7140,6 +7748,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 16,
+          "score": 90.7,
           "pokemon": "Giratina (Altered)",
           "speciesId": "giratina_altered"
         },
@@ -7147,6 +7756,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 29,
+          "score": 89,
           "pokemon": "Giratina (Altered) (Shadow)",
           "speciesId": "giratina_altered_shadow"
         },
@@ -7154,6 +7764,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 75,
+          "score": 85.7,
           "pokemon": "Giratina (Origin)",
           "speciesId": "giratina_origin"
         },
@@ -7161,6 +7772,7 @@
           "league": "master",
           "category": "overall",
           "rank": 70,
+          "score": 80.4,
           "pokemon": "Giratina (Origin)",
           "speciesId": "giratina_origin"
         },
@@ -7168,6 +7780,7 @@
           "league": "master",
           "category": "overall",
           "rank": 75,
+          "score": 80.1,
           "pokemon": "Giratina (Altered) (Shadow)",
           "speciesId": "giratina_altered_shadow"
         },
@@ -7175,6 +7788,7 @@
           "league": "master",
           "category": "leads",
           "rank": 61,
+          "score": 82.4,
           "pokemon": "Giratina (Origin)",
           "speciesId": "giratina_origin"
         },
@@ -7182,6 +7796,7 @@
           "league": "master",
           "category": "switches",
           "rank": 61,
+          "score": 70.2,
           "pokemon": "Giratina (Origin)",
           "speciesId": "giratina_origin"
         },
@@ -7189,6 +7804,7 @@
           "league": "master",
           "category": "closers",
           "rank": 50,
+          "score": 80.8,
           "pokemon": "Giratina (Altered) (Shadow)",
           "speciesId": "giratina_altered_shadow"
         },
@@ -7196,6 +7812,7 @@
           "league": "master",
           "category": "closers",
           "rank": 51,
+          "score": 80.8,
           "pokemon": "Giratina (Origin)",
           "speciesId": "giratina_origin"
         }
@@ -7229,6 +7846,7 @@
           "league": "master",
           "category": "overall",
           "rank": 33,
+          "score": 87.4,
           "pokemon": "Groudon",
           "speciesId": "groudon"
         },
@@ -7236,6 +7854,7 @@
           "league": "master",
           "category": "overall",
           "rank": 60,
+          "score": 82.3,
           "pokemon": "Groudon (Shadow)",
           "speciesId": "groudon_shadow"
         },
@@ -7243,6 +7862,7 @@
           "league": "master",
           "category": "leads",
           "rank": 7,
+          "score": 95.7,
           "pokemon": "Groudon",
           "speciesId": "groudon"
         },
@@ -7250,6 +7870,7 @@
           "league": "master",
           "category": "leads",
           "rank": 68,
+          "score": 80.9,
           "pokemon": "Groudon (Shadow)",
           "speciesId": "groudon_shadow"
         },
@@ -7257,6 +7878,7 @@
           "league": "master",
           "category": "switches",
           "rank": 8,
+          "score": 93.8,
           "pokemon": "Groudon",
           "speciesId": "groudon"
         },
@@ -7264,6 +7886,7 @@
           "league": "master",
           "category": "switches",
           "rank": 21,
+          "score": 84.1,
           "pokemon": "Groudon (Shadow)",
           "speciesId": "groudon_shadow"
         },
@@ -7271,6 +7894,7 @@
           "league": "master",
           "category": "closers",
           "rank": 5,
+          "score": 96.2,
           "pokemon": "Groudon",
           "speciesId": "groudon"
         },
@@ -7278,6 +7902,7 @@
           "league": "master",
           "category": "closers",
           "rank": 9,
+          "score": 94.3,
           "pokemon": "Groudon (Shadow)",
           "speciesId": "groudon_shadow"
         }
@@ -7310,6 +7935,7 @@
           "league": "great",
           "category": "overall",
           "rank": 25,
+          "score": 90.5,
           "pokemon": "Guzzlord",
           "speciesId": "guzzlord"
         },
@@ -7317,6 +7943,7 @@
           "league": "great",
           "category": "leads",
           "rank": 64,
+          "score": 84.9,
           "pokemon": "Guzzlord",
           "speciesId": "guzzlord"
         },
@@ -7324,6 +7951,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 62,
+          "score": 88.9,
           "pokemon": "Guzzlord",
           "speciesId": "guzzlord"
         },
@@ -7331,6 +7959,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 49,
+          "score": 88,
           "pokemon": "Guzzlord",
           "speciesId": "guzzlord"
         }
@@ -7362,6 +7991,7 @@
           "league": "master",
           "category": "overall",
           "rank": 66,
+          "score": 80.8,
           "pokemon": "Heatran (Shadow)",
           "speciesId": "heatran_shadow"
         },
@@ -7369,6 +7999,7 @@
           "league": "master",
           "category": "closers",
           "rank": 42,
+          "score": 82.5,
           "pokemon": "Heatran (Shadow)",
           "speciesId": "heatran_shadow"
         }
@@ -7402,6 +8033,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 46,
+          "score": 87.5,
           "pokemon": "Ho-Oh",
           "speciesId": "ho_oh"
         },
@@ -7409,6 +8041,7 @@
           "league": "master",
           "category": "overall",
           "rank": 24,
+          "score": 88.7,
           "pokemon": "Ho-Oh",
           "speciesId": "ho_oh"
         },
@@ -7416,6 +8049,7 @@
           "league": "master",
           "category": "overall",
           "rank": 61,
+          "score": 82.1,
           "pokemon": "Ho-Oh (Shadow)",
           "speciesId": "ho_oh_shadow"
         },
@@ -7423,6 +8057,7 @@
           "league": "master",
           "category": "closers",
           "rank": 14,
+          "score": 92.4,
           "pokemon": "Ho-Oh",
           "speciesId": "ho_oh"
         },
@@ -7430,6 +8065,7 @@
           "league": "master",
           "category": "closers",
           "rank": 28,
+          "score": 89.8,
           "pokemon": "Ho-Oh (Shadow)",
           "speciesId": "ho_oh_shadow"
         }
@@ -7463,6 +8099,7 @@
           "league": "master",
           "category": "overall",
           "rank": 11,
+          "score": 93,
           "pokemon": "Kyogre",
           "speciesId": "kyogre"
         },
@@ -7470,6 +8107,7 @@
           "league": "master",
           "category": "overall",
           "rank": 30,
+          "score": 87.9,
           "pokemon": "Kyogre (Shadow)",
           "speciesId": "kyogre_shadow"
         },
@@ -7477,6 +8115,7 @@
           "league": "master",
           "category": "leads",
           "rank": 23,
+          "score": 91.4,
           "pokemon": "Kyogre",
           "speciesId": "kyogre"
         },
@@ -7484,6 +8123,7 @@
           "league": "master",
           "category": "leads",
           "rank": 62,
+          "score": 82.4,
           "pokemon": "Kyogre (Shadow)",
           "speciesId": "kyogre_shadow"
         },
@@ -7491,6 +8131,7 @@
           "league": "master",
           "category": "switches",
           "rank": 68,
+          "score": 68.3,
           "pokemon": "Kyogre",
           "speciesId": "kyogre"
         },
@@ -7498,6 +8139,7 @@
           "league": "master",
           "category": "closers",
           "rank": 2,
+          "score": 97.4,
           "pokemon": "Kyogre",
           "speciesId": "kyogre"
         },
@@ -7505,6 +8147,7 @@
           "league": "master",
           "category": "closers",
           "rank": 23,
+          "score": 91,
           "pokemon": "Kyogre (Shadow)",
           "speciesId": "kyogre_shadow"
         }
@@ -7546,6 +8189,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 63,
+          "score": 87.5,
           "pokemon": "Kyurem",
           "speciesId": "kyurem"
         },
@@ -7553,6 +8197,7 @@
           "league": "master",
           "category": "overall",
           "rank": 4,
+          "score": 94.8,
           "pokemon": "Kyurem (White)",
           "speciesId": "kyurem_white"
         },
@@ -7560,6 +8205,7 @@
           "league": "master",
           "category": "overall",
           "rank": 10,
+          "score": 93.1,
           "pokemon": "Kyurem (Black)",
           "speciesId": "kyurem_black"
         },
@@ -7567,6 +8213,7 @@
           "league": "master",
           "category": "overall",
           "rank": 48,
+          "score": 84.6,
           "pokemon": "Kyurem",
           "speciesId": "kyurem"
         },
@@ -7574,6 +8221,7 @@
           "league": "master",
           "category": "leads",
           "rank": 2,
+          "score": 98.6,
           "pokemon": "Kyurem (White)",
           "speciesId": "kyurem_white"
         },
@@ -7581,6 +8229,7 @@
           "league": "master",
           "category": "leads",
           "rank": 42,
+          "score": 86.3,
           "pokemon": "Kyurem (Black)",
           "speciesId": "kyurem_black"
         },
@@ -7588,6 +8237,7 @@
           "league": "master",
           "category": "leads",
           "rank": 50,
+          "score": 84.8,
           "pokemon": "Kyurem",
           "speciesId": "kyurem"
         },
@@ -7595,6 +8245,7 @@
           "league": "master",
           "category": "switches",
           "rank": 4,
+          "score": 97.4,
           "pokemon": "Kyurem (White)",
           "speciesId": "kyurem_white"
         },
@@ -7602,6 +8253,7 @@
           "league": "master",
           "category": "switches",
           "rank": 19,
+          "score": 85.1,
           "pokemon": "Kyurem (Black)",
           "speciesId": "kyurem_black"
         },
@@ -7609,6 +8261,7 @@
           "league": "master",
           "category": "switches",
           "rank": 38,
+          "score": 79.1,
           "pokemon": "Kyurem",
           "speciesId": "kyurem"
         },
@@ -7616,6 +8269,7 @@
           "league": "master",
           "category": "closers",
           "rank": 12,
+          "score": 93.1,
           "pokemon": "Kyurem (White)",
           "speciesId": "kyurem_white"
         },
@@ -7623,6 +8277,7 @@
           "league": "master",
           "category": "closers",
           "rank": 24,
+          "score": 91,
           "pokemon": "Kyurem (Black)",
           "speciesId": "kyurem_black"
         },
@@ -7630,6 +8285,7 @@
           "league": "master",
           "category": "closers",
           "rank": 63,
+          "score": 78.9,
           "pokemon": "Kyurem",
           "speciesId": "kyurem"
         }
@@ -7668,6 +8324,7 @@
           "league": "master",
           "category": "overall",
           "rank": 57,
+          "score": 83,
           "pokemon": "Landorus (Therian)",
           "speciesId": "landorus_therian"
         },
@@ -7675,6 +8332,7 @@
           "league": "master",
           "category": "leads",
           "rank": 55,
+          "score": 83.5,
           "pokemon": "Landorus (Therian)",
           "speciesId": "landorus_therian"
         },
@@ -7682,6 +8340,7 @@
           "league": "master",
           "category": "switches",
           "rank": 30,
+          "score": 81.5,
           "pokemon": "Landorus (Therian)",
           "speciesId": "landorus_therian"
         },
@@ -7689,6 +8348,7 @@
           "league": "master",
           "category": "closers",
           "rank": 37,
+          "score": 83.9,
           "pokemon": "Landorus (Incarnate) (Shadow)",
           "speciesId": "landorus_incarnate_shadow"
         },
@@ -7696,6 +8356,7 @@
           "league": "master",
           "category": "closers",
           "rank": 45,
+          "score": 82.2,
           "pokemon": "Landorus (Therian)",
           "speciesId": "landorus_therian"
         },
@@ -7703,6 +8364,7 @@
           "league": "master",
           "category": "closers",
           "rank": 75,
+          "score": 77,
           "pokemon": "Landorus (Incarnate)",
           "speciesId": "landorus_incarnate"
         }
@@ -7736,6 +8398,7 @@
           "league": "master",
           "category": "overall",
           "rank": 40,
+          "score": 86.3,
           "pokemon": "Latias (Shadow)",
           "speciesId": "latias_shadow"
         },
@@ -7743,6 +8406,7 @@
           "league": "master",
           "category": "overall",
           "rank": 50,
+          "score": 84.4,
           "pokemon": "Latias",
           "speciesId": "latias"
         },
@@ -7750,6 +8414,7 @@
           "league": "master",
           "category": "leads",
           "rank": 14,
+          "score": 94.2,
           "pokemon": "Latias (Shadow)",
           "speciesId": "latias_shadow"
         },
@@ -7757,6 +8422,7 @@
           "league": "master",
           "category": "leads",
           "rank": 56,
+          "score": 83.5,
           "pokemon": "Latias",
           "speciesId": "latias"
         },
@@ -7764,6 +8430,7 @@
           "league": "master",
           "category": "switches",
           "rank": 15,
+          "score": 87.4,
           "pokemon": "Latias (Shadow)",
           "speciesId": "latias_shadow"
         },
@@ -7771,6 +8438,7 @@
           "league": "master",
           "category": "switches",
           "rank": 55,
+          "score": 73,
           "pokemon": "Latias",
           "speciesId": "latias"
         },
@@ -7778,6 +8446,7 @@
           "league": "master",
           "category": "closers",
           "rank": 46,
+          "score": 82.2,
           "pokemon": "Latias",
           "speciesId": "latias"
         }
@@ -7811,6 +8480,7 @@
           "league": "master",
           "category": "overall",
           "rank": 28,
+          "score": 88,
           "pokemon": "Latios",
           "speciesId": "latios"
         },
@@ -7818,6 +8488,7 @@
           "league": "master",
           "category": "overall",
           "rank": 29,
+          "score": 88,
           "pokemon": "Latios (Shadow)",
           "speciesId": "latios_shadow"
         },
@@ -7825,6 +8496,7 @@
           "league": "master",
           "category": "leads",
           "rank": 10,
+          "score": 94.9,
           "pokemon": "Latios",
           "speciesId": "latios"
         },
@@ -7832,6 +8504,7 @@
           "league": "master",
           "category": "leads",
           "rank": 15,
+          "score": 94.2,
           "pokemon": "Latios (Shadow)",
           "speciesId": "latios_shadow"
         },
@@ -7839,6 +8512,7 @@
           "league": "master",
           "category": "switches",
           "rank": 14,
+          "score": 88.4,
           "pokemon": "Latios (Shadow)",
           "speciesId": "latios_shadow"
         },
@@ -7846,6 +8520,7 @@
           "league": "master",
           "category": "switches",
           "rank": 44,
+          "score": 77.1,
           "pokemon": "Latios",
           "speciesId": "latios"
         },
@@ -7853,6 +8528,7 @@
           "league": "master",
           "category": "closers",
           "rank": 36,
+          "score": 84.1,
           "pokemon": "Latios (Shadow)",
           "speciesId": "latios_shadow"
         },
@@ -7860,6 +8536,7 @@
           "league": "master",
           "category": "closers",
           "rank": 57,
+          "score": 79.8,
           "pokemon": "Latios",
           "speciesId": "latios"
         }
@@ -7893,6 +8570,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 63,
+          "score": 86.4,
           "pokemon": "Lugia",
           "speciesId": "lugia"
         },
@@ -7900,6 +8578,7 @@
           "league": "master",
           "category": "overall",
           "rank": 17,
+          "score": 91,
           "pokemon": "Lugia",
           "speciesId": "lugia"
         },
@@ -7907,6 +8586,7 @@
           "league": "master",
           "category": "overall",
           "rank": 19,
+          "score": 90.2,
           "pokemon": "Lugia (Shadow)",
           "speciesId": "lugia_shadow"
         },
@@ -7914,6 +8594,7 @@
           "league": "master",
           "category": "leads",
           "rank": 11,
+          "score": 94.9,
           "pokemon": "Lugia",
           "speciesId": "lugia"
         },
@@ -7921,6 +8602,7 @@
           "league": "master",
           "category": "leads",
           "rank": 18,
+          "score": 92.4,
           "pokemon": "Lugia (Shadow)",
           "speciesId": "lugia_shadow"
         },
@@ -7928,6 +8610,7 @@
           "league": "master",
           "category": "switches",
           "rank": 16,
+          "score": 87,
           "pokemon": "Lugia",
           "speciesId": "lugia"
         },
@@ -7935,6 +8618,7 @@
           "league": "master",
           "category": "switches",
           "rank": 22,
+          "score": 83.8,
           "pokemon": "Lugia (Shadow)",
           "speciesId": "lugia_shadow"
         },
@@ -7942,6 +8626,7 @@
           "league": "master",
           "category": "closers",
           "rank": 16,
+          "score": 92,
           "pokemon": "Lugia (Shadow)",
           "speciesId": "lugia_shadow"
         },
@@ -7949,6 +8634,7 @@
           "league": "master",
           "category": "closers",
           "rank": 20,
+          "score": 91.7,
           "pokemon": "Lugia",
           "speciesId": "lugia"
         }
@@ -7982,6 +8668,7 @@
           "league": "master",
           "category": "overall",
           "rank": 35,
+          "score": 87,
           "pokemon": "Mewtwo (Shadow)",
           "speciesId": "mewtwo_shadow"
         },
@@ -7989,6 +8676,7 @@
           "league": "master",
           "category": "overall",
           "rank": 45,
+          "score": 84.9,
           "pokemon": "Mewtwo",
           "speciesId": "mewtwo"
         },
@@ -7996,6 +8684,7 @@
           "league": "master",
           "category": "leads",
           "rank": 31,
+          "score": 89.1,
           "pokemon": "Mewtwo (Shadow)",
           "speciesId": "mewtwo_shadow"
         },
@@ -8003,6 +8692,7 @@
           "league": "master",
           "category": "leads",
           "rank": 46,
+          "score": 85.7,
           "pokemon": "Mewtwo",
           "speciesId": "mewtwo"
         },
@@ -8010,6 +8700,7 @@
           "league": "master",
           "category": "switches",
           "rank": 20,
+          "score": 85.1,
           "pokemon": "Mewtwo (Shadow)",
           "speciesId": "mewtwo_shadow"
         },
@@ -8017,6 +8708,7 @@
           "league": "master",
           "category": "switches",
           "rank": 25,
+          "score": 82.4,
           "pokemon": "Mewtwo",
           "speciesId": "mewtwo"
         },
@@ -8024,6 +8716,7 @@
           "league": "master",
           "category": "closers",
           "rank": 29,
+          "score": 87.7,
           "pokemon": "Mewtwo (Shadow)",
           "speciesId": "mewtwo_shadow"
         },
@@ -8031,6 +8724,7 @@
           "league": "master",
           "category": "closers",
           "rank": 39,
+          "score": 83.4,
           "pokemon": "Mewtwo",
           "speciesId": "mewtwo"
         }
@@ -8072,6 +8766,7 @@
           "league": "master",
           "category": "overall",
           "rank": 21,
+          "score": 89.6,
           "pokemon": "Necrozma (Dawn Wings)",
           "speciesId": "necrozma_dawn_wings"
         },
@@ -8079,6 +8774,7 @@
           "league": "master",
           "category": "overall",
           "rank": 31,
+          "score": 87.7,
           "pokemon": "Necrozma (Dusk Mane)",
           "speciesId": "necrozma_dusk_mane"
         },
@@ -8086,6 +8782,7 @@
           "league": "master",
           "category": "leads",
           "rank": 32,
+          "score": 88.9,
           "pokemon": "Necrozma (Dawn Wings)",
           "speciesId": "necrozma_dawn_wings"
         },
@@ -8093,6 +8790,7 @@
           "league": "master",
           "category": "leads",
           "rank": 36,
+          "score": 87.1,
           "pokemon": "Necrozma (Dusk Mane)",
           "speciesId": "necrozma_dusk_mane"
         },
@@ -8100,6 +8798,7 @@
           "league": "master",
           "category": "switches",
           "rank": 31,
+          "score": 81.3,
           "pokemon": "Necrozma (Dusk Mane)",
           "speciesId": "necrozma_dusk_mane"
         },
@@ -8107,6 +8806,7 @@
           "league": "master",
           "category": "switches",
           "rank": 36,
+          "score": 79.6,
           "pokemon": "Necrozma (Dawn Wings)",
           "speciesId": "necrozma_dawn_wings"
         },
@@ -8114,6 +8814,7 @@
           "league": "master",
           "category": "closers",
           "rank": 17,
+          "score": 92,
           "pokemon": "Necrozma (Dawn Wings)",
           "speciesId": "necrozma_dawn_wings"
         },
@@ -8121,6 +8822,7 @@
           "league": "master",
           "category": "closers",
           "rank": 22,
+          "score": 91.2,
           "pokemon": "Necrozma (Dusk Mane)",
           "speciesId": "necrozma_dusk_mane"
         }
@@ -8158,6 +8860,7 @@
           "league": "master",
           "category": "overall",
           "rank": 2,
+          "score": 98.9,
           "pokemon": "Palkia (Origin)",
           "speciesId": "palkia_origin"
         },
@@ -8165,6 +8868,7 @@
           "league": "master",
           "category": "overall",
           "rank": 16,
+          "score": 91.4,
           "pokemon": "Palkia (Shadow)",
           "speciesId": "palkia_shadow"
         },
@@ -8172,6 +8876,7 @@
           "league": "master",
           "category": "overall",
           "rank": 27,
+          "score": 88.4,
           "pokemon": "Palkia",
           "speciesId": "palkia"
         },
@@ -8179,6 +8884,7 @@
           "league": "master",
           "category": "leads",
           "rank": 4,
+          "score": 97,
           "pokemon": "Palkia (Shadow)",
           "speciesId": "palkia_shadow"
         },
@@ -8186,6 +8892,7 @@
           "league": "master",
           "category": "leads",
           "rank": 6,
+          "score": 96.2,
           "pokemon": "Palkia (Origin)",
           "speciesId": "palkia_origin"
         },
@@ -8193,6 +8900,7 @@
           "league": "master",
           "category": "leads",
           "rank": 25,
+          "score": 90.6,
           "pokemon": "Palkia",
           "speciesId": "palkia"
         },
@@ -8200,6 +8908,7 @@
           "league": "master",
           "category": "switches",
           "rank": 1,
+          "score": 100,
           "pokemon": "Palkia (Origin)",
           "speciesId": "palkia_origin"
         },
@@ -8207,6 +8916,7 @@
           "league": "master",
           "category": "switches",
           "rank": 3,
+          "score": 97.6,
           "pokemon": "Palkia (Shadow)",
           "speciesId": "palkia_shadow"
         },
@@ -8214,6 +8924,7 @@
           "league": "master",
           "category": "switches",
           "rank": 26,
+          "score": 82.4,
           "pokemon": "Palkia",
           "speciesId": "palkia"
         },
@@ -8221,6 +8932,7 @@
           "league": "master",
           "category": "closers",
           "rank": 11,
+          "score": 93.4,
           "pokemon": "Palkia (Origin)",
           "speciesId": "palkia_origin"
         },
@@ -8228,6 +8940,7 @@
           "league": "master",
           "category": "closers",
           "rank": 48,
+          "score": 81.3,
           "pokemon": "Palkia (Shadow)",
           "speciesId": "palkia_shadow"
         },
@@ -8235,6 +8948,7 @@
           "league": "master",
           "category": "closers",
           "rank": 68,
+          "score": 77.9,
           "pokemon": "Palkia",
           "speciesId": "palkia"
         }
@@ -8268,6 +8982,7 @@
           "league": "great",
           "category": "closers",
           "rank": 32,
+          "score": 85.9,
           "pokemon": "Raikou",
           "speciesId": "raikou"
         },
@@ -8275,6 +8990,7 @@
           "league": "great",
           "category": "closers",
           "rank": 51,
+          "score": 84.6,
           "pokemon": "Raikou (Shadow)",
           "speciesId": "raikou_shadow"
         },
@@ -8282,6 +8998,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 56,
+          "score": 89.1,
           "pokemon": "Raikou (Shadow)",
           "speciesId": "raikou_shadow"
         },
@@ -8289,6 +9006,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 44,
+          "score": 88.5,
           "pokemon": "Raikou (Shadow)",
           "speciesId": "raikou_shadow"
         },
@@ -8296,6 +9014,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 13,
+          "score": 91.2,
           "pokemon": "Raikou (Shadow)",
           "speciesId": "raikou_shadow"
         },
@@ -8303,6 +9022,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 23,
+          "score": 89.9,
           "pokemon": "Raikou",
           "speciesId": "raikou"
         },
@@ -8310,6 +9030,7 @@
           "league": "master",
           "category": "overall",
           "rank": 67,
+          "score": 80.7,
           "pokemon": "Raikou (Shadow)",
           "speciesId": "raikou_shadow"
         },
@@ -8317,6 +9038,7 @@
           "league": "master",
           "category": "leads",
           "rank": 71,
+          "score": 80.6,
           "pokemon": "Raikou (Shadow)",
           "speciesId": "raikou_shadow"
         },
@@ -8324,6 +9046,7 @@
           "league": "master",
           "category": "switches",
           "rank": 72,
+          "score": 66.3,
           "pokemon": "Raikou",
           "speciesId": "raikou"
         },
@@ -8331,6 +9054,7 @@
           "league": "master",
           "category": "closers",
           "rank": 41,
+          "score": 83.1,
           "pokemon": "Raikou (Shadow)",
           "speciesId": "raikou_shadow"
         },
@@ -8338,6 +9062,7 @@
           "league": "master",
           "category": "closers",
           "rank": 61,
+          "score": 79.3,
           "pokemon": "Raikou",
           "speciesId": "raikou"
         }
@@ -8370,6 +9095,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 18,
+          "score": 90.4,
           "pokemon": "Regice",
           "speciesId": "regice"
         }
@@ -8412,6 +9138,7 @@
           "league": "great",
           "category": "leads",
           "rank": 11,
+          "score": 89.1,
           "pokemon": "Regidrago",
           "speciesId": "regidrago"
         },
@@ -8419,6 +9146,7 @@
           "league": "great",
           "category": "closers",
           "rank": 36,
+          "score": 85.5,
           "pokemon": "Regidrago",
           "speciesId": "regidrago"
         },
@@ -8426,6 +9154,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 31,
+          "score": 90.5,
           "pokemon": "Regidrago",
           "speciesId": "regidrago"
         },
@@ -8433,6 +9162,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 10,
+          "score": 93,
           "pokemon": "Regidrago",
           "speciesId": "regidrago"
         },
@@ -8440,6 +9170,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 60,
+          "score": 83.1,
           "pokemon": "Regidrago",
           "speciesId": "regidrago"
         },
@@ -8447,6 +9178,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 21,
+          "score": 90.1,
           "pokemon": "Regidrago",
           "speciesId": "regidrago"
         }
@@ -8478,6 +9210,7 @@
           "league": "great",
           "category": "closers",
           "rank": 41,
+          "score": 85.1,
           "pokemon": "Regirock",
           "speciesId": "regirock"
         },
@@ -8485,6 +9218,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 74,
+          "score": 81.3,
           "pokemon": "Regirock",
           "speciesId": "regirock"
         },
@@ -8492,6 +9226,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 47,
+          "score": 87.5,
           "pokemon": "Regirock",
           "speciesId": "regirock"
         },
@@ -8499,6 +9234,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 69,
+          "score": 86,
           "pokemon": "Regirock (Shadow)",
           "speciesId": "regirock_shadow"
         }
@@ -8542,6 +9278,7 @@
           "league": "great",
           "category": "overall",
           "rank": 74,
+          "score": 88.3,
           "pokemon": "Registeel",
           "speciesId": "registeel"
         },
@@ -8549,6 +9286,7 @@
           "league": "great",
           "category": "closers",
           "rank": 4,
+          "score": 93.2,
           "pokemon": "Registeel",
           "speciesId": "registeel"
         },
@@ -8556,6 +9294,7 @@
           "league": "great",
           "category": "closers",
           "rank": 24,
+          "score": 86.8,
           "pokemon": "Registeel (Shadow)",
           "speciesId": "registeel_shadow"
         },
@@ -8563,6 +9302,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 22,
+          "score": 90.8,
           "pokemon": "Registeel",
           "speciesId": "registeel"
         },
@@ -8570,6 +9310,7 @@
           "league": "ultra",
           "category": "leads",
           "rank": 38,
+          "score": 88.8,
           "pokemon": "Registeel",
           "speciesId": "registeel"
         },
@@ -8577,6 +9318,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 3,
+          "score": 95.4,
           "pokemon": "Registeel",
           "speciesId": "registeel"
         },
@@ -8584,6 +9326,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 4,
+          "score": 94.6,
           "pokemon": "Registeel (Shadow)",
           "speciesId": "registeel_shadow"
         }
@@ -8627,6 +9370,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 61,
+          "score": 82.9,
           "pokemon": "Reshiram",
           "speciesId": "reshiram"
         },
@@ -8634,6 +9378,7 @@
           "league": "master",
           "category": "overall",
           "rank": 8,
+          "score": 94,
           "pokemon": "Reshiram",
           "speciesId": "reshiram"
         },
@@ -8641,6 +9386,7 @@
           "league": "master",
           "category": "overall",
           "rank": 14,
+          "score": 92.5,
           "pokemon": "Reshiram (Shadow)",
           "speciesId": "reshiram_shadow"
         },
@@ -8648,6 +9394,7 @@
           "league": "master",
           "category": "leads",
           "rank": 16,
+          "score": 93.7,
           "pokemon": "Reshiram (Shadow)",
           "speciesId": "reshiram_shadow"
         },
@@ -8655,6 +9402,7 @@
           "league": "master",
           "category": "leads",
           "rank": 22,
+          "score": 91.7,
           "pokemon": "Reshiram",
           "speciesId": "reshiram"
         },
@@ -8662,6 +9410,7 @@
           "league": "master",
           "category": "switches",
           "rank": 5,
+          "score": 96.7,
           "pokemon": "Reshiram",
           "speciesId": "reshiram"
         },
@@ -8669,6 +9418,7 @@
           "league": "master",
           "category": "switches",
           "rank": 9,
+          "score": 93.1,
           "pokemon": "Reshiram (Shadow)",
           "speciesId": "reshiram_shadow"
         },
@@ -8676,6 +9426,7 @@
           "league": "master",
           "category": "closers",
           "rank": 13,
+          "score": 92.5,
           "pokemon": "Reshiram (Shadow)",
           "speciesId": "reshiram_shadow"
         },
@@ -8683,6 +9434,7 @@
           "league": "master",
           "category": "closers",
           "rank": 15,
+          "score": 92.2,
           "pokemon": "Reshiram",
           "speciesId": "reshiram"
         }
@@ -8715,6 +9467,7 @@
           "league": "master",
           "category": "overall",
           "rank": 51,
+          "score": 84.4,
           "pokemon": "Tapu Lele",
           "speciesId": "tapu_lele"
         },
@@ -8722,6 +9475,7 @@
           "league": "master",
           "category": "leads",
           "rank": 35,
+          "score": 87.6,
           "pokemon": "Tapu Lele",
           "speciesId": "tapu_lele"
         },
@@ -8729,6 +9483,7 @@
           "league": "master",
           "category": "switches",
           "rank": 23,
+          "score": 83.5,
           "pokemon": "Tapu Lele",
           "speciesId": "tapu_lele"
         },
@@ -8736,6 +9491,7 @@
           "league": "master",
           "category": "closers",
           "rank": 74,
+          "score": 77.2,
           "pokemon": "Tapu Lele",
           "speciesId": "tapu_lele"
         }
@@ -8768,6 +9524,7 @@
           "league": "ultra",
           "category": "overall",
           "rank": 7,
+          "score": 92.8,
           "pokemon": "Virizion",
           "speciesId": "virizion"
         }
@@ -8798,6 +9555,7 @@
           "league": "ultra",
           "category": "closers",
           "rank": 48,
+          "score": 87.4,
           "pokemon": "Xerneas",
           "speciesId": "xerneas"
         },
@@ -8805,6 +9563,7 @@
           "league": "master",
           "category": "overall",
           "rank": 6,
+          "score": 94.8,
           "pokemon": "Xerneas",
           "speciesId": "xerneas"
         },
@@ -8812,6 +9571,7 @@
           "league": "master",
           "category": "leads",
           "rank": 9,
+          "score": 95.4,
           "pokemon": "Xerneas",
           "speciesId": "xerneas"
         },
@@ -8819,6 +9579,7 @@
           "league": "master",
           "category": "switches",
           "rank": 47,
+          "score": 76.5,
           "pokemon": "Xerneas",
           "speciesId": "xerneas"
         },
@@ -8826,6 +9587,7 @@
           "league": "master",
           "category": "closers",
           "rank": 7,
+          "score": 95.3,
           "pokemon": "Xerneas",
           "speciesId": "xerneas"
         }
@@ -8858,6 +9620,7 @@
           "league": "master",
           "category": "overall",
           "rank": 22,
+          "score": 89.6,
           "pokemon": "Yveltal",
           "speciesId": "yveltal"
         },
@@ -8865,6 +9628,7 @@
           "league": "master",
           "category": "leads",
           "rank": 24,
+          "score": 91.1,
           "pokemon": "Yveltal",
           "speciesId": "yveltal"
         },
@@ -8872,6 +9636,7 @@
           "league": "master",
           "category": "switches",
           "rank": 10,
+          "score": 91.8,
           "pokemon": "Yveltal",
           "speciesId": "yveltal"
         },
@@ -8879,6 +9644,7 @@
           "league": "master",
           "category": "closers",
           "rank": 55,
+          "score": 80.3,
           "pokemon": "Yveltal",
           "speciesId": "yveltal"
         }
@@ -8918,6 +9684,7 @@
           "league": "master",
           "category": "overall",
           "rank": 1,
+          "score": 99,
           "pokemon": "Zacian (Crowned Sword)",
           "speciesId": "zacian_crowned_sword"
         },
@@ -8925,6 +9692,7 @@
           "league": "master",
           "category": "leads",
           "rank": 17,
+          "score": 92.9,
           "pokemon": "Zacian (Crowned Sword)",
           "speciesId": "zacian_crowned_sword"
         },
@@ -8932,6 +9700,7 @@
           "league": "master",
           "category": "leads",
           "rank": 73,
+          "score": 80.1,
           "pokemon": "Zacian (Hero)",
           "speciesId": "zacian_hero"
         },
@@ -8939,6 +9708,7 @@
           "league": "master",
           "category": "switches",
           "rank": 58,
+          "score": 71.6,
           "pokemon": "Zacian (Crowned Sword)",
           "speciesId": "zacian_crowned_sword"
         },
@@ -8946,6 +9716,7 @@
           "league": "master",
           "category": "switches",
           "rank": 73,
+          "score": 66.3,
           "pokemon": "Zacian (Hero)",
           "speciesId": "zacian_hero"
         },
@@ -8953,6 +9724,7 @@
           "league": "master",
           "category": "closers",
           "rank": 1,
+          "score": 100,
           "pokemon": "Zacian (Crowned Sword)",
           "speciesId": "zacian_crowned_sword"
         },
@@ -8960,6 +9732,7 @@
           "league": "master",
           "category": "closers",
           "rank": 52,
+          "score": 80.6,
           "pokemon": "Zacian (Hero)",
           "speciesId": "zacian_hero"
         }
@@ -8999,6 +9772,7 @@
           "league": "master",
           "category": "overall",
           "rank": 9,
+          "score": 93.9,
           "pokemon": "Zamazenta (Crowned Shield)",
           "speciesId": "zamazenta_crowned_shield"
         },
@@ -9006,6 +9780,7 @@
           "league": "master",
           "category": "leads",
           "rank": 12,
+          "score": 94.7,
           "pokemon": "Zamazenta (Crowned Shield)",
           "speciesId": "zamazenta_crowned_shield"
         },
@@ -9013,6 +9788,7 @@
           "league": "master",
           "category": "switches",
           "rank": 40,
+          "score": 78.2,
           "pokemon": "Zamazenta (Crowned Shield)",
           "speciesId": "zamazenta_crowned_shield"
         },
@@ -9020,6 +9796,7 @@
           "league": "master",
           "category": "closers",
           "rank": 8,
+          "score": 95,
           "pokemon": "Zamazenta (Crowned Shield)",
           "speciesId": "zamazenta_crowned_shield"
         },
@@ -9027,6 +9804,7 @@
           "league": "master",
           "category": "closers",
           "rank": 56,
+          "score": 80.1,
           "pokemon": "Zamazenta (Hero)",
           "speciesId": "zamazenta_hero"
         }
@@ -9060,6 +9838,7 @@
           "league": "great",
           "category": "switches",
           "rank": 31,
+          "score": 86.9,
           "pokemon": "Zapdos (Shadow)",
           "speciesId": "zapdos_shadow"
         },
@@ -9067,6 +9846,7 @@
           "league": "ultra",
           "category": "switches",
           "rank": 45,
+          "score": 85.9,
           "pokemon": "Zapdos (Shadow)",
           "speciesId": "zapdos_shadow"
         },
@@ -9074,6 +9854,7 @@
           "league": "master",
           "category": "overall",
           "rank": 72,
+          "score": 80.4,
           "pokemon": "Zapdos (Shadow)",
           "speciesId": "zapdos_shadow"
         },
@@ -9081,6 +9862,7 @@
           "league": "master",
           "category": "leads",
           "rank": 75,
+          "score": 79.6,
           "pokemon": "Zapdos",
           "speciesId": "zapdos"
         },
@@ -9088,6 +9870,7 @@
           "league": "master",
           "category": "switches",
           "rank": 63,
+          "score": 69.9,
           "pokemon": "Zapdos (Shadow)",
           "speciesId": "zapdos_shadow"
         }
@@ -9118,6 +9901,7 @@
           "league": "master",
           "category": "overall",
           "rank": 12,
+          "score": 92.8,
           "pokemon": "Zekrom",
           "speciesId": "zekrom"
         },
@@ -9125,6 +9909,7 @@
           "league": "master",
           "category": "leads",
           "rank": 19,
+          "score": 92.4,
           "pokemon": "Zekrom",
           "speciesId": "zekrom"
         },
@@ -9132,6 +9917,7 @@
           "league": "master",
           "category": "switches",
           "rank": 7,
+          "score": 94.2,
           "pokemon": "Zekrom",
           "speciesId": "zekrom"
         },
@@ -9139,6 +9925,7 @@
           "league": "master",
           "category": "closers",
           "rank": 18,
+          "score": 91.8,
           "pokemon": "Zekrom",
           "speciesId": "zekrom"
         }

@@ -74,6 +74,7 @@ main { width: min(72rem, 100%); margin: 0 auto; padding: 0 1rem 3rem; }
 .search-box > span:first-child { color: var(--forest); font-size: 2rem; line-height: 1; transform: rotate(-15deg); }
 .search-box input { width: 100%; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--ink); font-size: 1.1rem; font-weight: 650; }
 .search-box input::placeholder { color: #829095; font-weight: 550; }
+.search-box input::-webkit-search-cancel-button { display: none; }
 .clear-search { width: 2.7rem; height: 2.7rem; border: 0; border-radius: 50%; background: #edf0ed; font-size: 1.5rem; cursor: pointer; }
 .filters { display: flex; gap: .45rem; overflow-x: auto; margin-top: .7rem; padding: .08rem .05rem .25rem; scrollbar-width: none; }
 .filters::-webkit-scrollbar { display: none; }
@@ -112,6 +113,10 @@ main { width: min(72rem, 100%); margin: 0 auto; padding: 0 1rem 3rem; }
 .status-chip { padding: .25rem .55rem; border-radius: 999px; background: #eeeae0; color: #586468; font-size: .72rem; font-weight: 800; }
 .priority-high { background: #fff1bd; color: #725700; }
 .available-chip { background: #ffe2dc; color: #8b3022; }
+.catch-chip { background: #d8f3e9; color: #185b4f; }
+.skip-chip { background: #ffe2dc; color: #8b3022; }
+.not-recommended-card .card-stripe { background: var(--coral); }
+.not-recommended-card .decision-line { color: #943f31; }
 details { border-top: 1px solid #e6e6df; }
 summary { display: flex; justify-content: space-between; align-items: center; min-height: 2.85rem; padding: .65rem 1rem .65rem 1.25rem; color: #426069; font-size: .82rem; font-weight: 800; cursor: pointer; list-style: none; }
 summary::-webkit-details-marker { display: none; }
@@ -120,6 +125,21 @@ summary span { font-size: 1.05rem; }
 .detail-sections h4 { margin: .9rem 0 .35rem; color: var(--ink); font-size: .8rem; text-transform: uppercase; letter-spacing: .07em; }
 .detail-list, .rank-list { margin: .35rem 0 0; padding-left: 1.15rem; }
 .detail-list li, .rank-list li { margin: .25rem 0; }
+.full-rankings { margin-top: 1rem; }
+.rank-help { margin: .2rem 0 .8rem; color: var(--muted); font-size: .76rem; }
+.pokemon-ranking { margin: .65rem 0; overflow: hidden; border: 1px solid #dce3de; border-radius: .7rem; background: #fff; }
+.pokemon-ranking-head { display: flex; justify-content: space-between; gap: .75rem; align-items: center; padding: .55rem .7rem; background: #f1f5f2; }
+.pokemon-ranking h5 { margin: 0; color: var(--ink); font-size: .85rem; }
+.pokemon-ranking-head span { color: var(--muted); font-size: .66rem; font-weight: 800; text-transform: uppercase; }
+.ranking-scroll { overflow-x: auto; }
+.ranking-table { width: 100%; min-width: 31rem; border-collapse: collapse; text-align: center; font-variant-numeric: tabular-nums; }
+.ranking-table th, .ranking-table td { padding: .48rem .4rem; border-top: 1px solid #edf0ed; border-right: 1px solid #edf0ed; }
+.ranking-table thead th { border-top: 0; color: #45636a; background: #fafbf9; font-size: .65rem; letter-spacing: .04em; text-transform: uppercase; }
+.ranking-table tbody th { width: 3.5rem; color: #2c5861; background: #fafbf9; font-size: .72rem; }
+.ranking-table td strong { display: block; color: var(--ink); font-size: .75rem; }
+.ranking-table td span { display: block; color: var(--muted); font-size: .62rem; }
+.ranking-table .rank-none { color: #a5afac; }
+.no-rankings, .more-rankings { padding: .7rem; border-radius: .55rem; color: var(--muted); background: #f4f5f2; font-size: .75rem; }
 .empty-state { grid-column: 1 / -1; padding: 3.5rem 1.5rem; text-align: center; border: 1px dashed #bfc9c4; border-radius: 1rem; background: rgba(255,255,255,.42); }
 .empty-state span { font-size: 2rem; }
 .empty-state h3 { margin: .5rem 0 .25rem; }
@@ -154,6 +174,23 @@ summary span { font-size: 1.05rem; }
 .opportunity-card a { display: inline-block; margin-top: .4rem; font-size: .72rem; font-weight: 800; }
 .today-empty { padding: 1rem; border: 1px dashed #bdc9c4; border-radius: .7rem; color: var(--muted); background: rgba(255,255,255,.4); font-size: .8rem; }
 
+.type-chart { display: grid; gap: .75rem; }
+.type-intro { padding: 1rem 1.1rem; border-radius: .9rem; color: white; background: var(--forest); }
+.type-intro strong { color: var(--yellow); }
+.type-intro p { margin: .3rem 0 0; color: #d7e5e4; font-size: .8rem; }
+.type-card { padding: 1rem; border: 1px solid var(--line); border-left: .45rem solid var(--blue); border-radius: .9rem; background: var(--card); box-shadow: 0 3px 12px rgba(23,52,58,.045); }
+.type-card h3 { margin: 0 0 .75rem; font-size: 1.15rem; }
+.type-matchups { display: grid; gap: .8rem; }
+.type-matchups h4 { margin: 0 0 .35rem; color: var(--muted); font-size: .67rem; letter-spacing: .06em; text-transform: uppercase; }
+.type-pills { display: flex; flex-wrap: wrap; gap: .3rem; }
+.type-pill { padding: .25rem .45rem; border: 1px solid #d8dfdb; border-radius: .4rem; color: #324f56; background: #f1f5f2; font-size: .68rem; font-weight: 800; }
+.type-none { color: #909b98; font-size: .72rem; font-style: italic; }
+.type-card-fire, .type-card-fighting { border-left-color: var(--coral); }
+.type-card-water, .type-card-ice, .type-card-flying { border-left-color: var(--blue); }
+.type-card-grass, .type-card-bug, .type-card-poison { border-left-color: var(--mint); }
+.type-card-electric, .type-card-ground, .type-card-rock { border-left-color: var(--yellow); }
+.type-card-psychic, .type-card-ghost, .type-card-dragon, .type-card-dark, .type-card-fairy { border-left-color: var(--violet); }
+
 .league-help { display: grid; grid-template-columns: auto 1fr; gap: .8rem; margin: 2.2rem 0 0; padding: 1.1rem; border-radius: 1rem; background: #e8f2ef; }
 .help-icon { display: grid; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; background: var(--forest); color: #fff; font-family: Georgia, serif; font-weight: bold; }
 .league-help h2 { margin: .05rem 0 .5rem; font-size: 1rem; }
@@ -167,6 +204,9 @@ footer { padding: 1.5rem max(1.25rem, calc((100vw - 72rem) / 2)) 3rem; color: va
   .filters { justify-content: center; }
   .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem; }
   .opportunity-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .type-chart { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .type-intro { grid-column: 1 / -1; }
+  .type-matchups { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .league-help { padding: 1.35rem; }
 }
 

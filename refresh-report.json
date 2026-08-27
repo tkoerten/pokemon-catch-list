@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T21:08:11.934Z",
+  "generatedAt": "2026-08-27T21:31:55.114Z",
   "source": "https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/all",
   "leagues": [
     "great",
@@ -14,6 +14,8 @@
   ],
   "topPerCategory": 75,
   "attachedRankEntries": 787,
+  "fullReferencePokemon": 1601,
+  "fullReferenceRankEntries": 9572,
   "unmatchedRankedForms": [
     "Abomasnow (Shadow)",
     "Azumarill",

@@ -1,6 +1,6 @@
 # Pokémon GO Catch List
 
-A fast, mobile-first Pokémon GO PvP field guide. The default **What to do today** screen turns verified event windows into a short proactive plan: useful featured catches, worthwhile raids, upcoming opportunities, and repeatable acquisition tools. Search any evolution or relevant form to spot-check a catch target and its Great, Ultra, or Master League value. Raid-first targets stay in their own view.
+A fast, mobile-first Pokémon GO PvP field guide. The default **What to do today** screen turns verified event windows into a short proactive plan: useful featured catches, worthwhile raids, upcoming opportunities, and repeatable acquisition tools. Search any released Pokémon or form to see its full Great, Ultra, and Master League Overall, Lead, Switch, and Closer rankings. Recommendations remain a reviewed top-75 catch list, so low-priority searches clearly say not to catch for PvP. Raid-first targets stay in their own view, and a separate type chart provides quick battle matchups.
 
 The production site is fully static: no login, database, runtime API, or paid service. Search and filters run locally in the browser, and a small service worker keeps the last loaded list available offline.
 
@@ -8,7 +8,8 @@ The production site is fully static: no login, database, runtime API, or paid se
 
 - `index.html`, `styles.css`, `app.js`: the interface and browser behavior
 - `core.js`: testable search, filter, availability, priority, and URL-state logic
-- `data.json`: published catch families, raid targets, rankings, and availability
+- `data.json`: reviewed catch families, raid targets, top-75 rankings, and availability
+- `pvpoke.json`: generated full-species ranking reference used by search
 - `refresh-report.json`: unmatched PvPoke forms and condensed records without rank details
 - `scripts/seed-data.mjs`: recreates the supplied baseline family set
 - `scripts/refresh-rankings.mjs`: attaches a current static PvPoke snapshot
@@ -25,7 +26,7 @@ Search normalizes capitalization, accents, apostrophes, punctuation, parentheses
 
 ## Re-run our Pokémon GO catch list
 
-PvPoke is the ranking source of truth. The refresh workflow reads the current Open Great (1500 CP), Ultra (2500 CP), and Master (10,000/unlimited CP) ranking JSON for the top 75 Overall, Leads, Switches, and Closers. It preserves exact ranked forms while attaching them to the condensed catch families.
+PvPoke is the ranking source of truth. The refresh workflow reads the complete current Open Great (1500 CP), Ultra (2500 CP), and Master (10,000/unlimited CP) ranking JSON for Overall, Leads, Switches, and Closers. It writes every released gamemaster form and every available rank/score to `pvpoke.json`, while only the reviewed top 75 in each list are attached to `data.json` as recommendations.
 
 ```bash
 npm run refresh
